@@ -1,0 +1,823 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – Release</title><link>https://example.com/ja/tags/release/</link><description>Recent content in Release on Hextra</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/ja/tags/release/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://example.com/ja/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/v0.12/</guid><description>
+&lt;p&gt;Hextra v0.12.0 は、ページコンテキストメニュー、画像ズーム、刷新されたタブ、その他多くの新機能に加え、包括的な WCAG 2.2 AA アクセシビリティ改善と多数のバグ修正を提供します。&lt;/p&gt;
+&lt;h2&gt;アップグレードガイド&lt;span class="hx:absolute hx:-mt-20" id="アップグレードガイド"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ほとんどのサイトで破壊的変更はありません。&lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; を使って更新してください:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo mod get -u github.com/imfing/hextra&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;ハイライト&lt;span class="hx:absolute hx:-mt-20" id="ハイライト"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8f%e3%82%a4%e3%83%a9%e3%82%a4%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Markdown ソースのコピー・表示ができるページコンテキストメニュー&lt;/li&gt;
+&lt;li&gt;タブ名指定とアイコンをサポートする刷新されたタブショートコード&lt;/li&gt;
+&lt;li&gt;Markdown 画像のクリックズーム&lt;/li&gt;
+&lt;li&gt;GoatCounter アナリティクス対応&lt;/li&gt;
+&lt;li&gt;デスクトップでメインサイドバーを非表示にするオプション&lt;/li&gt;
+&lt;li&gt;GitInfo による最終更新者の表示&lt;/li&gt;
+&lt;li&gt;前へ/次へナビゲーションの無効化オプション&lt;/li&gt;
+&lt;li&gt;ブログ記事の年別アーカイブページ&lt;/li&gt;
+&lt;li&gt;用語集ショートコードとレイアウト&lt;/li&gt;
+&lt;li&gt;llms.txt からのページ/セクション除外&lt;/li&gt;
+&lt;li&gt;モバイルサイドバーの順序とラベルが &lt;code&gt;menu.main&lt;/code&gt; に準拠&lt;/li&gt;
+&lt;li&gt;CSS 変数オーバーライドによる安定したコンテンツ幅&lt;/li&gt;
+&lt;li&gt;包括的な WCAG 2.2 AA アクセシビリティ改善&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;新機能&lt;span class="hx:absolute hx:-mt-20" id="新機能"&gt;&lt;/span&gt;
+&lt;a href="#%e6%96%b0%e6%a9%9f%e8%83%bd" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;ページコンテキストメニュー&lt;span class="hx:absolute hx:-mt-20" id="ページコンテキストメニュー"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%9a%e3%83%bc%e3%82%b8%e3%82%b3%e3%83%b3%e3%83%86%e3%82%ad%e3%82%b9%e3%83%88%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/0b55bee9-6f4d-4e1d-9461-60c40208cb6c" alt="コンテキストメニュー" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;ページコンテキストメニューはドロップダウンボタンを提供し、ページの内容を Markdown としてコピーしたり、生の Markdown ソースを表示できます。ドキュメントを生成 AI ツールに取り込むユーザーが増える中、クリーンな Markdown への素早いアクセスはますます有用です。テンプレート変数（&lt;code&gt;{url}&lt;/code&gt;、&lt;code&gt;{title}&lt;/code&gt;、&lt;code&gt;{markdown_url}&lt;/code&gt;）を使ったカスタムリンクにより、「AI に質問」ショートカットなどのインテグレーションをメニューに直接組み込めます。&lt;/p&gt;
+&lt;p&gt;「Markdown として表示」および &lt;code&gt;{markdown_url}&lt;/code&gt; 機能を利用するには、サイト設定で Markdown 出力フォーマットを有効にしてください:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;outputs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;page&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="l"&gt;html, markdown]&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;section&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="l"&gt;html, rss, markdown]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;次にコンテキストメニューを設定します:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;page&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;contextMenu&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;enable&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;links&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Ask AI&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;url&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;https://example.com?content={markdown_url}&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;icon&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;sparkles&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;タブの刷新とアイコン対応&lt;span class="hx:absolute hx:-mt-20" id="タブの刷新とアイコン対応"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bf%e3%83%96%e3%81%ae%e5%88%b7%e6%96%b0%e3%81%a8%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e5%af%be%e5%bf%9c" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/tabs/"&gt;タブショートコード&lt;/a&gt;が刷新されました。各 &lt;code&gt;tab&lt;/code&gt; ショートコードでタブ名を直接設定でき、オプションの &lt;code&gt;icon&lt;/code&gt; パラメータでラベルの前にアイコンを表示できます。従来の構文も引き続きサポートされています。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; tabs &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Photos&amp;#34; icon=&amp;#34;photograph&amp;#34; &amp;gt;}}写真ライブラリを管理・整理します。{{&amp;lt; /tab &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Music&amp;#34; icon=&amp;#34;music-note&amp;#34; &amp;gt;}}お気に入りの曲を閲覧・再生します。{{&amp;lt; /tab &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Videos&amp;#34; icon=&amp;#34;film&amp;#34; &amp;gt;}}動画コンテンツを視聴・ストリーミングします。{{&amp;lt; /tab &amp;gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; /tabs &amp;gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/afa4cb8f-615c-4f01-8ae4-81a64c9ce391" alt="アイコン付きタブ" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;画像ズーム&lt;span class="hx:absolute hx:-mt-20" id="画像ズーム"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%bb%e5%83%8f%e3%82%ba%e3%83%bc%e3%83%a0" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://github.com/francoischalifour/medium-zoom"target="_blank" rel="noopener"&gt;medium-zoom&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; を利用した新しい設定オプションで、Markdown 画像のクリックズームを有効にできます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;imageZoom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;enable&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;GoatCounter アナリティクス&lt;span class="hx:absolute hx:-mt-20" id="goatcounter-アナリティクス"&gt;&lt;/span&gt;
+&lt;a href="#goatcounter-%e3%82%a2%e3%83%8a%e3%83%aa%e3%83%86%e3%82%a3%e3%82%af%e3%82%b9" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;既存の Google Analytics、Umami、Matomo に加え、&lt;a href="https://www.goatcounter.com/"target="_blank" rel="noopener"&gt;GoatCounter&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; アナリティクスの組み込みサポートを追加しました。&lt;/p&gt;
+&lt;h3&gt;メインサイドバーの非表示&lt;span class="hx:absolute hx:-mt-20" id="メインサイドバーの非表示"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b5%e3%82%a4%e3%83%89%e3%83%90%e3%83%bc%e3%81%ae%e9%9d%9e%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;新しいフロントマターパラメータにより、デスクトップでメインサイドバーを非表示にしてコンテンツを全幅表示できます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/my-page.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;My Page&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;sidebar&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;hide&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;最終更新者の表示&lt;span class="hx:absolute hx:-mt-20" id="最終更新者の表示"&gt;&lt;/span&gt;
+&lt;a href="#%e6%9c%80%e7%b5%82%e6%9b%b4%e6%96%b0%e8%80%85%e3%81%ae%e8%a1%a8%e7%a4%ba" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hugo の GitInfo を使って、「最終更新日」と合わせて最終コミット者を表示します。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;displayUpdatedAuthor&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/275b7177-e089-483c-abb6-6d8f16616b9b" alt="最終更新者" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;前へ/次へナビゲーションの無効化&lt;span class="hx:absolute hx:-mt-20" id="前へ次へナビゲーションの無効化"&gt;&lt;/span&gt;
+&lt;a href="#%e5%89%8d%e3%81%b8%e6%ac%a1%e3%81%b8%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%81%ae%e7%84%a1%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;サイト全体で前へ/次へナビゲーションボタンを無効にできます:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;page&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;displayPagination&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;false&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;LLMs.txt 除外&lt;span class="hx:absolute hx:-mt-20" id="llmstxt-除外"&gt;&lt;/span&gt;
+&lt;a href="#llmstxt-%e9%99%a4%e5%a4%96" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;フロントマターで &lt;code&gt;llms: false&lt;/code&gt; を設定すると、個別のページやセクション全体を &lt;code&gt;llms.txt&lt;/code&gt; 出力から除外できます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/private-page.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;Private Page&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;llms&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;false&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;アーカイブページ&lt;span class="hx:absolute hx:-mt-20" id="アーカイブページ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%bc%e3%82%ab%e3%82%a4%e3%83%96%e3%83%9a%e3%83%bc%e3%82%b8" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;新しい組み込み &lt;code&gt;archives&lt;/code&gt; レイアウトは、ブログ記事を年ごとにグループ化した時系列タイムラインで表示し、各タイトルの後にタグをインラインで表示します。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/archives/_index.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Archives&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;layout&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;archives&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/262cc0fa-e0af-4a50-8c3d-4465059418b8" alt="アーカイブページ" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;用語集&lt;span class="hx:absolute hx:-mt-20" id="用語集"&gt;&lt;/span&gt;
+&lt;a href="#%e7%94%a8%e8%aa%9e%e9%9b%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;サイト全体の&lt;a href="https://example.com/ja/docs/guide/shortcodes/term/"&gt;用語集&lt;/a&gt;。専用のリストページとインライン定義用の &lt;code&gt;term&lt;/code&gt; ショートコードを備えています。&lt;/p&gt;
+&lt;h2&gt;アクセシビリティ&lt;span class="hx:absolute hx:-mt-20" id="アクセシビリティ"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b7%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;包括的な WCAG 2.2 AA アクセシビリティ改善 (#924):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;すべてのページに本文へスキップリンクと ARIA ランドマークロール&lt;/li&gt;
+&lt;li&gt;すべてのインタラクティブウィジェット（テーマトグル、タブ、サイドバー、ファイルツリー、ドロップダウン、検索、メニュー）に ARIA 属性&lt;/li&gt;
+&lt;li&gt;タブとテーマトグルのキーボードナビゲーション（矢印キー、Enter、Escape）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;prefers-reduced-motion&lt;/code&gt; サポートとグローバル &lt;code&gt;focus-visible&lt;/code&gt; スタイル&lt;/li&gt;
+&lt;li&gt;全 21 ロケールに完全翻訳された 15 個の新しい i18n アクセシビリティキー&lt;/li&gt;
+&lt;li&gt;ハードコードされた英語 &lt;code&gt;aria-label&lt;/code&gt; 文字列をすべて i18n ルックアップに置き換え&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;利便性の向上&lt;span class="hx:absolute hx:-mt-20" id="利便性の向上"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e4%be%bf%e6%80%a7%e3%81%ae%e5%90%91%e4%b8%8a" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;テーブルの読みやすさ向上のためのスタイル改善&lt;/li&gt;
+&lt;li&gt;ヘッダーでの Markdown 属性サポート&lt;/li&gt;
+&lt;li&gt;多言語セクションランディングページでのアクティブリンク検出の改善&lt;/li&gt;
+&lt;li&gt;カードショートコードで画像に &lt;code&gt;alt&lt;/code&gt; パラメータをオプションでサポート&lt;/li&gt;
+&lt;li&gt;ページバンドル画像が OpenGraph メタデータでサポート&lt;/li&gt;
+&lt;li&gt;コンテンツ幅がデフォルトで安定し、カスタムレイアウト用の CSS 変数オーバーライドをサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;修正&lt;span class="hx:absolute hx:-mt-20" id="修正"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bf%ae%e6%ad%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;render-link での &lt;code&gt;relref&lt;/code&gt; ベースプレフィックスの二重付与を修正&lt;/li&gt;
+&lt;li&gt;ステップ内にネストされたタブの描画を修正&lt;/li&gt;
+&lt;li&gt;モバイルサイドバーの順序とラベルを &lt;code&gt;menu.main&lt;/code&gt; に準拠&lt;/li&gt;
+&lt;li&gt;サイドバーでの &lt;code&gt;search.enable&lt;/code&gt; の尊重&lt;/li&gt;
+&lt;li&gt;モバイルドロップダウンでの &lt;code&gt;toc&lt;/code&gt; ページパラメータの尊重&lt;/li&gt;
+&lt;li&gt;FlexSearch のマッチハイライトと安全な DOM 操作の改善&lt;/li&gt;
+&lt;li&gt;カードのサブタイトル位置の修正&lt;/li&gt;
+&lt;li&gt;サブパスデプロイメントでの OG 画像パスの先頭スラッシュの処理&lt;/li&gt;
+&lt;li&gt;FlexSearch が期待より少ない結果ページを返す問題の修正&lt;/li&gt;
+&lt;li&gt;Umami アナリティクスのデフォルトファイルを &lt;code&gt;script.js&lt;/code&gt; に変更&lt;/li&gt;
+&lt;li&gt;Hugo v0.156.0+ での RSS author ルックアップの修正 (&lt;code&gt;.Site.Params.Author&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ドキュメントと i18n&lt;span class="hx:absolute hx:-mt-20" id="ドキュメントと-i18n"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%a8-i18n" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;イタリア語ローカリゼーションを追加&lt;/li&gt;
+&lt;li&gt;KaTeX ドキュメントへのリンクを追加&lt;/li&gt;
+&lt;li&gt;details ショートコードのドキュメントを angle bracket 構文に更新&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;コントリビューター&lt;span class="hx:absolute hx:-mt-20" id="コントリビューター"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%88%e3%83%aa%e3%83%93%e3%83%a5%e3%83%bc%e3%82%bf%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースは 11 名の新しいコントリビューターの貢献により実現しました:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/ghac101"target="_blank" rel="noopener"&gt;@ghac101&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Umami アナリティクスの修正、前へ/次へナビゲーションの無効化&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/pmarrapese"target="_blank" rel="noopener"&gt;@pmarrapese&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - ヘッダーの Markdown 属性サポート&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Bubbler-4"target="_blank" rel="noopener"&gt;@Bubbler-4&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - details ショートコードのドキュメント&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/bloovis"target="_blank" rel="noopener"&gt;@bloovis&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - FlexSearch の結果件数修正&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/AntoninPvr"target="_blank" rel="noopener"&gt;@AntoninPvr&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - カードのサブタイトル位置修正&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/illia-v"target="_blank" rel="noopener"&gt;@illia-v&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - モバイル TOC と検索トグルの修正&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/gallochri"target="_blank" rel="noopener"&gt;@gallochri&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - イタリア語ローカリゼーション&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MatheusFlausino"target="_blank" rel="noopener"&gt;@MatheusFlausino&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - LLMs.txt 除外&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/daniseijo"target="_blank" rel="noopener"&gt;@daniseijo&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - 最終更新者機能&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/confusedkernel"target="_blank" rel="noopener"&gt;@confusedkernel&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - アーカイブページ&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Fenyutanchan"target="_blank" rel="noopener"&gt;@Fenyutanchan&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Hugo v0.156.0 RSS author 互換性修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;さらに、継続的な貢献をいただいている &lt;a href="https://github.com/KStocky"target="_blank" rel="noopener"&gt;@KStocky&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href="https://github.com/ldez"target="_blank" rel="noopener"&gt;@ldez&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href="https://github.com/kowyo"target="_blank" rel="noopener"&gt;@kowyo&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href="https://github.com/torbjornbp"target="_blank" rel="noopener"&gt;@torbjornbp&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href="https://github.com/yuri1969"target="_blank" rel="noopener"&gt;@yuri1969&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;、&lt;a href="https://github.com/PrintN"target="_blank" rel="noopener"&gt;@PrintN&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; の各コントリビューターに感謝いたします。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;完全な変更履歴&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://example.com/ja/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/v0.11/</guid><description>
+&lt;p&gt;Hextra v0.11.0 は、UX の磨き込みと便利な新コンポーネントに注力したリリースです。サイト全体バナー、改良されたコールアウトとバッジ、よりリッチなカード、アナリティクス連携、そしていくつかのナビゲーション改善を含みます。安定性の修正とドキュメント更新も同梱しています。&lt;/p&gt;
+&lt;h2&gt;アップグレードガイド&lt;span class="hx:absolute hx:-mt-20" id="アップグレードガイド"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ほとんどのサイトで破壊的変更はありません。&lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; を使って更新してください:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo mod get -u github.com/imfing/hextra&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;ハイライト&lt;span class="hx:absolute hx:-mt-20" id="ハイライト"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8f%e3%82%a4%e3%83%a9%e3%82%a4%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;お知らせ用のトップバナーコンポーネント&lt;/li&gt;
+&lt;li&gt;より見やすくなったコールアウトの刷新&lt;/li&gt;
+&lt;li&gt;Umami と Matomo のアナリティクス対応&lt;/li&gt;
+&lt;li&gt;端末録画のための Asciinema ショートコード&lt;/li&gt;
+&lt;li&gt;外部リンク装飾オプション&lt;/li&gt;
+&lt;li&gt;単一ページ（ドキュメント・ブログ以外）向けのパンくずリスト&lt;/li&gt;
+&lt;li&gt;ナビバー改善: アイコン付きリンク項目と配置の改善&lt;/li&gt;
+&lt;li&gt;バッジとカードのカスタマイズ性向上&lt;/li&gt;
+&lt;li&gt;テーマ切り替えに「System」オプションを追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;新機能&lt;span class="hx:absolute hx:-mt-20" id="新機能"&gt;&lt;/span&gt;
+&lt;a href="#%e6%96%b0%e6%a9%9f%e8%83%bd" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;トップバナー&lt;span class="hx:absolute hx:-mt-20" id="トップバナー"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%88%e3%83%83%e3%83%97%e3%83%90%e3%83%8a%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;告知やリリース、ステータスメッセージ向けに、サイト全体で表示できる閉じられるバナーを追加します。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;banner&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;key&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;announcement&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;message&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;Welcome!&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/33a08c9b-db84-4200-b37c-1a53c1bef08d" alt="トップバナー" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;コールアウト刷新&lt;span class="hx:absolute hx:-mt-20" id="コールアウト刷新"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b3%e3%83%bc%e3%83%ab%e3%82%a2%e3%82%a6%e3%83%88%e5%88%b7%e6%96%b0" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; のデザインを刷新し、テーマを問わず可読性と強調表現を向上しました。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/b3154dbb-e582-4c84-a8b8-1ecb02c3464d" alt="コールアウト刷新" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;アナリティクス: Umami と Matomo&lt;span class="hx:absolute hx:-mt-20" id="アナリティクス-umami-と-matomo"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%8a%e3%83%aa%e3%83%86%e3%82%a3%e3%82%af%e3%82%b9-umami-%e3%81%a8-matomo" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下のアナリティクスプロバイダに組み込み設定で対応:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Asciinema ショートコード&lt;span class="hx:absolute hx:-mt-20" id="asciinema-ショートコード"&gt;&lt;/span&gt;
+&lt;a href="#asciinema-%e3%82%b7%e3%83%a7%e3%83%bc%e3%83%88%e3%82%b3%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://www.asciinema.org/"target="_blank" rel="noopener"&gt;Asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; の端末録画を、新しい &lt;a href="https://example.com/ja/docs/guide/shortcodes/asciinema/"&gt;Asciinema ショートコード&lt;/a&gt; で埋め込みできます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; asciinema id=&amp;#34;123456&amp;#34; autoplay=true loop=true &amp;gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/3c33a8ef-3c01-4e30-9832-3ccb784ec538" alt="Asciinema" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;ナビバーの改善&lt;span class="hx:absolute hx:-mt-20" id="ナビバーの改善"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8a%e3%83%93%e3%83%90%e3%83%bc%e3%81%ae%e6%94%b9%e5%96%84" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;ナビバーのリンク項目でアイコンをサポート&lt;/li&gt;
+&lt;li&gt;言語スイッチャー等との兼ね合いを考慮してメニュー配置を最適化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/6c035eee-cd7d-44d8-bcf7-9cbd7f92ab42" alt="アイコン付き項目のナビバー" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;p&gt;特に、&lt;a href="https://github.com/imfing/hextra/releases/tag/v0.10.2"target="_blank" rel="noopener"&gt;0.10.2&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; ではナビバーに言語スイッチャーとテーマトグルを追加可能になりました。&lt;/p&gt;
+&lt;h3&gt;外部リンク装飾&lt;span class="hx:absolute hx:-mt-20" id="外部リンク装飾"&gt;&lt;/span&gt;
+&lt;a href="#%e5%a4%96%e9%83%a8%e3%83%aa%e3%83%b3%e3%82%af%e8%a3%85%e9%a3%be" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;外部リンクに控えめな装飾をオプションで付与できます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;externalLinkDecoration&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;パンくずリストの有効化&lt;span class="hx:absolute hx:-mt-20" id="パンくずリストの有効化"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%91%e3%83%b3%e3%81%8f%e3%81%9a%e3%83%aa%e3%82%b9%e3%83%88%e3%81%ae%e6%9c%89%e5%8a%b9%e5%8c%96" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;フロントマターで &lt;code&gt;breadcrumbs: true&lt;/code&gt; を設定すると、単一ページ（ドキュメント・ブログ以外）でパンくずリストを有効化できます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/about.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;title&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;About&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;breadcrumbs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;カードとバッジの改善&lt;span class="hx:absolute hx:-mt-20" id="カードとバッジの改善"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%a8%e3%83%90%e3%83%83%e3%82%b8%e3%81%ae%e6%94%b9%e5%96%84" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/cards/"&gt;カード&lt;/a&gt;: 新オプション &lt;code&gt;tagIcon&lt;/code&gt; と &lt;code&gt;tagBorder&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/others/"&gt;バッジ&lt;/a&gt;: 新しい色とボーダースタイル&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;利便性の向上&lt;span class="hx:absolute hx:-mt-20" id="利便性の向上"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e4%be%bf%e6%80%a7%e3%81%ae%e5%90%91%e4%b8%8a" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;テーマ切り替え: 「System」オプションを追加
+&lt;img src="https://github.com/user-attachments/assets/54a1d315-9243-4814-9154-6e63af9ea2e8" alt="テーマ切り替え" data-zoomable loading="lazy" /&gt;&lt;/li&gt;
+&lt;li&gt;タイポグラフィ: チェックボックス付きタスクリストのスタイル改善
+&lt;img src="https://github.com/user-attachments/assets/53722651-63b6-4469-95e7-326849a30306" alt="タスクリスト" data-zoomable loading="lazy" /&gt;&lt;/li&gt;
+&lt;li&gt;言語スイッチャー: アイコンメニュー項目との並び順を改善&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;修正&lt;span class="hx:absolute hx:-mt-20" id="修正"&gt;&lt;/span&gt;
+&lt;a href="#%e4%bf%ae%e6%ad%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Giscus: テーマと言語の同期を適切に実施&lt;/li&gt;
+&lt;li&gt;カード: RTL でのバッジ描画を修正&lt;/li&gt;
+&lt;li&gt;ナビバー: メニュー配置とインタラクションを調整&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;ドキュメントと i18n&lt;span class="hx:absolute hx:-mt-20" id="ドキュメントと-i18n"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%89%e3%82%ad%e3%83%a5%e3%83%a1%e3%83%b3%e3%83%88%e3%81%a8-i18n" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Docs: Hextra のショートコードをまとめた新ページ&lt;/li&gt;
+&lt;li&gt;i18n: &lt;code&gt;zh-cn&lt;/code&gt; に &lt;code&gt;copyCode&lt;/code&gt; と &lt;code&gt;system&lt;/code&gt; の翻訳を追加&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;完全な変更履歴&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://example.com/ja/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/v0.10/</guid><description>
+&lt;p&gt;Hextra v0.10.0 は、新機能、アーキテクチャの刷新、利便性向上を詰め込んだ大きなリリースです。&lt;/p&gt;
+&lt;p&gt;また、10名の&lt;a href="#contributors"&gt;新規コントリビューター&lt;/a&gt;からの貢献と、長らく要望のあった機能の実装も含まれています。&lt;/p&gt;
+&lt;h2&gt;アップグレードガイド&lt;span class="hx:absolute hx:-mt-20" id="アップグレードガイド"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-purple-200 hx:bg-purple-100 hx:text-purple-900 hx:dark:border-purple-200/30 hx:dark:bg-purple-900/30 hx:dark:text-purple-200"&gt;
+&lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;Important&lt;/p&gt;
+&lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
+&lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;&lt;strong&gt;破壊的変更&lt;/strong&gt;: このリリースにはいくつかの破壊的変更が含まれています。アップグレード前にチェックリストと&lt;a href="#migration-guide"&gt;移行ガイド&lt;/a&gt;を確認してください。&lt;/p&gt;&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;v0.10.0 にアップグレードする前に、以下を確認してください:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo v0.146.0+ (extended 版) がインストールされていること&lt;/li&gt;
+&lt;li&gt;カスタムCSSのクラス名変更を確認 ( &lt;a href="#css-class-prefix-changes"&gt;CSSクラスプレフィックス変更&lt;/a&gt; と &lt;a href="#tailwind-css-v4"&gt;Tailwind CSS v4&lt;/a&gt; を参照)&lt;/li&gt;
+&lt;li&gt;LaTeX や Mermaid を使用する場合、ビルド環境がアセットダウンロードのためインターネットに接続できること&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;準備が整ったら、Hugoモジュールを更新します:&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;hugo mod get -u github.com/imfing/hextra@v0.10.0&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;新機能&lt;span class="hx:absolute hx:-mt-20" id="新機能"&gt;&lt;/span&gt;
+&lt;a href="#%e6%96%b0%e6%a9%9f%e8%83%bd" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースの主な新機能は以下の通りです:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="#dropdown-menu-support-in-navbar"&gt;&lt;strong&gt;ナビゲーションバーのドロップダウンメニューサポート&lt;/strong&gt;&lt;/a&gt;: 階層型ナビゲーションメニューの作成&lt;/li&gt;
+&lt;li&gt;&lt;a href="#enhanced-search-experience"&gt;&lt;strong&gt;検索機能の強化&lt;/strong&gt;&lt;/a&gt;: すべての見出しを対象にした精度向上した検索&lt;/li&gt;
+&lt;li&gt;&lt;a href="#llmstxt-support"&gt;&lt;strong&gt;llms.txt サポート&lt;/strong&gt;&lt;/a&gt;: AI向けサイトアウトラインの生成&lt;/li&gt;
+&lt;li&gt;&lt;a href="#table-of-contents-scroll-highlighting"&gt;&lt;strong&gt;目次のスクロールハイライト&lt;/strong&gt;&lt;/a&gt;: ページスクロール中の見出し自動ハイライト&lt;/li&gt;
+&lt;li&gt;&lt;a href="#synchronized-tab-switching"&gt;&lt;strong&gt;タブの同期切り替え&lt;/strong&gt;&lt;/a&gt;: 複数のタブグループ間でのタブ選択の同期&lt;/li&gt;
+&lt;li&gt;&lt;a href="#blog-list-pagination"&gt;&lt;strong&gt;ブログ一覧のページネーション&lt;/strong&gt;&lt;/a&gt;: ブログ一覧ページへのページネーションコントロール追加&lt;/li&gt;
+&lt;li&gt;&lt;a href="#mathjax-support"&gt;&lt;strong&gt;MathJax サポート&lt;/strong&gt;&lt;/a&gt;: KaTeXに加えてMathJaxを数式レンダリングエンジンとして選択可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;ナビゲーションバーのドロップダウンメニューサポート&lt;span class="hx:absolute hx:-mt-20" id="ナビゲーションバーのドロップダウンメニューサポート"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%8a%e3%83%93%e3%82%b2%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3%e3%83%90%e3%83%bc%e3%81%ae%e3%83%89%e3%83%ad%e3%83%83%e3%83%97%e3%83%80%e3%82%a6%e3%83%b3%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ナビゲーションバーにドロップダウンメニューを作成し、ナビゲーション項目を整理できます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;menu&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;main&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;identifier&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;products&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;製品&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;製品A&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;parent&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;products&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;url&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;/product-a&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;- &lt;span class="nt"&gt;name&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;製品B&amp;#34;&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;parent&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="l"&gt;products&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;url&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;/product-b&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/1816f9b9-7fe3-46e8-9546-f15e43e9914a" alt="ドロップダウンメニューナビゲーション" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;検索機能の強化&lt;span class="hx:absolute hx:-mt-20" id="検索機能の強化"&gt;&lt;/span&gt;
+&lt;a href="#%e6%a4%9c%e7%b4%a2%e6%a9%9f%e8%83%bd%e3%81%ae%e5%bc%b7%e5%8c%96" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;すべての見出しを検索&lt;/strong&gt;: ページタイトルだけでなく、すべてのレベルの見出しからコンテンツを検索&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;検索結果の精度向上&lt;/strong&gt;: タイトル処理とリンク精度の改善&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;結果ナビゲーションの修正&lt;/strong&gt;: 検索結果が正しいページセクションにリンクするようになりました&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;検索機能の強化に貢献してくださった &lt;a href="https://github.com/ldez"target="_blank" rel="noopener"&gt;@ldez&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; に感謝します!&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/f819652a-95d4-4843-b7e2-c7953a8cabe8" alt="強化された検索結果" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;llms.txt サポート&lt;span class="hx:absolute hx:-mt-20" id="llmstxt-サポート"&gt;&lt;/span&gt;
+&lt;a href="#llmstxt-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Hextra はサイトの &lt;a href="https://llmstxt.org/"target="_blank" rel="noopener"&gt;llms.txt&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; 出力形式をサポートし、AIツールや言語モデルがコンテキストや参照のためにサイトをよりアクセスしやすくします。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;outputs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;home&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="l"&gt;html, llms]&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;これにより、サイトのルートに &lt;code&gt;llms.txt&lt;/code&gt; ファイルが生成されます。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/c6e929bb-0fce-4ab2-af15-a71c5a38b22c" alt="llms txtの例" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;目次のスクロールハイライト&lt;span class="hx:absolute hx:-mt-20" id="目次のスクロールハイライト"&gt;&lt;/span&gt;
+&lt;a href="#%e7%9b%ae%e6%ac%a1%e3%81%ae%e3%82%b9%e3%82%af%e3%83%ad%e3%83%bc%e3%83%ab%e3%83%8f%e3%82%a4%e3%83%a9%e3%82%a4%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ページをスクロールする際に、目次が現在のセクションを自動的にハイライトするようになり、ナビゲーションがより直感的になりました。&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/d623fb99-7000-428b-af95-384eb722f0eb" alt="目次のスクロールハイライト" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;タブの同期切り替え&lt;span class="hx:absolute hx:-mt-20" id="タブの同期切り替え"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%bf%e3%83%96%e3%81%ae%e5%90%8c%e6%9c%9f%e5%88%87%e3%82%8a%e6%9b%bf%e3%81%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;同じ項目を持つタブはページ全体で同期されるようになりました。同期が有効な場合、タブを選択すると同じ項目リストを共有するすべてのタブグループが更新されます（選択内容は記憶されます）。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;page&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;tabs&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;sync&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;ブログ一覧のページネーション&lt;span class="hx:absolute hx:-mt-20" id="ブログ一覧のページネーション"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%96%e3%83%ad%e3%82%b0%e4%b8%80%e8%a6%a7%e3%81%ae%e3%83%9a%e3%83%bc%e3%82%b8%e3%83%8d%e3%83%bc%e3%82%b7%e3%83%a7%e3%83%b3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;ブログ一覧ページに基本的なページネーションコントロールが追加されました。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;blog&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;list&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;pagerSize&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="m"&gt;20&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# 1ページあたりの投稿数&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/60405fb4-ec36-4733-ba13-b4066396b5c5" alt="ブログページネーション" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;MathJax サポート&lt;span class="hx:absolute hx:-mt-20" id="mathjax-サポート"&gt;&lt;/span&gt;
+&lt;a href="#mathjax-%e3%82%b5%e3%83%9d%e3%83%bc%e3%83%88" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;デフォルトのKaTeXサポートに加えて、&lt;a href="https://www.mathjax.org/"target="_blank" rel="noopener"&gt;MathJax&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; で数式をレンダリングできるようになりました。ニーズに合ったエンジンを選択できます。&lt;/p&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;params&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;math&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nt"&gt;engine&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="s2"&gt;&amp;#34;mathjax&amp;#34;&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="c"&gt;# デフォルトは &amp;#34;katex&amp;#34;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="コードをコピー"
+aria-label="コードをコピー"
+data-copied-label="コピーしました！"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;技術的改善&lt;span class="hx:absolute hx:-mt-20" id="技術的改善"&gt;&lt;/span&gt;
+&lt;a href="#%e6%8a%80%e8%a1%93%e7%9a%84%e6%94%b9%e5%96%84" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;フレームワークとビルドシステム&lt;span class="hx:absolute hx:-mt-20" id="フレームワークとビルドシステム"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%95%e3%83%ac%e3%83%bc%e3%83%a0%e3%83%af%e3%83%bc%e3%82%af%e3%81%a8%e3%83%93%e3%83%ab%e3%83%89%e3%82%b7%e3%82%b9%e3%83%86%e3%83%a0" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tailwind CSS v4 移行&lt;/strong&gt;: &lt;a href="https://tailwindcss.com/blog/tailwindcss-v4"target="_blank" rel="noopener"&gt;Tailwind CSS v4&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; への完全移行とカスタマイズサポートの改善&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Hugoテンプレートシステム&lt;/strong&gt;: Hugoの&lt;a href="https://gohugo.io/templates/new-templatesystem-overview/"target="_blank" rel="noopener"&gt;新しいテンプレートシステム&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; (v0.146.0+) への対応&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;数式のサーバーサイドレンダリング&lt;/strong&gt;: Hugoネイティブレンダリングを使用した数式レンダリングの改善&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;FlexSearch 0.8 アップグレード&lt;/strong&gt;: 検索エンジン &lt;a href="https://github.com/nextapps-de/flexsearch"target="_blank" rel="noopener"&gt;FlexSearch&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; のアップグレードにより、CJK (中国語、日本語、韓国語) コンテンツのエンコーディング改善と高速化・精度向上&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;アセット管理の強化&lt;/strong&gt;: KaTeXとMermaidアセットのCDNまたはローカルからの読み込みサポート&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;利便性の向上&lt;span class="hx:absolute hx:-mt-20" id="利便性の向上"&gt;&lt;/span&gt;
+&lt;a href="#%e5%88%a9%e4%be%bf%e6%80%a7%e3%81%ae%e5%90%91%e4%b8%8a" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;動的ファビコン切り替え&lt;/strong&gt;: カラースキーム設定に基づくファビコンの自動更新&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;逆順ページネーション&lt;/strong&gt;: ページフロントマターで &lt;code&gt;reversePagination&lt;/code&gt; を設定可能に&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Googleインデックス制御&lt;/strong&gt;: Googleのインデックスをブロックする新しいページパラメータ&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;幅の処理改善&lt;/strong&gt;: CSS変数によるレスポンシブデザイン制御の強化&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;スタイリング改善&lt;/strong&gt;: Markdownテーブルと水平線のモダンなスタイル&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;バグ修正と安定性&lt;span class="hx:absolute hx:-mt-20" id="バグ修正と安定性"&gt;&lt;/span&gt;
+&lt;a href="#%e3%83%90%e3%82%b0%e4%bf%ae%e6%ad%a3%e3%81%a8%e5%ae%89%e5%ae%9a%e6%80%a7" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Giscusテーマ同期&lt;/strong&gt;: コメントがダーク/ライトモードの切り替えに正しく追従&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;検索結果の精度&lt;/strong&gt;: 検索結果のリンク問題とタイトルエスケープの修正&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;タブ切り替え&lt;/strong&gt;: 非同期タブモードでのナビゲーション問題の解決&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;ファントムスクロール&lt;/strong&gt;: フッター無効時の不要なスクロール動作の修正&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;画像アクセシビリティ&lt;/strong&gt;: 重複したaltテキストレンダリングの防止&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;リンクレンダリング&lt;/strong&gt;: 複雑なサイト構造におけるベースURL処理の改善&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2&gt;移行ガイド&lt;span class="hx:absolute hx:-mt-20" id="移行ガイド"&gt;&lt;/span&gt;
+&lt;a href="#%e7%a7%bb%e8%a1%8c%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="#hugo-version-requirements"&gt;&lt;strong&gt;Hugoバージョン要件&lt;/strong&gt;&lt;/a&gt;: Hugo v0.146.0+ (extended版) が必要&lt;/li&gt;
+&lt;li&gt;&lt;a href="#css-class-prefix-changes"&gt;&lt;strong&gt;CSSクラスプレフィックス変更&lt;/strong&gt;&lt;/a&gt;: コンポーネントCSSクラスに一貫した &lt;code&gt;hextra-&lt;/code&gt; プレフィックスを採用&lt;/li&gt;
+&lt;li&gt;&lt;a href="#asset-management-for-katex-and-mermaid"&gt;&lt;strong&gt;アセット管理&lt;/strong&gt;&lt;/a&gt;: KaTeXとMermaidアセットはビルド時にダウンロード&lt;/li&gt;
+&lt;li&gt;&lt;a href="#tailwind-css-v4"&gt;&lt;strong&gt;Tailwind CSS v4&lt;/strong&gt;&lt;/a&gt;: 内部CSSコンパイルにTailwind CSS v4.xを採用し &lt;code&gt;hx:&lt;/code&gt; プレフィックスを使用&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Hugoバージョン要件&lt;span class="hx:absolute hx:-mt-20" id="hugoバージョン要件"&gt;&lt;/span&gt;
+&lt;a href="#hugo%e3%83%90%e3%83%bc%e3%82%b8%e3%83%a7%e3%83%b3%e8%a6%81%e4%bb%b6" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;影響&lt;/strong&gt;: 古いHugoバージョンで動作しているサイト&lt;/p&gt;
+&lt;p&gt;Hextra v0.10.0 は新しいテンプレートシステムを採用しているため、Hugo v0.146.0以降 (extended版) が必要です。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;必要な対応&lt;/strong&gt;: Hextraをアップグレードする前にHugoをv0.146.0+に更新&lt;/p&gt;
+&lt;h4&gt;CSSクラスプレフィックス変更&lt;span class="hx:absolute hx:-mt-20" id="cssクラスプレフィックス変更"&gt;&lt;/span&gt;
+&lt;a href="#css%e3%82%af%e3%83%a9%e3%82%b9%e3%83%97%e3%83%ac%e3%83%95%e3%82%a3%e3%83%83%e3%82%af%e3%82%b9%e5%a4%89%e6%9b%b4" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;影響&lt;/strong&gt;: HextraコンポーネントクラスをターゲットにしたカスタムCSSがあるサイト&lt;/p&gt;
+&lt;p&gt;Hextra v0.10.0 では、メンテナンス性向上とユーザースタイルとの衝突防止のため、ほとんどのコンポーネントCSSクラスに一貫した &lt;code&gt;hextra-&lt;/code&gt; プレフィックスを導入しました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;必要な対応&lt;/strong&gt;: HextraコンポーネントをターゲットにしたカスタムCSSがある場合、以下のクラス名を更新してください:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;領域&lt;/th&gt;
+&lt;th&gt;変更前&lt;/th&gt;
+&lt;th&gt;変更後&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (コンテナ)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (入力)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-input&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-input&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (結果)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-results&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-results&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (タイトル)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper .title&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper .hextra-search-title&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (アクティブ項目)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper .active&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper .hextra-search-active&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (結果なし)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper .no-result&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper .hextra-search-no-result&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (プレフィックス)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper .prefix&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper .hextra-search-prefix&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (抜粋)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper .excerpt&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper .hextra-search-excerpt&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;検索 (マッチ)&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.search-wrapper .match&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-search-wrapper .hextra-search-match&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ナビバーブラー&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.nav-container-blur&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-nav-container-blur&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ハンバーガーメニュー&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hamburger-menu&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-hamburger-menu&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;テーマトグル&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.theme-toggle&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-theme-toggle&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;言語スイッチャー&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.language-switcher&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-language-switcher&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイドバーコンテナ&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.sidebar-container&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-sidebar-container&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;サイドバーアクティブ項目&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.sidebar-active-item&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-sidebar-active-item&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;コードファイル名&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.filename&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-code-filename&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;コピーアイコン&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.copy-icon&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-copy-icon&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;成功アイコン&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.success-icon&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-success-icon&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;ステップ&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.steps&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;.hextra-steps&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h4&gt;KaTeXとMermaidのアセット管理&lt;span class="hx:absolute hx:-mt-20" id="katexとmermaidのアセット管理"&gt;&lt;/span&gt;
+&lt;a href="#katex%e3%81%a8mermaid%e3%81%ae%e3%82%a2%e3%82%bb%e3%83%83%e3%83%88%e7%ae%a1%e7%90%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;影響&lt;/strong&gt;: KaTeXまたはMermaidを使用しているサイト&lt;/p&gt;
+&lt;p&gt;Hextra v0.10.0 では、KaTeXとMermaidアセットをビルド時にCDNからダウンロードするようになりました。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;変更点:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;これらのアセットをダウンロードするため、ビルドプロセスでインターネットアクセスが必要&lt;/li&gt;
+&lt;li&gt;ビルド後はこれらのアセットに対する外部CDN呼び出しが不要&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;必要な対応&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;アセットをダウンロードするため、ビルド環境がインターネットに接続できることを確認&lt;/li&gt;
+&lt;li&gt;エアギャップ環境のサイトでは、これらのアセットを事前にダウンロードし、Hextraがそれらを読み込むように設定する必要がある場合があります&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;Tailwind CSS v4&lt;span class="hx:absolute hx:-mt-20" id="tailwind-css-v4"&gt;&lt;/span&gt;
+&lt;a href="#tailwind-css-v4" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;影響&lt;/strong&gt;: HextraのTailwindクラス &lt;code&gt;hx-*&lt;/code&gt; を広範囲にカスタマイズしているサイト&lt;/p&gt;
+&lt;p&gt;HextraはTailwind CSS v4移行を内部で処理しますが、高度にカスタマイズされたサイトでは追加の調整が必要な場合があります。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;変更点:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;内部CSSコンパイルにTailwind CSS v4.xを使用&lt;/li&gt;
+&lt;li&gt;ユーティリティクラスのプレフィックスが &lt;code&gt;hx-&lt;/code&gt; から &lt;code&gt;hx:&lt;/code&gt; に変更&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;コントリビューター&lt;span class="hx:absolute hx:-mt-20" id="コントリビューター"&gt;&lt;/span&gt;
+&lt;a href="#%e3%82%b3%e3%83%b3%e3%83%88%e3%83%aa%e3%83%93%e3%83%a5%e3%83%bc%e3%82%bf%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;このリリースは、10名の新規コントリビューターの貢献によって実現されました:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/oosquare"target="_blank" rel="noopener"&gt;@oosquare&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - KaTeXフォント、画像レンダーフック、リンク処理の改善&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/Zabriskije"target="_blank" rel="noopener"&gt;@Zabriskije&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - ファントムスクロールの修正&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/miniwater"target="_blank" rel="noopener"&gt;@miniwater&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - カスタムフッターの中央揃え、画像altテキストの改善&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/MattDodsonEnglish"target="_blank" rel="noopener"&gt;@MattDodsonEnglish&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Googleインデックス制御、OpenGraphドキュメント&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/KStocky"target="_blank" rel="noopener"&gt;@KStocky&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - 逆順ページネーション機能&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/PrintN"target="_blank" rel="noopener"&gt;@PrintN&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - ドキュメントショーケースの追加&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/hobobandy"target="_blank" rel="noopener"&gt;@hobobandy&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - タイトル間隔の改善&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/dlwocks31"target="_blank" rel="noopener"&gt;@dlwocks31&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - 韓国語翻訳の更新&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/TwoAnts"target="_blank" rel="noopener"&gt;@TwoAnts&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - Giscusテーマ切り替えの修正&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/ldez"target="_blank" rel="noopener"&gt;@ldez&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; - 検索機能の改善とバグ修正&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;継続的なサポート、ドキュメント、翻訳、技術的改善を提供してくださった &lt;a href="https://github.com/deining"target="_blank" rel="noopener"&gt;@deining&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; と &lt;a href="https://github.com/yuri1969"target="_blank" rel="noopener"&gt;@yuri1969&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt; にも感謝します。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;完全な変更履歴&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.9.7...v0.10.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.9.7...v0.10.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>

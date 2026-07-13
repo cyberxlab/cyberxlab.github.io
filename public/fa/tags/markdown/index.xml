@@ -1,0 +1,241 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>هگزترا – Markdown</title><link>https://example.com/fa/tags/markdown/</link><description>Recent content in Markdown on هگزترا</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/fa/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>راهنمای نحو Markdown</title><link>https://example.com/fa/blog/markdown/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://example.com/fa/blog/markdown/</guid><description>
+&lt;p&gt;این مقاله نمونه‌ای از نحو پایه‌ای Markdown را ارائه می‌دهد که می‌توان در فایل‌های محتوای Hugo استفاده کرد.&lt;/p&gt;
+&lt;h2&gt;نحو پایه&lt;span class="hx:absolute hx:-mt-20" id="نحو-پایه"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d8%ad%d9%88-%d9%be%d8%a7%db%8c%d9%87" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;سرتیترها&lt;span class="hx:absolute hx:-mt-20" id="سرتیترها"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d8%b1%d8%aa%db%8c%d8%aa%d8%b1%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;# سرتیتر 1
+## سرتیتر 2
+### سرتیتر 3
+#### سرتیتر 4
+##### سرتیتر 5
+###### سرتیتر 6&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h2&gt;سرتیتر 2&lt;span class="hx:absolute hx:-mt-20" id="سرتیتر-2"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d8%b1%d8%aa%db%8c%d8%aa%d8%b1-2" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;سرتیتر 3&lt;span class="hx:absolute hx:-mt-20" id="سرتیتر-3"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d8%b1%d8%aa%db%8c%d8%aa%d8%b1-3" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;سرتیتر 4&lt;span class="hx:absolute hx:-mt-20" id="سرتیتر-4"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d8%b1%d8%aa%db%8c%d8%aa%d8%b1-4" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;h5&gt;سرتیتر 5&lt;span class="hx:absolute hx:-mt-20" id="سرتیتر-5"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d8%b1%d8%aa%db%8c%d8%aa%d8%b1-5" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;h6&gt;سرتیتر 6&lt;span class="hx:absolute hx:-mt-20" id="سرتیتر-6"&gt;&lt;/span&gt;
+&lt;a href="#%d8%b3%d8%b1%d8%aa%db%8c%d8%aa%d8%b1-6" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h6&gt;&lt;h3&gt;تأکید&lt;span class="hx:absolute hx:-mt-20" id="تأکید"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%a3%da%a9%db%8c%d8%af" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-text" data-lang="text"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;*این متن به صورت ایتالیک نمایش داده می‌شود*
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;_این نیز به صورت ایتالیک نمایش داده می‌شود_
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;**این متن به صورت پررنگ نمایش داده می‌شود**
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;__این نیز به صورت پررنگ نمایش داده می‌شود__
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;_شما می‌توانید **آن‌ها را ترکیب** کنید_&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;em&gt;این متن به صورت ایتالیک نمایش داده می‌شود&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;این نیز به صورت ایتالیک نمایش داده می‌شود&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;این متن به صورت پررنگ نمایش داده می‌شود&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;این نیز به صورت پررنگ نمایش داده می‌شود&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;شما می‌توانید &lt;strong&gt;آن‌ها را ترکیب&lt;/strong&gt; کنید&lt;/em&gt;&lt;/p&gt;
+&lt;h3&gt;فهرست‌ها&lt;span class="hx:absolute hx:-mt-20" id="فهرستها"&gt;&lt;/span&gt;
+&lt;a href="#%d9%81%d9%87%d8%b1%d8%b3%d8%aa%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;بدون ترتیب&lt;span class="hx:absolute hx:-mt-20" id="بدون-ترتیب"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d8%af%d9%88%d9%86-%d8%aa%d8%b1%d8%aa%db%8c%d8%a8" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;* مورد ۱
+* مورد ۲
+* مورد ۲الف
+* مورد ۲ب&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;مورد ۱&lt;/li&gt;
+&lt;li&gt;مورد ۲
+&lt;ul&gt;
+&lt;li&gt;مورد ۲الف&lt;/li&gt;
+&lt;li&gt;مورد ۲ب&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;با ترتیب&lt;span class="hx:absolute hx:-mt-20" id="با-ترتیب"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d8%a7-%d8%aa%d8%b1%d8%aa%db%8c%d8%a8" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;pre&gt;&lt;code&gt;۱. مورد ۱
+۲. مورد ۲
+۳. مورد ۳
+۱. مورد ۳الف
+۲. مورد ۳ب&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;تصاویر&lt;span class="hx:absolute hx:-mt-20" id="تصاویر"&gt;&lt;/span&gt;
+&lt;a href="#%d8%aa%d8%b5%d8%a7%d9%88%db%8c%d8%b1" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;![&lt;span class="nt"&gt;لوگوی GitHub&lt;/span&gt;](&lt;span class="na"&gt;https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="لوگوی GitHub" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
+&lt;h3&gt;پیوندها&lt;span class="hx:absolute hx:-mt-20" id="پیوندها"&gt;&lt;/span&gt;
+&lt;a href="#%d9%be%db%8c%d9%88%d9%86%d8%af%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;[&lt;span class="nt"&gt;Hugo&lt;/span&gt;](&lt;span class="na"&gt;https://gohugo.io&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;a href="https://gohugo.io"target="_blank" rel="noopener"&gt;Hugo&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3&gt;نقل‌قول‌ها&lt;span class="hx:absolute hx:-mt-20" id="نقلقولها"&gt;&lt;/span&gt;
+&lt;a href="#%d9%86%d9%82%d9%84%d9%82%d9%88%d9%84%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;همان‌طور که نیوتن گفت:
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&amp;gt; اگر من دورتر را دیده‌ام، به این دلیل است که بر شانه‌های غول‌ها ایستاده‌ام.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;blockquote&gt;
+&lt;p&gt;اگر من دورتر را دیده‌ام، به این دلیل است که بر شانه‌های غول‌ها ایستاده‌ام.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3&gt;کد درون‌خطی&lt;span class="hx:absolute hx:-mt-20" id="کد-درونخطی"&gt;&lt;/span&gt;
+&lt;a href="#%da%a9%d8%af-%d8%af%d8%b1%d9%88%d9%86%d8%ae%d8%b7%db%8c" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;کد &lt;span class="sb"&gt;`درون‌خطی`&lt;/span&gt; با &lt;span class="sb"&gt;`علامت back-tick`&lt;/span&gt; احاطه شده است.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;کد &lt;code&gt;درون‌خطی&lt;/code&gt; با &lt;code&gt;علامت back-tick&lt;/code&gt; احاطه شده است.&lt;/p&gt;
+&lt;h3&gt;بلوک‌های کد&lt;span class="hx:absolute hx:-mt-20" id="بلوکهای-کد"&gt;&lt;/span&gt;
+&lt;a href="#%d8%a8%d9%84%d9%88%da%a9%d9%87%d8%a7%db%8c-%da%a9%d8%af" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;h4&gt;هایلایت سینتکس&lt;span class="hx:absolute hx:-mt-20" id="هایلایت-سینتکس"&gt;&lt;/span&gt;
+&lt;a href="#%d9%87%d8%a7%db%8c%d9%84%d8%a7%db%8c%d8%aa-%d8%b3%db%8c%d9%86%d8%aa%da%a9%d8%b3" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;```go
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;func&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;fmt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;Println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="s"&gt;```&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-go" data-lang="go"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="kd"&gt;func&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nf"&gt;main&lt;/span&gt;&lt;span class="p"&gt;()&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="p"&gt;{&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="nx"&gt;fmt&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nf"&gt;Println&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s"&gt;&amp;#34;Hello World&amp;#34;&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;&lt;span class="w"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="p"&gt;}&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;h3&gt;جداول&lt;span class="hx:absolute hx:-mt-20" id="جداول"&gt;&lt;/span&gt;
+&lt;a href="#%d8%ac%d8%af%d8%a7%d9%88%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
+&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| سینتکس | توضیحات |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| --------- | ----------- |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| هدر | عنوان |
+&lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;| پاراگراف | متن |&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
+&lt;button
+class="hextra-code-copy-btn hx:group/copybtn hx:cursor-pointer hx:transition-all hx:active:opacity-50 hx:bg-primary-700/5 hx:border hx:border-black/5 hx:text-gray-600 hx:hover:text-gray-900 hx:rounded-md hx:p-1.5 hx:dark:bg-primary-300/10 hx:dark:border-white/10 hx:dark:text-gray-400 hx:dark:hover:text-gray-50"
+title="کپی کد"
+aria-label="کپی کد"
+data-copied-label="کپی شد!"
+&gt;
+&lt;div class="hextra-copy-icon hx:group-[.copied]/copybtn:hidden hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
+&lt;/button&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;سینتکس&lt;/th&gt;
+&lt;th&gt;توضیحات&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;هدر&lt;/td&gt;
+&lt;td&gt;عنوان&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;پاراگراف&lt;/td&gt;
+&lt;td&gt;متن&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;منابع&lt;span class="hx:absolute hx:-mt-20" id="منابع"&gt;&lt;/span&gt;
+&lt;a href="#%d9%85%d9%86%d8%a7%d8%a8%d8%b9" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://www.markdownguide.org/basic-syntax/"target="_blank" rel="noopener"&gt;نحو Markdown&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://gohugo.io/content-management/formats/#markdown"target="_blank" rel="noopener"&gt;Markdown در Hugo&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
+&lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
