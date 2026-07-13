@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – 配置</title><link>https://example.com/zh-cn/tags/%E9%85%8D%E7%BD%AE/</link><description>Recent content in 配置 on Hextra</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://example.com/zh-cn/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>配置</title><link>https://example.com/zh-cn/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/zh-cn/docs/guide/configuration/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – 配置</title><link>https://cyberxlab.3344198.xyz/zh-cn/tags/%E9%85%8D%E7%BD%AE/</link><description>Recent content in 配置 on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://cyberxlab.3344198.xyz/zh-cn/tags/%E9%85%8D%E7%BD%AE/index.xml" rel="self" type="application/rss+xml"/><item><title>配置</title><link>https://cyberxlab.3344198.xyz/zh-cn/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/zh-cn/docs/guide/configuration/</guid><description>
 &lt;p&gt;Hugo 从站点根目录的 &lt;code&gt;hugo.yaml&lt;/code&gt; 读取配置。
 配置文件可用来调整站点的所有方面。
 查看本网站的示例配置文件 &lt;a href="https://github.com/imfing/hextra/blob/main/docs/hugo.yaml"target="_blank" rel="noopener"&gt;&lt;code&gt;docs/hugo.yaml&lt;/code&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -221,7 +221,7 @@ data-copied-label="已复制！"
 &lt;h2&gt;侧边栏&lt;span class="hx:absolute hx:-mt-20" id="侧边栏"&gt;&lt;/span&gt;
 &lt;a href="#%e4%be%a7%e8%be%b9%e6%a0%8f" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;主侧边栏&lt;span class="hx:absolute hx:-mt-20" id="主侧边栏"&gt;&lt;/span&gt;
 &lt;a href="#%e4%b8%bb%e4%be%a7%e8%be%b9%e6%a0%8f" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;主侧边栏会根据内容目录结构自动生成。
-详情参见&lt;a href="https://example.com/zh-cn/docs/guide/organize-files/"&gt;文件组织&lt;/a&gt;页面。&lt;/p&gt;
+详情参见&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/organize-files/"&gt;文件组织&lt;/a&gt;页面。&lt;/p&gt;
 &lt;p&gt;要从左侧边栏排除单个页面，在页面的 front matter 中设置 &lt;code&gt;sidebar.exclude&lt;/code&gt; 参数：&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/docs/guide/configuration.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
@@ -774,7 +774,7 @@ data-copied-label="已复制！"
 &lt;p&gt;每个链接可以包含：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;name&lt;/code&gt; - 链接的显示文本&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - 可选的图标名称（参见&lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/icon/"&gt;图标&lt;/a&gt;）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - 可选的图标名称（参见&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/icon/"&gt;图标&lt;/a&gt;）&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;url&lt;/code&gt; - 包含可选占位符的 URL&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;FlexSearch 索引&lt;span class="hx:absolute hx:-mt-20" id="flexsearch-索引"&gt;&lt;/span&gt;

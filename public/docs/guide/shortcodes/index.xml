@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – Shortcodes</title><link>https://example.com/docs/guide/shortcodes/</link><description>Recent content in Shortcodes on Hextra</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://example.com/docs/guide/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Asciinema Player Component</title><link>https://example.com/docs/guide/shortcodes/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/asciinema/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – Shortcodes</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/</link><description>Recent content in Shortcodes on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Asciinema Player Component</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/asciinema/</guid><description>
 &lt;h2&gt;Overview&lt;span class="hx:absolute hx:-mt-20" id="overview"&gt;&lt;/span&gt;
 &lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The asciinema shortcode allows you to embed terminal recordings created with &lt;a href="https://asciinema.org/"target="_blank" rel="noopener"&gt;asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
@@ -233,7 +233,7 @@ data-loop="true"data-markers="[[1.5,&amp;#34;Installation&amp;#34;],[3.2,&amp;#3
 &lt;td&gt;Comma-separated time markers. Format: &amp;ldquo;time:label&amp;rdquo; or just &amp;ldquo;time&amp;rdquo; (e.g., &amp;ldquo;1.5:Installation,3.2:Configuration,5.8&amp;rdquo;)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Callout Component</title><link>https://example.com/docs/guide/shortcodes/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/callout/</guid><description>
+&lt;/table&gt;</description></item><item><title>Callout Component</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/callout/</guid><description>
 &lt;p&gt;A built-in component to show important information to the reader.&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;Note&lt;/p&gt;
@@ -493,7 +493,7 @@ data-copied-label="Copied!"
 &lt;td&gt;The icon to show before the callout. (related to type or can be a custom icon).&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Cards Component</title><link>https://example.com/docs/guide/shortcodes/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/cards/</guid><description>
+&lt;/table&gt;</description></item><item><title>Cards Component</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/cards/</guid><description>
 &lt;h2&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
 &lt;a
@@ -507,13 +507,13 @@ class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hid
 &lt;div class="hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700"&gt;custom tag&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;No Icon&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="Image Card"
 class="hextra-card-image"
@@ -523,23 +523,23 @@ src="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc
 /&gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Image Card&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Internet Image&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="Local Image"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://example.com/images/card-image-unprocessed.jpg"
+src="https://cyberxlab.3344198.xyz/images/card-image-unprocessed.jpg"
 /&gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Local Image&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Raw image under static directory.&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="Local Image"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://example.com/images/space_hu_4aca3bdd361c8629.webp"
+src="https://cyberxlab.3344198.xyz/images/space_hu_4aca3bdd361c8629.webp"
 width="600"
 height="450"
 /&gt;&lt;div class="hx:mt-auto"&gt;
@@ -604,7 +604,7 @@ data-copied-label="Copied!"
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;icon&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Name of the icon. See &lt;a href="https://example.com/docs/guide/shortcodes/icon/"&gt;icons&lt;/a&gt; for more information.&lt;/td&gt;
+&lt;td&gt;Name of the icon. See &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/icon/"&gt;icons&lt;/a&gt; for more information.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -667,15 +667,15 @@ It currently supports these &lt;code&gt;method&lt;/code&gt;: &lt;code&gt;Resize&
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;tagColor&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Color of the tag. See &lt;a href="https://example.com/docs/guide/shortcodes/others/#badges"&gt;badges&lt;/a&gt; for more information.&lt;/td&gt;
+&lt;td&gt;Color of the tag. See &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/others/#badges"&gt;badges&lt;/a&gt; for more information.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;tagIcon&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Icon of the tag. See &lt;a href="https://example.com/docs/guide/shortcodes/others/#badges"&gt;badges&lt;/a&gt; for more information.&lt;/td&gt;
+&lt;td&gt;Icon of the tag. See &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/others/#badges"&gt;badges&lt;/a&gt; for more information.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
 &lt;td&gt;&lt;code&gt;tagBorder&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;Border of the tag. See &lt;a href="https://example.com/docs/guide/shortcodes/others/#badges"&gt;badges&lt;/a&gt; for more information.&lt;/td&gt;
+&lt;td&gt;Border of the tag. See &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/others/#badges"&gt;badges&lt;/a&gt; for more information.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -705,25 +705,25 @@ class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hid
 &lt;div class="hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;&lt;svg height=12 xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"/&gt;&lt;/svg&gt;tag text&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="Image Card"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://example.com/images/card-image-unprocessed.jpg"
+src="https://cyberxlab.3344198.xyz/images/card-image-unprocessed.jpg"
 /&gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Image Card&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;Image&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-badge hextra-card-tag"&gt;
 &lt;div class="hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:border-green-200 hx:bg-green-100 hx:text-green-900 hx:dark:border-green-200/30 hx:dark:bg-green-900/30 hx:dark:text-green-200"&gt;tag text&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="Image Card"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://example.com/images/space_hu_65d0bf520ddda320.webp"
+src="https://cyberxlab.3344198.xyz/images/space_hu_65d0bf520ddda320.webp"
 width="800"
 height="600"
 /&gt;&lt;div class="hx:mt-auto"&gt;
@@ -755,21 +755,21 @@ data-copied-label="Copied!"
 &lt;a href="#columns" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can specify the maximum number of columns for cards to span by passing the &lt;code&gt;cols&lt;/code&gt; parameter to the &lt;code&gt;cards&lt;/code&gt; shortcode. Note that columns will still be collapsed on smaller screens.&lt;/p&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 1;"&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Top Card&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Bottom Card&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 2;"&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Left Card&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;Right Card&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -792,7 +792,7 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Details</title><link>https://example.com/docs/guide/shortcodes/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/details/</guid><description>
+&lt;/div&gt;</description></item><item><title>Details</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/details/</guid><description>
 &lt;p&gt;A built-in component to display a collapsible content.&lt;/p&gt;
 &lt;h2&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;details class="hx:last-of-type:mb-0 hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-4 hx:group" open&gt;
@@ -848,7 +848,7 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>FileTree Component</title><link>https://example.com/docs/guide/shortcodes/filetree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/filetree/</guid><description>
+&lt;/div&gt;</description></item><item><title>FileTree Component</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/filetree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/filetree/</guid><description>
 &lt;h2&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-filetree hx:mt-6 hx:select-none hx:text-sm hx:text-gray-800 hx:dark:text-gray-300 not-prose"&gt;
 &lt;div class="hx:inline-block hx:rounded-lg hx:px-4 hx:py-2 hx:border hx:border-gray-200 hx:dark:border-neutral-800"&gt;
@@ -952,7 +952,7 @@ data-copied-label="Copied!"
 &lt;td&gt;The state of the file. Can be &lt;code&gt;open&lt;/code&gt; or &lt;code&gt;closed&lt;/code&gt;. Default is &lt;code&gt;open&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Gallery</title><link>https://example.com/docs/guide/shortcodes/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/gallery/</guid><description>
+&lt;/table&gt;</description></item><item><title>Gallery</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/gallery/</guid><description>
 &lt;h2&gt;Overview&lt;span class="hx:absolute hx:-mt-20" id="overview"&gt;&lt;/span&gt;
 &lt;a href="#overview" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The &lt;code&gt;gallery&lt;/code&gt; shortcode displays a collection of images with an interactive &lt;a href="https://photoswipe.com/"target="_blank" rel="noopener"&gt;PhotoSwipe v5&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
@@ -985,9 +985,9 @@ style="--hextra-gallery-cols: 3; --hextra-gallery-gap: 0.5rem;"
 &lt;figure class="hextra-gallery__item"&gt;
 &lt;a
 class="hextra-gallery__link"
-href="https://example.com/images/space.jpg" data-pswp-width="1200" data-pswp-height="900"&gt;
+href="https://cyberxlab.3344198.xyz/images/space.jpg" data-pswp-width="1200" data-pswp-height="900"&gt;
 &lt;img
-src="https://example.com/images/space_hu_65d0bf520ddda320.webp"
+src="https://cyberxlab.3344198.xyz/images/space_hu_65d0bf520ddda320.webp"
 alt="Space"
 loading="lazy"
 decoding="async" width="800" height="600"/&gt;
@@ -1421,7 +1421,7 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;Configuration&lt;span class="hx:absolute hx:-mt-20" id="configuration"&gt;&lt;/span&gt;
-&lt;a href="#configuration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By default, PhotoSwipe is loaded from the jsDelivr CDN. To use a self-hosted or mirrored copy, add a &lt;code&gt;gallery&lt;/code&gt; block to &lt;code&gt;params&lt;/code&gt; in your site configuration. See the &lt;a href="https://example.com/docs/guide/configuration/#local-and-mirrored-script-assets"&gt;Configuration&lt;/a&gt; page for details.&lt;/p&gt;
+&lt;a href="#configuration" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By default, PhotoSwipe is loaded from the jsDelivr CDN. To use a self-hosted or mirrored copy, add a &lt;code&gt;gallery&lt;/code&gt; block to &lt;code&gt;params&lt;/code&gt; in your site configuration. See the &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/configuration/#local-and-mirrored-script-assets"&gt;Configuration&lt;/a&gt; page for details.&lt;/p&gt;
 &lt;h2&gt;Parameters&lt;span class="hx:absolute hx:-mt-20" id="parameters"&gt;&lt;/span&gt;
 &lt;a href="#parameters" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;code&gt;gallery&lt;/code&gt;&lt;span class="hx:absolute hx:-mt-20" id="gallery"&gt;&lt;/span&gt;
 &lt;a href="#gallery" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
@@ -1514,7 +1514,7 @@ data-copied-label="Copied!"
 &lt;td&gt;Mosaic span hint: &lt;code&gt;wide&lt;/code&gt; (2 columns), &lt;code&gt;tall&lt;/code&gt; (2 rows), or &lt;code&gt;large&lt;/code&gt; (2x2). Only applies when &lt;code&gt;type=&amp;quot;mosaic&amp;quot;&lt;/code&gt;&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Hextra Shortcodes</title><link>https://example.com/docs/guide/shortcodes/hextra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/hextra/</guid><description>
+&lt;/table&gt;</description></item><item><title>Hextra Shortcodes</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/hextra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/hextra/</guid><description>
 &lt;p&gt;The main usage of these shortcodes are within the layout &lt;code&gt;hextra-home&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;&lt;code&gt;hextra/feature-card&lt;/code&gt;&lt;span class="hx:absolute hx:-mt-20" id="hextrafeature-card"&gt;&lt;/span&gt;
 &lt;a href="#hextrafeature-card" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;A shortcode for displaying a feature card.&lt;/p&gt;
@@ -1873,7 +1873,7 @@ data-copied-label="Copied!"
 &lt;td&gt;The style of the subtitle.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Icon</title><link>https://example.com/docs/guide/shortcodes/icon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/icon/</guid><description>
+&lt;/table&gt;</description></item><item><title>Icon</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/icon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/icon/</guid><description>
 &lt;p&gt;To use this shortcode inline, inline shortcode needs to be enabled in the config:&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;enableInlineShortcodes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
@@ -2050,7 +2050,7 @@ data-copied-label="Copied!"
 &lt;td&gt;The attributes of the icon.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Jupyter Notebook Component</title><link>https://example.com/docs/guide/shortcodes/jupyter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/jupyter/</guid><description>
+&lt;/table&gt;</description></item><item><title>Jupyter Notebook Component</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/jupyter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/jupyter/</guid><description>
 &lt;p&gt;&lt;a href="https://jupyter.org/"target="_blank" rel="noopener"&gt;Jupyter Notebook&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; is a language-agnostic HTML notebook application for &lt;a href="https://jupyter.org/"target="_blank" rel="noopener"&gt;Project Jupyter&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -2618,7 +2618,7 @@ data-copied-label="Copied!"
 &lt;/div&gt;&lt;div class="hextra-jupyter-code-cell hextra-scrollbar"&gt;&lt;details&gt;
 &lt;summary class="hextra-jupyter-output-summary" aria-label="Toggle output"&gt;Output&lt;/summary&gt;&lt;div class="hextra-jupyter-code-cell-outputs-container"&gt;&lt;div class="hextra-jupyter-code-cell-outputs" tabindex="0"&gt;&lt;pre class="not-prose"&gt;collapsed output
 &lt;/pre&gt;&lt;/div&gt;
-&lt;/div&gt;&lt;/details&gt;&lt;/div&gt;&lt;/div&gt;</description></item><item><title>Other Shortcodes</title><link>https://example.com/docs/guide/shortcodes/others/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/others/</guid><description>
+&lt;/div&gt;&lt;/details&gt;&lt;/div&gt;&lt;/div&gt;</description></item><item><title>Other Shortcodes</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/others/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/others/</guid><description>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -2871,7 +2871,7 @@ data-copied-label="Copied!"
 &lt;p&gt;Example:&lt;/p&gt;
 &lt;div class="hextra-pdf"&gt;
 &lt;iframe src="https://upload.wikimedia.org/wikipedia/commons/1/13/Example.pdf" width="100%" style="min-height: 32rem;" frameborder="0" title="PDF viewer"&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>Steps</title><link>https://example.com/docs/guide/shortcodes/steps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/steps/</guid><description>
+&lt;/div&gt;</description></item><item><title>Steps</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/steps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/steps/</guid><description>
 &lt;p&gt;A built-in component to display a series of steps.&lt;/p&gt;
 &lt;p&gt;You can use the Markdown attribute &lt;code&gt;{class=&amp;quot;no-step-marker&amp;quot;}&lt;/code&gt; to prevent a heading from being counted as a step.&lt;/p&gt;
 &lt;h2&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
@@ -2913,7 +2913,7 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Tabs</title><link>https://example.com/docs/guide/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/tabs/</guid><description>
+&lt;/div&gt;</description></item><item><title>Tabs</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/tabs/</guid><description>
 &lt;h2&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
@@ -3117,9 +3117,9 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Term</title><link>https://example.com/docs/guide/shortcodes/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/term/</guid><description>
+&lt;/div&gt;</description></item><item><title>Term</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/term/</guid><description>
 &lt;p&gt;A built-in component to display a terminology definition.&lt;/p&gt;
-&lt;p&gt;Glossary definition is maintained in a structured YAML &lt;a href="https://example.com/docs/advanced/additional-pages/#glossary"&gt;data file&lt;/a&gt;,
+&lt;p&gt;Glossary definition is maintained in a structured YAML &lt;a href="https://cyberxlab.3344198.xyz/docs/advanced/additional-pages/#glossary"&gt;data file&lt;/a&gt;,
 with one file defined per supported language.&lt;/p&gt;
 &lt;h2&gt;Example&lt;span class="hx:absolute hx:-mt-20" id="example"&gt;&lt;/span&gt;
 &lt;a href="#example" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;

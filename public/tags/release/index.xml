@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – Release</title><link>https://example.com/tags/release/</link><description>Recent content in Release on Hextra</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/tags/release/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://example.com/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/blog/v0.12/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – Release</title><link>https://cyberxlab.3344198.xyz/tags/release/</link><description>Recent content in Release on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cyberxlab.3344198.xyz/tags/release/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://cyberxlab.3344198.xyz/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/blog/v0.12/</guid><description>
 &lt;p&gt;Hextra v0.12.0 delivers a rich set of new features including page context menus, image zoom, redesigned tabs, and more, plus comprehensive WCAG 2.2 AA accessibility improvements and numerous bug fixes.&lt;/p&gt;
 &lt;h2&gt;Upgrade Guide&lt;span class="hx:absolute hx:-mt-20" id="upgrade-guide"&gt;&lt;/span&gt;
 &lt;a href="#upgrade-guide" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;No breaking changes are expected for most sites. Update using &lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -75,7 +75,7 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;Tabs Revamp and Icon Support&lt;span class="hx:absolute hx:-mt-20" id="tabs-revamp-and-icon-support"&gt;&lt;/span&gt;
-&lt;a href="#tabs-revamp-and-icon-support" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;a href="https://example.com/docs/guide/shortcodes/tabs/"&gt;tabs shortcode&lt;/a&gt; has been redesigned. Tab names can now be set directly on each &lt;code&gt;tab&lt;/code&gt; shortcode, and an optional &lt;code&gt;icon&lt;/code&gt; parameter displays an icon before the tab label. The previous syntax is still supported.&lt;/p&gt;
+&lt;a href="#tabs-revamp-and-icon-support" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/tabs/"&gt;tabs shortcode&lt;/a&gt; has been redesigned. Tab names can now be set directly on each &lt;code&gt;tab&lt;/code&gt; shortcode, and an optional &lt;code&gt;icon&lt;/code&gt; parameter displays an icon before the tab label. The previous syntax is still supported.&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; tabs &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Photos&amp;#34; icon=&amp;#34;photograph&amp;#34; &amp;gt;}}Manage and organize your photo library.{{&amp;lt; /tab &amp;gt;}}
@@ -208,7 +208,7 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/262cc0fa-e0af-4a50-8c3d-4465059418b8" alt="Archives page" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;Glossary&lt;span class="hx:absolute hx:-mt-20" id="glossary"&gt;&lt;/span&gt;
-&lt;a href="#glossary" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A site-wide terminology &lt;a href="https://example.com/docs/guide/shortcodes/term/"&gt;glossary&lt;/a&gt; with a dedicated listing page and a &lt;code&gt;term&lt;/code&gt; shortcode for inline definitions.&lt;/p&gt;
+&lt;a href="#glossary" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;A site-wide terminology &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/term/"&gt;glossary&lt;/a&gt; with a dedicated listing page and a &lt;code&gt;term&lt;/code&gt; shortcode for inline definitions.&lt;/p&gt;
 &lt;h2&gt;Accessibility&lt;span class="hx:absolute hx:-mt-20" id="accessibility"&gt;&lt;/span&gt;
 &lt;a href="#accessibility" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Comprehensive WCAG 2.2 AA accessibility improvements (#924):&lt;/p&gt;
 &lt;ul&gt;
@@ -301,7 +301,7 @@ data-copied-label="Copied!"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://example.com/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/blog/v0.11/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://cyberxlab.3344198.xyz/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/blog/v0.11/</guid><description>
 &lt;p&gt;Hextra v0.11.0 focuses on UX polish and useful new components: site-wide banner, improved callouts and badges, richer cards, analytics integrations, and several navigation refinements. It also ships stability fixes and documentation updates.&lt;/p&gt;
 &lt;h2&gt;Upgrade Guide&lt;span class="hx:absolute hx:-mt-20" id="upgrade-guide"&gt;&lt;/span&gt;
 &lt;a href="#upgrade-guide" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;No breaking changes are expected for most sites. Update using &lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -353,18 +353,18 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/33a08c9b-db84-4200-b37c-1a53c1bef08d" alt="Top Banner" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;Callout Revamp&lt;span class="hx:absolute hx:-mt-20" id="callout-revamp"&gt;&lt;/span&gt;
-&lt;a href="#callout-revamp" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; receive a design refresh for better readability and emphasis across themes.&lt;/p&gt;
+&lt;a href="#callout-revamp" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; receive a design refresh for better readability and emphasis across themes.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/b3154dbb-e582-4c84-a8b8-1ecb02c3464d" alt="Callout refresh" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;Analytics: Umami and Matomo&lt;span class="hx:absolute hx:-mt-20" id="analytics-umami-and-matomo"&gt;&lt;/span&gt;
 &lt;a href="#analytics-umami-and-matomo" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Built-in configuration for analytics providers:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Asciinema Shortcode&lt;span class="hx:absolute hx:-mt-20" id="asciinema-shortcode"&gt;&lt;/span&gt;
 &lt;a href="#asciinema-shortcode" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Embed terminal recordings from &lt;a href="https://www.asciinema.org/"target="_blank" rel="noopener"&gt;Asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt; using the new &lt;a href="https://example.com/docs/guide/shortcodes/asciinema/"&gt;Asciinema shortcode&lt;/a&gt;.&lt;/p&gt;
+&lt;/svg&gt;&lt;/a&gt; using the new &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/asciinema/"&gt;Asciinema shortcode&lt;/a&gt;.&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; asciinema id=&amp;#34;123456&amp;#34; autoplay=true loop=true &amp;gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
@@ -424,8 +424,8 @@ data-copied-label="Copied!"
 &lt;/div&gt;
 &lt;h3&gt;Cards and Badges Improvements&lt;span class="hx:absolute hx:-mt-20" id="cards-and-badges-improvements"&gt;&lt;/span&gt;
 &lt;a href="#cards-and-badges-improvements" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/docs/guide/shortcodes/cards/"&gt;Cards&lt;/a&gt;: new &lt;code&gt;tagIcon&lt;/code&gt; and &lt;code&gt;tagBorder&lt;/code&gt; options.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/docs/guide/shortcodes/others/"&gt;Badges&lt;/a&gt;: new colors and border styles.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/cards/"&gt;Cards&lt;/a&gt;: new &lt;code&gt;tagIcon&lt;/code&gt; and &lt;code&gt;tagBorder&lt;/code&gt; options.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/others/"&gt;Badges&lt;/a&gt;: new colors and border styles.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;Quality of Life&lt;span class="hx:absolute hx:-mt-20" id="quality-of-life"&gt;&lt;/span&gt;
 &lt;a href="#quality-of-life" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -449,7 +449,7 @@ data-copied-label="Copied!"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;Full Changelog&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://example.com/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/blog/v0.10/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://cyberxlab.3344198.xyz/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/blog/v0.10/</guid><description>
 &lt;p&gt;Hextra v0.10.0 is a big release packed with new capabilities, architectural upgrades, and quality-of-life improvements.&lt;/p&gt;
 &lt;p&gt;It also includes contributions from 10 &lt;a href="#contributors"&gt;new contributors&lt;/a&gt; and addresses long-standing community requests.&lt;/p&gt;
 &lt;h2&gt;Upgrade Guide&lt;span class="hx:absolute hx:-mt-20" id="upgrade-guide"&gt;&lt;/span&gt;

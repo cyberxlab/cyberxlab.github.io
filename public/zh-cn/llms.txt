@@ -1,63 +1,63 @@
-# Hextra
+# Cyber・X・Lab
 
 > Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
 
 
 ## 博客
-- [Hextra v0.12](https://example.com/zh-cn/blog/v0.12/): Hextra v0.12.0 带来了丰富的新功能，包括页面上下文菜单、图片缩放、全新设计的标签页等，同时提供全面的 WCAG 2.2 AA 无障碍改进和大量错误修复。 - Published 2026-02-20
-- [Hextra v0.11](https://example.com/zh-cn/blog/v0.11/): Hextra v0.11.0 专注于打磨使用体验并带来数个实用新组件：站点级顶部横幅、改进的提示框与徽章、更丰富的卡片、分析工具集成，以及多项导航优化。同时包含稳定性修复和文档更新。 - Published 2025-08-30
-- [Hextra v0.10](https://example.com/zh-cn/blog/v0.10/): Hextra v0.10.0 是一个重大版本更新，包含多项新功能、架构升级和使用体验优化。 - Published 2025-08-14
-- [Markdown 语法指南](https://example.com/zh-cn/blog/markdown/): 本文展示了 Hugo 内容文件中可用的基础 Markdown 语法示例。 - Published 2020-01-01
+- [Hextra v0.12](https://cyberxlab.3344198.xyz/zh-cn/blog/v0.12/): Hextra v0.12.0 带来了丰富的新功能，包括页面上下文菜单、图片缩放、全新设计的标签页等，同时提供全面的 WCAG 2.2 AA 无障碍改进和大量错误修复。 - Published 2026-02-20
+- [Hextra v0.11](https://cyberxlab.3344198.xyz/zh-cn/blog/v0.11/): Hextra v0.11.0 专注于打磨使用体验并带来数个实用新组件：站点级顶部横幅、改进的提示框与徽章、更丰富的卡片、分析工具集成，以及多项导航优化。同时包含稳定性修复和文档更新。 - Published 2025-08-30
+- [Hextra v0.10](https://cyberxlab.3344198.xyz/zh-cn/blog/v0.10/): Hextra v0.10.0 是一个重大版本更新，包含多项新功能、架构升级和使用体验优化。 - Published 2025-08-14
+- [Markdown 语法指南](https://cyberxlab.3344198.xyz/zh-cn/blog/markdown/): 本文展示了 Hugo 内容文件中可用的基础 Markdown 语法示例。 - Published 2020-01-01
 
 ## 归档
 
 ## 术语表
 
 ## 简介
-- [快速开始](https://example.com/zh-cn/docs/getting-started/): 从模板快速启动 imfing/hextra-starter-template
+- [快速开始](https://cyberxlab.3344198.xyz/zh-cn/docs/getting-started/): 从模板快速启动 imfing/hextra-starter-template
 
 ### 指南
-- [文件组织](https://example.com/zh-cn/docs/guide/organize-files/): 目录结构 默认情况下，Hugo 会在 content 目录中查找 Markdown 文件，目录的结构决定了网站最终的输出结构。 以本网站为例：
-- [Markdown](https://example.com/zh-cn/docs/guide/markdown/): Hugo 支持使用 Markdown 语法来格式化文本、创建列表等。本页将展示一些最常用的 Markdown 语法示例。
-- [配置](https://example.com/zh-cn/docs/guide/configuration/): Hugo 从站点根目录的 hugo.yaml 读取配置。 配置文件可用来调整站点的所有方面。 查看本网站的示例配置文件 docs/hugo.yaml 以全面了解可用设置和最佳实践。
-- [语法高亮](https://example.com/zh-cn/docs/guide/syntax-highlighting/): Hugo 使用纯 Go 编写的通用语法高亮工具 Chroma 来实现代码高亮。建议在 Markdown 内容中使用反引号标记代码块，例如：
-- [数学公式](https://example.com/zh-cn/docs/guide/latex/): LaTeX 数学表达式默认使用 KaTeX\KaTeXKATE​X 渲染。直接在 Markdown 内容中使用即可，无需手动配置。
+- [文件组织](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/organize-files/): 目录结构 默认情况下，Hugo 会在 content 目录中查找 Markdown 文件，目录的结构决定了网站最终的输出结构。 以本网站为例：
+- [Markdown](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/markdown/): Hugo 支持使用 Markdown 语法来格式化文本、创建列表等。本页将展示一些最常用的 Markdown 语法示例。
+- [配置](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/configuration/): Hugo 从站点根目录的 hugo.yaml 读取配置。 配置文件可用来调整站点的所有方面。 查看本网站的示例配置文件 docs/hugo.yaml 以全面了解可用设置和最佳实践。
+- [语法高亮](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/syntax-highlighting/): Hugo 使用纯 Go 编写的通用语法高亮工具 Chroma 来实现代码高亮。建议在 Markdown 内容中使用反引号标记代码块，例如：
+- [数学公式](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/latex/): LaTeX 数学表达式默认使用 KaTeX\KaTeXKATE​X 渲染。直接在 Markdown 内容中使用即可，无需手动配置。
 使用方法 LaTeX 既可用于行内表达式，也可用于大段文本。
-- [图表](https://example.com/zh-cn/docs/guide/diagrams/): 目前，Hextra 支持通过 Mermaid 绘制图表。
-- [部署站点](https://example.com/zh-cn/docs/guide/deploy-site/): Hugo 生成静态网站，支持灵活的托管方案。 本页提供在各类平台上部署 Hextra 站点的指南。
+- [图表](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/diagrams/): 目前，Hextra 支持通过 Mermaid 绘制图表。
+- [部署站点](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/deploy-site/): Hugo 生成静态网站，支持灵活的托管方案。 本页提供在各类平台上部署 Hextra 站点的指南。
 
 #### 短代码
-- [Asciinema Player 组件](https://example.com/zh-cn/docs/guide/shortcodes/asciinema/): asciinema shortcode 允许你在 Hugo 站点中嵌入使用 asciinema 创建的终端录制。它提供了一个功能丰富的终端播放器，具有播放控制、速度调整和主题自定义等功能。
-- [Hextra Shortcodes](https://example.com/zh-cn/docs/guide/shortcodes/hextra/): 这些短代码的主要用途是在布局hextra-home内。
+- [Asciinema Player 组件](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/asciinema/): asciinema shortcode 允许你在 Hugo 站点中嵌入使用 asciinema 创建的终端录制。它提供了一个功能丰富的终端播放器，具有播放控制、速度调整和主题自定义等功能。
+- [Hextra Shortcodes](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/hextra/): 这些短代码的主要用途是在布局hextra-home内。
 hextra/feature-card 显示功能卡的短代码。
 Usage {{&lt; hextra/feature-card …
-- [Jupyter Notebook 组件](https://example.com/zh-cn/docs/guide/shortcodes/jupyter/): 实验性功能：通过短代码嵌入 Jupyter Notebook。注意并非所有单元格类型都受支持。 Jupyter Notebook 是 Project Jupyter 推出的语言无关的 HTML 笔记 …
-- [标签页](https://example.com/zh-cn/docs/guide/shortcodes/tabs/): 示例 macOSLinuxWindows macOS: 苹果公司开发的桌面操作系统。Linux: 一款开源操作系统。Windows: 微软公司开发的桌面操作系统。 使用方法 默认 {{&lt; …
-- [步骤](https://example.com/zh-cn/docs/guide/shortcodes/steps/): 一个内置组件，用于显示一系列步骤。
+- [Jupyter Notebook 组件](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/jupyter/): 实验性功能：通过短代码嵌入 Jupyter Notebook。注意并非所有单元格类型都受支持。 Jupyter Notebook 是 Project Jupyter 推出的语言无关的 HTML 笔记 …
+- [标签页](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/tabs/): 示例 macOSLinuxWindows macOS: 苹果公司开发的桌面操作系统。Linux: 一款开源操作系统。Windows: 微软公司开发的桌面操作系统。 使用方法 默认 {{&lt; …
+- [步骤](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/steps/): 一个内置组件，用于显示一系列步骤。
 示例 第一步 这是第一步。
-- [卡片组件](https://example.com/zh-cn/docs/guide/shortcodes/cards/): 示例 提示框 带标签的卡片 自定义标签 无图标 图片卡片网络图片 本地图片静态目录下的原始图片。 本地图片资源目录下的图片，经过Hugo处理。 使用方法 {{&lt; cards &gt;}} …
-- [其他短代码](https://example.com/zh-cn/docs/guide/shortcodes/others/): 其中部分为Hugo内置短代码。 这些短代码稳定性较低，可能随时变更。 徽章 示例 default border color link icon
-- [术语](https://example.com/zh-cn/docs/guide/shortcodes/term/): 一个用于显示术语定义的内置组件。
+- [卡片组件](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/cards/): 示例 提示框 带标签的卡片 自定义标签 无图标 图片卡片网络图片 本地图片静态目录下的原始图片。 本地图片资源目录下的图片，经过Hugo处理。 使用方法 {{&lt; cards &gt;}} …
+- [其他短代码](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/others/): 其中部分为Hugo内置短代码。 这些短代码稳定性较低，可能随时变更。 徽章 示例 default border color link icon
+- [术语](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/term/): 一个用于显示术语定义的内置组件。
 术语定义保存在结构化的 YAML 数据文件中， 每种支持的语言对应一个文件。
 示例 静态网站生成器 SEO 用法 {{&lt; term &#34;SEO&#34; …
-- [提示框组件](https://example.com/zh-cn/docs/guide/shortcodes/callout/): 一个内置组件，用于向读者展示重要信息。
-- [图标](https://example.com/zh-cn/docs/guide/shortcodes/icon/): 要在行内使用此短代码，需在配置中启用行内短代码功能：
+- [提示框组件](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/callout/): 一个内置组件，用于向读者展示重要信息。
+- [图标](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/icon/): 要在行内使用此短代码，需在配置中启用行内短代码功能：
 hugo.yamlenableInlineShortcodes: true 可用图标列表可在 data/icons.yaml 中找到。
-- [图片库](https://example.com/zh-cn/docs/guide/shortcodes/gallery/): 概述 gallery 短代码用于展示一组图片，并提供交互式的 PhotoSwipe v5 灯箱。点击任意图片即可打开全屏查看器，支持上一张/下一张导航、标题以及键盘操作。
-- [文件树组件](https://example.com/zh-cn/docs/guide/shortcodes/filetree/): 示例 content _index.md docs _index.md introduction.md introduction.fr.md hugo.toml 使用方法 Markdown{{&lt; …
-- [详情](https://example.com/zh-cn/docs/guide/shortcodes/details/): 一个内置组件，用于显示可折叠的内容。
+- [图片库](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/gallery/): 概述 gallery 短代码用于展示一组图片，并提供交互式的 PhotoSwipe v5 灯箱。点击任意图片即可打开全屏查看器，支持上一张/下一张导航、标题以及键盘操作。
+- [文件树组件](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/filetree/): 示例 content _index.md docs _index.md introduction.md introduction.fr.md hugo.toml 使用方法 Markdown{{&lt; …
+- [详情](https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/details/): 一个内置组件，用于显示可折叠的内容。
 
 ### 高级主题
-- [多语言支持](https://example.com/zh-cn/docs/advanced/multi-language/): Hextra 支持使用 Hugo 的多语言模式 创建多语言网站。
-- [附加页面](https://example.com/zh-cn/docs/advanced/additional-pages/): Hextra 提供一些需要单独启用的附加页面：术语表与归档页。
-- [评论系统](https://example.com/zh-cn/docs/advanced/comments/): Hextra 支持为您的网站添加评论系统。 目前支持 giscus 。
-- [自定义 Hextra](https://example.com/zh-cn/docs/advanced/customization/): Hextra 在 hugo.yaml 配置文件中提供了一些默认的自定义选项来配置主题。 本页描述了可用选项以及如何进一步自定义主题。
+- [多语言支持](https://cyberxlab.3344198.xyz/zh-cn/docs/advanced/multi-language/): Hextra 支持使用 Hugo 的多语言模式 创建多语言网站。
+- [附加页面](https://cyberxlab.3344198.xyz/zh-cn/docs/advanced/additional-pages/): Hextra 提供一些需要单独启用的附加页面：术语表与归档页。
+- [评论系统](https://cyberxlab.3344198.xyz/zh-cn/docs/advanced/comments/): Hextra 支持为您的网站添加评论系统。 目前支持 giscus 。
+- [自定义 Hextra](https://cyberxlab.3344198.xyz/zh-cn/docs/advanced/customization/): Hextra 在 hugo.yaml 配置文件中提供了一些默认的自定义选项来配置主题。 本页描述了可用选项以及如何进一步自定义主题。
 
 ## Root Pages
-- [关于](https://example.com/zh-cn/about/): Hextra 是一款专为构建现代化静态网站而设计的简洁、快速且灵活的主题。它尤其适合搭建文档类网站，同时也能轻松驾驭博客、作品集等多种站点类型。
+- [关于](https://cyberxlab.3344198.xyz/zh-cn/about/): Hextra 是一款专为构建现代化静态网站而设计的简洁、快速且灵活的主题。它尤其适合搭建文档类网站，同时也能轻松驾驭博客、作品集等多种站点类型。
 与 Jekyll 类似，Hugo 同样是一款静态网站生 …
-- [项目展示](https://example.com/zh-cn/showcase/): 由 Hextra 驱动的开源网站和项目。 GoReleaser golangci-lint RustDesk Docs Sortie PrintN Beginner Privacy OpenRun …
+- [项目展示](https://cyberxlab.3344198.xyz/zh-cn/showcase/): 由 Hextra 驱动的开源网站和项目。 GoReleaser golangci-lint RustDesk Docs Sortie PrintN Beginner Privacy OpenRun …
 
 ---
-Generated on 2026-07-13 18:27:08 UTC
-Site: https://example.com/
+Generated on 2026-07-13 18:32:41 UTC
+Site: https://cyberxlab.3344198.xyz/

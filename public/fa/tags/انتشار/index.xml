@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>هگزترا – انتشار</title><link>https://example.com/fa/tags/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1/</link><description>Recent content in انتشار on هگزترا</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://example.com/fa/tags/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://example.com/fa/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/fa/blog/v0.12/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – انتشار</title><link>https://cyberxlab.3344198.xyz/fa/tags/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1/</link><description>Recent content in انتشار on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>fa</language><lastBuildDate>Fri, 20 Feb 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://cyberxlab.3344198.xyz/fa/tags/%D8%A7%D9%86%D8%AA%D8%B4%D8%A7%D8%B1/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://cyberxlab.3344198.xyz/fa/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/blog/v0.12/</guid><description>
 &lt;p&gt;Hextra v0.12.0 مجموعه‌ای غنی از ویژگی‌های جدید شامل منوی زمینه صفحه، زوم تصویر، تب‌های بازطراحی‌شده و موارد بیشتر، به همراه بهبودهای جامع دسترس‌پذیری WCAG 2.2 AA و رفع اشکالات متعدد ارائه می‌دهد.&lt;/p&gt;
 &lt;h2&gt;راهنمای ارتقا&lt;span class="hx:absolute hx:-mt-20" id="راهنمای-ارتقا"&gt;&lt;/span&gt;
 &lt;a href="#%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d8%a7%d8%b1%d8%aa%d9%82%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;برای بیشتر سایت‌ها تغییر شکست‌آمیزی وجود ندارد. با استفاده از &lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -75,7 +75,7 @@ data-copied-label="کپی شد!"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;بازطراحی تب‌ها و پشتیبانی از آیکون&lt;span class="hx:absolute hx:-mt-20" id="بازطراحی-تبها-و-پشتیبانی-از-آیکون"&gt;&lt;/span&gt;
-&lt;a href="#%d8%a8%d8%a7%d8%b2%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%aa%d8%a8%d9%87%d8%a7-%d9%88-%d9%be%d8%b4%d8%aa%db%8c%d8%a8%d8%a7%d9%86%db%8c-%d8%a7%d8%b2-%d8%a2%db%8c%da%a9%d9%88%d9%86" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/fa/docs/guide/shortcodes/tabs/"&gt;شورت‌کد تب‌ها&lt;/a&gt; بازطراحی شده است. اکنون می‌توان نام تب‌ها را مستقیماً روی هر شورت‌کد &lt;code&gt;tab&lt;/code&gt; تنظیم کرد و پارامتر اختیاری &lt;code&gt;icon&lt;/code&gt; یک آیکون قبل از برچسب تب نمایش می‌دهد. نحو قبلی همچنان پشتیبانی می‌شود.&lt;/p&gt;
+&lt;a href="#%d8%a8%d8%a7%d8%b2%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-%d8%aa%d8%a8%d9%87%d8%a7-%d9%88-%d9%be%d8%b4%d8%aa%db%8c%d8%a8%d8%a7%d9%86%db%8c-%d8%a7%d8%b2-%d8%a2%db%8c%da%a9%d9%88%d9%86" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/tabs/"&gt;شورت‌کد تب‌ها&lt;/a&gt; بازطراحی شده است. اکنون می‌توان نام تب‌ها را مستقیماً روی هر شورت‌کد &lt;code&gt;tab&lt;/code&gt; تنظیم کرد و پارامتر اختیاری &lt;code&gt;icon&lt;/code&gt; یک آیکون قبل از برچسب تب نمایش می‌دهد. نحو قبلی همچنان پشتیبانی می‌شود.&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; tabs &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Photos&amp;#34; icon=&amp;#34;photograph&amp;#34; &amp;gt;}}مدیریت و سازماندهی کتابخانه عکس‌های شما.{{&amp;lt; /tab &amp;gt;}}
@@ -208,7 +208,7 @@ data-copied-label="کپی شد!"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/262cc0fa-e0af-4a50-8c3d-4465059418b8" alt="صفحه آرشیو" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;واژه‌نامه&lt;span class="hx:absolute hx:-mt-20" id="واژهنامه"&gt;&lt;/span&gt;
-&lt;a href="#%d9%88%d8%a7%da%98%d9%87%d9%86%d8%a7%d9%85%d9%87" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;یک &lt;a href="https://example.com/fa/docs/guide/shortcodes/term/"&gt;واژه‌نامه&lt;/a&gt; اصطلاحات سراسری سایت با صفحه فهرست اختصاصی و شورت‌کد &lt;code&gt;term&lt;/code&gt; برای تعاریف درون‌خطی.&lt;/p&gt;
+&lt;a href="#%d9%88%d8%a7%da%98%d9%87%d9%86%d8%a7%d9%85%d9%87" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;یک &lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/term/"&gt;واژه‌نامه&lt;/a&gt; اصطلاحات سراسری سایت با صفحه فهرست اختصاصی و شورت‌کد &lt;code&gt;term&lt;/code&gt; برای تعاریف درون‌خطی.&lt;/p&gt;
 &lt;h2&gt;دسترس‌پذیری&lt;span class="hx:absolute hx:-mt-20" id="دسترسپذیری"&gt;&lt;/span&gt;
 &lt;a href="#%d8%af%d8%b3%d8%aa%d8%b1%d8%b3%d9%be%d8%b0%db%8c%d8%b1%db%8c" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;بهبودهای جامع دسترس‌پذیری WCAG 2.2 AA (#924):&lt;/p&gt;
 &lt;ul&gt;
@@ -301,7 +301,7 @@ data-copied-label="کپی شد!"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;تغییرات کامل&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://example.com/fa/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/fa/blog/v0.11/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://cyberxlab.3344198.xyz/fa/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/blog/v0.11/</guid><description>
 &lt;p&gt;Hextra v0.11.0 بر صیقل UX و مؤلفه‌های جدید کاربردی تمرکز دارد: بنر سراسری سایت، کال‌اوت‌ها و بج‌های بهبودیافته، کارت‌های غنی‌تر، یکپارچه‌سازی تحلیل‌گرها، و چند بهبود ناوبری. همچنین شامل رفع اشکالات پایداری و به‌روزرسانی‌های مستندات است.&lt;/p&gt;
 &lt;h2&gt;راهنمای ارتقا&lt;span class="hx:absolute hx:-mt-20" id="راهنمای-ارتقا"&gt;&lt;/span&gt;
 &lt;a href="#%d8%b1%d8%a7%d9%87%d9%86%d9%85%d8%a7%db%8c-%d8%a7%d8%b1%d8%aa%d9%82%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;برای بیشتر سایت‌ها تغییر شکست‌آمیزی وجود ندارد. با استفاده از &lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -353,18 +353,18 @@ data-copied-label="کپی شد!"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/33a08c9b-db84-4200-b37c-1a53c1bef08d" alt="بنر بالایی" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;بازطراحی Callout&lt;span class="hx:absolute hx:-mt-20" id="بازطراحی-callout"&gt;&lt;/span&gt;
-&lt;a href="#%d8%a8%d8%a7%d8%b2%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-callout" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/fa/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; برای خوانایی بهتر و تأکید مناسب در تمام تم‌ها بازطراحی شده است.&lt;/p&gt;
+&lt;a href="#%d8%a8%d8%a7%d8%b2%d8%b7%d8%b1%d8%a7%d8%ad%db%8c-callout" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; برای خوانایی بهتر و تأکید مناسب در تمام تم‌ها بازطراحی شده است.&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/b3154dbb-e582-4c84-a8b8-1ecb02c3464d" alt="بازطراحی Callout" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;تحلیل‌گرها: Umami و Matomo&lt;span class="hx:absolute hx:-mt-20" id="تحلیلگرها-umami-و-matomo"&gt;&lt;/span&gt;
 &lt;a href="#%d8%aa%d8%ad%d9%84%db%8c%d9%84%da%af%d8%b1%d9%87%d8%a7-umami-%d9%88-matomo" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;پیکربندی داخلی برای فراهم‌کنندگان تحلیل‌گر:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/fa/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/fa/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;شورت‌کد Asciinema&lt;span class="hx:absolute hx:-mt-20" id="شورتکد-asciinema"&gt;&lt;/span&gt;
 &lt;a href="#%d8%b4%d9%88%d8%b1%d8%aa%da%a9%d8%af-asciinema" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;با استفاده از &lt;a href="https://www.asciinema.org/"target="_blank" rel="noopener"&gt;Asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt; و &lt;a href="https://example.com/fa/docs/guide/shortcodes/asciinema/"&gt;شورت‌کد Asciinema&lt;/a&gt; ضبط‌های ترمینال را درون‌گذاری کنید.&lt;/p&gt;
+&lt;/svg&gt;&lt;/a&gt; و &lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/asciinema/"&gt;شورت‌کد Asciinema&lt;/a&gt; ضبط‌های ترمینال را درون‌گذاری کنید.&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; asciinema id=&amp;#34;123456&amp;#34; autoplay=true loop=true &amp;gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
@@ -424,8 +424,8 @@ data-copied-label="کپی شد!"
 &lt;/div&gt;
 &lt;h3&gt;بهبود کارت‌ها و بج‌ها&lt;span class="hx:absolute hx:-mt-20" id="بهبود-کارتها-و-بجها"&gt;&lt;/span&gt;
 &lt;a href="#%d8%a8%d9%87%d8%a8%d9%88%d8%af-%da%a9%d8%a7%d8%b1%d8%aa%d9%87%d8%a7-%d9%88-%d8%a8%d8%ac%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/fa/docs/guide/shortcodes/cards/"&gt;کارت‌ها&lt;/a&gt;: گزینه‌های جدید &lt;code&gt;tagIcon&lt;/code&gt; و &lt;code&gt;tagBorder&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/fa/docs/guide/shortcodes/others/"&gt;بج‌ها&lt;/a&gt;: رنگ‌ها و سبک‌های حاشیهٔ جدید.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/cards/"&gt;کارت‌ها&lt;/a&gt;: گزینه‌های جدید &lt;code&gt;tagIcon&lt;/code&gt; و &lt;code&gt;tagBorder&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/others/"&gt;بج‌ها&lt;/a&gt;: رنگ‌ها و سبک‌های حاشیهٔ جدید.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;بهبودهای کیفیت زندگی&lt;span class="hx:absolute hx:-mt-20" id="بهبودهای-کیفیت-زندگی"&gt;&lt;/span&gt;
 &lt;a href="#%d8%a8%d9%87%d8%a8%d9%88%d8%af%d9%87%d8%a7%db%8c-%da%a9%db%8c%d9%81%db%8c%d8%aa-%d8%b2%d9%86%d8%af%da%af%db%8c" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -449,7 +449,7 @@ data-copied-label="کپی شد!"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;تغییرات کامل&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://example.com/fa/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/fa/blog/v0.10/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://cyberxlab.3344198.xyz/fa/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/blog/v0.10/</guid><description>
 &lt;p&gt;Hextra v0.10.0 یک انتشار بزرگ است که مملو از قابلیت‌های جدید، ارتقاهای معماری و بهبودهای کیفیت زندگی می‌باشد.&lt;/p&gt;
 &lt;p&gt;همچنین شامل مشارکت‌های 10 &lt;a href="#contributors"&gt;مشارکت‌کننده جدید&lt;/a&gt; بوده و درخواست‌های دیرینه جامعه را برطرف می‌کند.&lt;/p&gt;
 &lt;h2&gt;راهنمای ارتقا&lt;span class="hx:absolute hx:-mt-20" id="راهنمای-ارتقا"&gt;&lt;/span&gt;

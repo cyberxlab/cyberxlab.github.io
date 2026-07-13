@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – 博客</title><link>https://example.com/zh-cn/blog/</link><description>Recent content in 博客 on Hextra</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://example.com/zh-cn/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://example.com/zh-cn/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/zh-cn/blog/v0.12/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – 博客</title><link>https://cyberxlab.3344198.xyz/zh-cn/blog/</link><description>Recent content in 博客 on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="https://cyberxlab.3344198.xyz/zh-cn/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://cyberxlab.3344198.xyz/zh-cn/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/zh-cn/blog/v0.12/</guid><description>
 &lt;p&gt;Hextra v0.12.0 带来了丰富的新功能，包括页面上下文菜单、图片缩放、全新设计的标签页等，同时提供全面的 WCAG 2.2 AA 无障碍改进和大量错误修复。&lt;/p&gt;
 &lt;h2&gt;升级指南&lt;span class="hx:absolute hx:-mt-20" id="升级指南"&gt;&lt;/span&gt;
 &lt;a href="#%e5%8d%87%e7%ba%a7%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;对大多数站点而言没有破坏性变更。使用 &lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -75,7 +75,7 @@ data-copied-label="已复制！"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;标签页重设计与图标支持&lt;span class="hx:absolute hx:-mt-20" id="标签页重设计与图标支持"&gt;&lt;/span&gt;
-&lt;a href="#%e6%a0%87%e7%ad%be%e9%a1%b5%e9%87%8d%e8%ae%be%e8%ae%a1%e4%b8%8e%e5%9b%be%e6%a0%87%e6%94%af%e6%8c%81" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/tabs/"&gt;标签页短代码&lt;/a&gt;经过重新设计。现在可以直接在每个 &lt;code&gt;tab&lt;/code&gt; 短代码上设置标签名称，可选的 &lt;code&gt;icon&lt;/code&gt; 参数可在标签文字前显示图标。之前的语法仍然支持。&lt;/p&gt;
+&lt;a href="#%e6%a0%87%e7%ad%be%e9%a1%b5%e9%87%8d%e8%ae%be%e8%ae%a1%e4%b8%8e%e5%9b%be%e6%a0%87%e6%94%af%e6%8c%81" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/tabs/"&gt;标签页短代码&lt;/a&gt;经过重新设计。现在可以直接在每个 &lt;code&gt;tab&lt;/code&gt; 短代码上设置标签名称，可选的 &lt;code&gt;icon&lt;/code&gt; 参数可在标签文字前显示图标。之前的语法仍然支持。&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; tabs &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Photos&amp;#34; icon=&amp;#34;photograph&amp;#34; &amp;gt;}}管理和整理您的照片库。{{&amp;lt; /tab &amp;gt;}}
@@ -208,7 +208,7 @@ data-copied-label="已复制！"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/262cc0fa-e0af-4a50-8c3d-4465059418b8" alt="归档页面" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;术语表&lt;span class="hx:absolute hx:-mt-20" id="术语表"&gt;&lt;/span&gt;
-&lt;a href="#%e6%9c%af%e8%af%ad%e8%a1%a8" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站点级&lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/term/"&gt;术语表&lt;/a&gt;，提供专用列表页面和用于内联定义的 &lt;code&gt;term&lt;/code&gt; 短代码。&lt;/p&gt;
+&lt;a href="#%e6%9c%af%e8%af%ad%e8%a1%a8" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;站点级&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/term/"&gt;术语表&lt;/a&gt;，提供专用列表页面和用于内联定义的 &lt;code&gt;term&lt;/code&gt; 短代码。&lt;/p&gt;
 &lt;h2&gt;无障碍&lt;span class="hx:absolute hx:-mt-20" id="无障碍"&gt;&lt;/span&gt;
 &lt;a href="#%e6%97%a0%e9%9a%9c%e7%a2%8d" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;全面的 WCAG 2.2 AA 无障碍改进 (#924)：&lt;/p&gt;
 &lt;ul&gt;
@@ -301,7 +301,7 @@ data-copied-label="已复制！"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;完整变更日志&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://example.com/zh-cn/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/zh-cn/blog/v0.11/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://cyberxlab.3344198.xyz/zh-cn/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/zh-cn/blog/v0.11/</guid><description>
 &lt;p&gt;Hextra v0.11.0 专注于打磨使用体验并带来数个实用新组件：站点级顶部横幅、改进的提示框与徽章、更丰富的卡片、分析工具集成，以及多项导航优化。同时包含稳定性修复和文档更新。&lt;/p&gt;
 &lt;h2&gt;升级指南&lt;span class="hx:absolute hx:-mt-20" id="升级指南"&gt;&lt;/span&gt;
 &lt;a href="#%e5%8d%87%e7%ba%a7%e6%8c%87%e5%8d%97" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;对大多数站点而言没有破坏性变更。使用 &lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -353,16 +353,16 @@ data-copied-label="已复制！"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/33a08c9b-db84-4200-b37c-1a53c1bef08d" alt="顶部横幅" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;提示框重设计&lt;span class="hx:absolute hx:-mt-20" id="提示框重设计"&gt;&lt;/span&gt;
-&lt;a href="#%e6%8f%90%e7%a4%ba%e6%a1%86%e9%87%8d%e8%ae%be%e8%ae%a1" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; 获得样式刷新，在各主题下具备更好的可读性与强调效果。&lt;/p&gt;
+&lt;a href="#%e6%8f%90%e7%a4%ba%e6%a1%86%e9%87%8d%e8%ae%be%e8%ae%a1" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; 获得样式刷新，在各主题下具备更好的可读性与强调效果。&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/b3154dbb-e582-4c84-a8b8-1ecb02c3464d" alt="提示框刷新" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;分析：Umami 与 Matomo&lt;span class="hx:absolute hx:-mt-20" id="分析umami-与-matomo"&gt;&lt;/span&gt;
 &lt;a href="#%e5%88%86%e6%9e%90umami-%e4%b8%8e-matomo" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;内置以下分析平台的配置支持：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/zh-cn/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/zh-cn/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Asciinema 短代码&lt;span class="hx:absolute hx:-mt-20" id="asciinema-短代码"&gt;&lt;/span&gt;
-&lt;a href="#asciinema-%e7%9f%ad%e4%bb%a3%e7%a0%81" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;使用全新的 &lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/asciinema/"&gt;Asciinema 短代码&lt;/a&gt; 嵌入 &lt;a href="https://www.asciinema.org/"target="_blank" rel="noopener"&gt;Asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
+&lt;a href="#asciinema-%e7%9f%ad%e4%bb%a3%e7%a0%81" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;使用全新的 &lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/asciinema/"&gt;Asciinema 短代码&lt;/a&gt; 嵌入 &lt;a href="https://www.asciinema.org/"target="_blank" rel="noopener"&gt;Asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; 终端录屏。&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
@@ -424,8 +424,8 @@ data-copied-label="已复制！"
 &lt;/div&gt;
 &lt;h3&gt;卡片与徽章的改进&lt;span class="hx:absolute hx:-mt-20" id="卡片与徽章的改进"&gt;&lt;/span&gt;
 &lt;a href="#%e5%8d%a1%e7%89%87%e4%b8%8e%e5%be%bd%e7%ab%a0%e7%9a%84%e6%94%b9%e8%bf%9b" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/cards/"&gt;卡片&lt;/a&gt;：新增 &lt;code&gt;tagIcon&lt;/code&gt; 与 &lt;code&gt;tagBorder&lt;/code&gt; 选项。&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/zh-cn/docs/guide/shortcodes/others/"&gt;徽章&lt;/a&gt;：新增颜色与边框样式。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/cards/"&gt;卡片&lt;/a&gt;：新增 &lt;code&gt;tagIcon&lt;/code&gt; 与 &lt;code&gt;tagBorder&lt;/code&gt; 选项。&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/zh-cn/docs/guide/shortcodes/others/"&gt;徽章&lt;/a&gt;：新增颜色与边框样式。&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;使用体验优化&lt;span class="hx:absolute hx:-mt-20" id="使用体验优化"&gt;&lt;/span&gt;
 &lt;a href="#%e4%bd%bf%e7%94%a8%e4%bd%93%e9%aa%8c%e4%bc%98%e5%8c%96" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -449,7 +449,7 @@ data-copied-label="已复制！"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;完整变更日志&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://example.com/zh-cn/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/zh-cn/blog/v0.10/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://cyberxlab.3344198.xyz/zh-cn/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/zh-cn/blog/v0.10/</guid><description>
 &lt;p&gt;Hextra v0.10.0 是一个重大版本更新，包含多项新功能、架构升级和使用体验优化。&lt;/p&gt;
 &lt;p&gt;本次更新还包含了来自 10 位 &lt;a href="#contributors"&gt;新贡献者&lt;/a&gt; 的代码提交，并解决了社区长期期待的功能需求。&lt;/p&gt;
 &lt;h2&gt;升级指南&lt;span class="hx:absolute hx:-mt-20" id="升级指南"&gt;&lt;/span&gt;
@@ -818,7 +818,7 @@ data-copied-label="已复制！"
 &lt;/svg&gt;&lt;/a&gt; 和 &lt;a href="https://github.com/yuri1969"target="_blank" rel="noopener"&gt;@yuri1969&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; 在文档、翻译和技术改进方面的持续支持。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;完整更新日志&lt;/strong&gt;：https://github.com/imfing/hextra/compare/v0.9.7&amp;hellip;v0.10.0&lt;/p&gt;</description></item><item><title>Markdown 语法指南</title><link>https://example.com/zh-cn/blog/markdown/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://example.com/zh-cn/blog/markdown/</guid><description>
+&lt;p&gt;&lt;strong&gt;完整更新日志&lt;/strong&gt;：https://github.com/imfing/hextra/compare/v0.9.7&amp;hellip;v0.10.0&lt;/p&gt;</description></item><item><title>Markdown 语法指南</title><link>https://cyberxlab.3344198.xyz/zh-cn/blog/markdown/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/zh-cn/blog/markdown/</guid><description>
 &lt;p&gt;本文展示了 Hugo 内容文件中可用的基础 Markdown 语法示例。&lt;/p&gt;
 &lt;h2&gt;基础语法&lt;span class="hx:absolute hx:-mt-20" id="基础语法"&gt;&lt;/span&gt;
 &lt;a href="#%e5%9f%ba%e7%a1%80%e8%af%ad%e6%b3%95" class="subheading-anchor" aria-label="此章节的永久链接"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;标题&lt;span class="hx:absolute hx:-mt-20" id="标题"&gt;&lt;/span&gt;

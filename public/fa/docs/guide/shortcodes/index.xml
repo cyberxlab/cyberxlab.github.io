@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>هگزترا – شورت‌کدها</title><link>https://example.com/fa/docs/guide/shortcodes/</link><description>Recent content in شورت‌کدها on هگزترا</description><generator>Hugo -- gohugo.io</generator><language>fa</language><atom:link href="https://example.com/fa/docs/guide/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Asciinema Player کامپوننت</title><link>https://example.com/fa/docs/guide/shortcodes/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/asciinema/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – شورت‌کدها</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/</link><description>Recent content in شورت‌کدها on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>fa</language><atom:link href="https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/index.xml" rel="self" type="application/rss+xml"/><item><title>Asciinema Player کامپوننت</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/asciinema/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/asciinema/</guid><description>
 &lt;p&gt;shortcode asciinema به شما امکان می‌دهد تا ضبط‌های ترمینال ایجاد شده با &lt;a href="https://asciinema.org/"target="_blank" rel="noopener"&gt;asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; را در سایت Hugo خود جاسازی کنید. این یک پخش‌کننده ترمینال غنی با ویژگی‌هایی مانند کنترل پخش، تنظیم سرعت و سفارشی‌سازی تم ارائه می‌دهد.&lt;/p&gt;
@@ -232,7 +232,7 @@ data-loop="true"data-markers="[[1.5,&amp;#34;Installation&amp;#34;],[3.2,&amp;#3
 &lt;td&gt;نشانگرهای زمانی جدا شده با کاما. فرمت: &amp;ldquo;زمان:برچسب&amp;rdquo; یا فقط &amp;ldquo;زمان&amp;rdquo; (مثل &amp;ldquo;1.5:Installation,3.2:Configuration,5.8&amp;rdquo;)&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>کامپوننت Callout</title><link>https://example.com/fa/docs/guide/shortcodes/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/callout/</guid><description>
+&lt;/table&gt;</description></item><item><title>کامپوننت Callout</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/callout/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/callout/</guid><description>
 &lt;p&gt;یک کامپوننت داخلی برای نمایش اطلاعات مهم به خواننده.&lt;/p&gt;
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:flex-col hx:rounded-lg hx:border hx:py-4 hx:px-4 hx:border-gray-200 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
 &lt;p class="hx:flex hx:items-center hx:font-medium"&gt;&lt;svg height=16px class="hx:inline-block hx:align-middle hx:mr-2" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/&gt;&lt;/svg&gt;Note&lt;/p&gt;
@@ -492,7 +492,7 @@ data-copied-label="کپی شد!"
 &lt;td&gt;رمز تعبيري للنداء (مرتبط بالنوع أو يمكن أن يكون رمز تعبيري مخصصًا).&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>کامپوننت FileTree</title><link>https://example.com/fa/docs/guide/shortcodes/filetree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/filetree/</guid><description>
+&lt;/table&gt;</description></item><item><title>کامپوننت FileTree</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/filetree/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/filetree/</guid><description>
 &lt;h2&gt;مثال&lt;span class="hx:absolute hx:-mt-20" id="مثال"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-filetree hx:mt-6 hx:select-none hx:text-sm hx:text-gray-800 hx:dark:text-gray-300 not-prose"&gt;
 &lt;div class="hx:inline-block hx:rounded-lg hx:px-4 hx:py-2 hx:border hx:border-gray-200 hx:dark:border-neutral-800"&gt;
@@ -596,7 +596,7 @@ data-copied-label="کپی شد!"
 &lt;td&gt;حالة الملف. يمكن أن تكون &lt;code&gt;open&lt;/code&gt; أو &lt;code&gt;closed&lt;/code&gt;. القيمة الافتراضية هي &lt;code&gt;open&lt;/code&gt;.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>Hextra Shortcodes</title><link>https://example.com/fa/docs/guide/shortcodes/hextra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/hextra/</guid><description>
+&lt;/table&gt;</description></item><item><title>Hextra Shortcodes</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/hextra/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/hextra/</guid><description>
 &lt;p&gt;الاستخدام الرئيسي لهذه الرموز المختصرة هو داخل التخطيط &lt;code&gt;hextra-home&lt;/code&gt;.&lt;/p&gt;
 &lt;h2&gt;&lt;code&gt;hextra/feature-card&lt;/code&gt;&lt;span class="hx:absolute hx:-mt-20" id="hextrafeature-card"&gt;&lt;/span&gt;
 &lt;a href="#hextrafeature-card" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;رمز مختصر لعرض بطاقة مميزة.&lt;/p&gt;
@@ -955,7 +955,7 @@ data-copied-label="کپی شد!"
 &lt;td&gt;أسلوب الترجمة.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>کامپوننت Jupyter Notebook</title><link>https://example.com/fa/docs/guide/shortcodes/jupyter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/jupyter/</guid><description>
+&lt;/table&gt;</description></item><item><title>کامپوننت Jupyter Notebook</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/jupyter/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/jupyter/</guid><description>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -1251,7 +1251,7 @@ data-copied-label="کپی شد!"
 &lt;a href="#equations" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The following is an example of a simple equation using LaTeX.&lt;/p&gt;
 &lt;span class="katex-display"&gt;&lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML" display="block"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mi&gt;E&lt;/mi&gt;&lt;mo&gt;=&lt;/mo&gt;&lt;mi&gt;m&lt;/mi&gt;&lt;msup&gt;&lt;mi&gt;c&lt;/mi&gt;&lt;mn&gt;2&lt;/mn&gt;&lt;/msup&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;
 E = mc^2
-&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6833em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal" style="margin-right:0.05764em;"&gt;E&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8641em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;m&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;c&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8641em;"&gt;&lt;span style="top:-3.113em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</description></item><item><title>آیکون</title><link>https://example.com/fa/docs/guide/shortcodes/icon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/icon/</guid><description>
+&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.6833em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal" style="margin-right:0.05764em;"&gt;E&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;span class="mrel"&gt;=&lt;/span&gt;&lt;span class="mspace" style="margin-right:0.2778em;"&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8641em;"&gt;&lt;/span&gt;&lt;span class="mord mathnormal"&gt;m&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord mathnormal"&gt;c&lt;/span&gt;&lt;span class="msupsub"&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.8641em;"&gt;&lt;span style="top:-3.113em;margin-right:0.05em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="sizing reset-size6 size3 mtight"&gt;&lt;span class="mord mtight"&gt;2&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;</description></item><item><title>آیکون</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/icon/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/icon/</guid><description>
 &lt;p&gt;برای استفاده از این شورت‌کد به صورت درون‌خطی، باید قابلیت شورت‌کدهای درون‌خطی در تنظیمات فعال شود:&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div class="hextra-code-filename not-prose" dir="auto"&gt;hugo.yaml&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nt"&gt;enableInlineShortcodes&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;&lt;span class="w"&gt; &lt;/span&gt;&lt;span class="kc"&gt;true&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-8"&gt;
@@ -1428,9 +1428,9 @@ data-copied-label="کپی شد!"
 &lt;td&gt;سمات الأيقونة.&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>اصطلاح</title><link>https://example.com/fa/docs/guide/shortcodes/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/term/</guid><description>
+&lt;/table&gt;</description></item><item><title>اصطلاح</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/term/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/term/</guid><description>
 &lt;p&gt;یک مؤلفهٔ داخلی برای نمایش تعریف اصطلاحات.&lt;/p&gt;
-&lt;p&gt;تعاریف اصطلاحات در یک &lt;a href="https://example.com/fa/docs/advanced/additional-pages/#glossary"&gt;فایل دادهٔ YAML&lt;/a&gt; ساختاریافته نگهداری می‌شوند،
+&lt;p&gt;تعاریف اصطلاحات در یک &lt;a href="https://cyberxlab.3344198.xyz/fa/docs/advanced/additional-pages/#glossary"&gt;فایل دادهٔ YAML&lt;/a&gt; ساختاریافته نگهداری می‌شوند،
 و برای هر زبان پشتیبانی‌شده یک فایل جداگانه تعریف می‌گردد.&lt;/p&gt;
 &lt;h2&gt;مثال&lt;span class="hx:absolute hx:-mt-20" id="مثال"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -1470,7 +1470,7 @@ data-copied-label="کپی شد!"
 &lt;td&gt;اصطلاح واژه‌نامه&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>تب‌ها</title><link>https://example.com/fa/docs/guide/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/tabs/</guid><description>
+&lt;/table&gt;</description></item><item><title>تب‌ها</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/tabs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/tabs/</guid><description>
 &lt;h2&gt;مثال&lt;span class="hx:absolute hx:-mt-20" id="مثال"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;
 &lt;div class="hextra-scrollbar hx:overflow-x-auto hx:overflow-y-hidden hx:overscroll-x-contain"&gt;
@@ -1653,7 +1653,7 @@ data-copied-label="کپی شد!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>جزئیات</title><link>https://example.com/fa/docs/guide/shortcodes/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/details/</guid><description>
+&lt;/div&gt;</description></item><item><title>جزئیات</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/details/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/details/</guid><description>
 &lt;p&gt;یک کامپوننت داخلی برای نمایش محتوای جمع‌شدنی.&lt;/p&gt;
 &lt;h2&gt;مثال&lt;span class="hx:absolute hx:-mt-20" id="مثال"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;details class="hx:last-of-type:mb-0 hx:rounded-lg hx:bg-neutral-50 hx:dark:bg-neutral-800 hx:p-2 hx:mt-4 hx:group" open&gt;
@@ -1709,7 +1709,7 @@ data-copied-label="کپی شد!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>سایر شورتکدها</title><link>https://example.com/fa/docs/guide/shortcodes/others/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/others/</guid><description>
+&lt;/div&gt;</description></item><item><title>سایر شورتکدها</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/others/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/others/</guid><description>
 &lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-amber-200 hx:bg-amber-100 hx:text-amber-900 hx:dark:border-amber-200/30 hx:dark:bg-amber-900/30 hx:dark:text-amber-200"&gt;
 &lt;div class="hx:ltr:pl-3 hx:ltr:pr-2 hx:rtl:pr-3 hx:rtl:pl-2"&gt;&lt;svg height=1.2em class="hx:inline-block hx:align-middle" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"/&gt;&lt;/svg&gt;&lt;/div&gt;
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
@@ -1962,7 +1962,7 @@ data-copied-label="کپی شد!"
 &lt;p&gt;مثال:&lt;/p&gt;
 &lt;div class="hextra-pdf"&gt;
 &lt;iframe src="https://upload.wikimedia.org/wikipedia/commons/1/13/Example.pdf" width="100%" style="min-height: 32rem;" frameborder="0" title="نمایشگر PDF"&gt;&lt;/iframe&gt;
-&lt;/div&gt;</description></item><item><title>کامپوننت کارت‌ها</title><link>https://example.com/fa/docs/guide/shortcodes/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/cards/</guid><description>
+&lt;/div&gt;</description></item><item><title>کامپوننت کارت‌ها</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/cards/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/cards/</guid><description>
 &lt;h2&gt;مثال&lt;span class="hx:absolute hx:-mt-20" id="مثال"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
 &lt;a
@@ -1976,13 +1976,13 @@ class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hid
 &lt;div class="hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:text-gray-600 hx:bg-gray-100 hx:dark:bg-neutral-800 hx:dark:text-neutral-200 hx:border-gray-200 hx:dark:border-neutral-700"&gt;تگ سفارشی&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;بدون آیکون&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 3;"&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="کارت تصویری"
 class="hextra-card-image"
@@ -1992,23 +1992,23 @@ src="https://github.com/user-attachments/assets/71b7e3ec-1a8d-4582-b600-5425c6cc
 /&gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;کارت تصویری&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;تصویر اینترنتی&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="تصویر محلی"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://example.com/images/card-image-unprocessed.jpg"
+src="https://cyberxlab.3344198.xyz/images/card-image-unprocessed.jpg"
 /&gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:pt-4 hx:px-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;تصویر محلی&lt;/span&gt;&lt;div class="hextra-card-subtitle hx:line-clamp-3 hx:text-sm hx:font-normal hx:text-gray-500 hx:dark:text-gray-400 hx:px-4 hx:mb-4 hx:mt-2"&gt;تصویر خام در دایرکتوری استاتیک.&lt;/div&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="تصویر محلی"
 class="hextra-card-image"
 loading="lazy"
 decoding="async"
-src="https://example.com/images/space_hu_4aca3bdd361c8629.webp"
+src="https://cyberxlab.3344198.xyz/images/space_hu_4aca3bdd361c8629.webp"
 width="600"
 height="450"
 /&gt;&lt;div class="hx:mt-auto"&gt;
@@ -2151,7 +2151,7 @@ class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hid
 &lt;div class="hx:inline-flex hx:gap-1 hx:items-center hx:rounded-full hx:px-2.5 hx:leading-6 hx:text-[.65rem] hx:border hx:border-yellow-100 hx:bg-yellow-50 hx:text-yellow-900 hx:dark:border-yellow-200/30 hx:dark:bg-yellow-700/30 hx:dark:text-yellow-200"&gt;متن تگ&lt;/div&gt;
 &lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-gray-100 hx:shadow-sm hx:dark:border-neutral-700 hx:dark:bg-neutral-800 hx:dark:text-gray-50 hx:hover:shadow-lg hx:dark:hover:border-neutral-500 hx:dark:hover:bg-neutral-700"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;img
 alt="کارت تصویری"
 class="hextra-card-image"
@@ -2185,21 +2185,21 @@ data-copied-label="کپی شد!"
 &lt;a href="#%d8%b3%d8%aa%d9%88%d9%86%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;می‌توانید حداکثر تعداد ستون‌هایی که کارت‌ها می‌توانند در آن قرار بگیرند را با ارسال پارامتر &lt;code&gt;cols&lt;/code&gt; به شورت‌کد &lt;code&gt;cards&lt;/code&gt; مشخص کنید. توجه داشته باشید که ستون‌ها در صفحه‌های کوچکتر همچنان جمع می‌شوند.&lt;/p&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 1;"&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;کارت بالا&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;کارت پایین&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;div class="hextra-cards hx:mt-4 hx:gap-4 hx:grid not-prose" style="--hextra-cards-grid-cols: 2;"&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;کارت چپ&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;a
-class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://example.com/"
+class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="https://cyberxlab.3344198.xyz/"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;کارت راست&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
 &lt;/div&gt;
@@ -2222,7 +2222,7 @@ data-copied-label="کپی شد!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>گالری تصاویر</title><link>https://example.com/fa/docs/guide/shortcodes/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/gallery/</guid><description>
+&lt;/div&gt;</description></item><item><title>گالری تصاویر</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/gallery/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/gallery/</guid><description>
 &lt;h2&gt;مرور کلی&lt;span class="hx:absolute hx:-mt-20" id="مرور-کلی"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%b1%d9%88%d8%b1-%da%a9%d9%84%db%8c" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;شورت‌کد &lt;code&gt;gallery&lt;/code&gt; مجموعه‌ای از تصاویر را همراه با لایت‌باکس تعاملی &lt;a href="https://photoswipe.com/"target="_blank" rel="noopener"&gt;PhotoSwipe v5&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
@@ -2255,9 +2255,9 @@ style="--hextra-gallery-cols: 3; --hextra-gallery-gap: 0.5rem;"
 &lt;figure class="hextra-gallery__item"&gt;
 &lt;a
 class="hextra-gallery__link"
-href="https://example.com/images/space.jpg" data-pswp-width="1200" data-pswp-height="900"&gt;
+href="https://cyberxlab.3344198.xyz/images/space.jpg" data-pswp-width="1200" data-pswp-height="900"&gt;
 &lt;img
-src="https://example.com/images/space_hu_65d0bf520ddda320.webp"
+src="https://cyberxlab.3344198.xyz/images/space_hu_65d0bf520ddda320.webp"
 alt="فضا"
 loading="lazy"
 decoding="async" width="800" height="600"/&gt;
@@ -2691,7 +2691,7 @@ data-copied-label="کپی شد!"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h2&gt;پیکربندی&lt;span class="hx:absolute hx:-mt-20" id="پیکربندی"&gt;&lt;/span&gt;
-&lt;a href="#%d9%be%db%8c%da%a9%d8%b1%d8%a8%d9%86%d8%af%db%8c" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;به‌طور پیش‌فرض، PhotoSwipe از CDN jsDelivr بارگذاری می‌شود. برای استفاده از نسخه self-host شده یا آینه‌شده، یک بلوک &lt;code&gt;gallery&lt;/code&gt; به &lt;code&gt;params&lt;/code&gt; در پیکربندی سایت خود اضافه کنید. برای جزئیات به صفحه &lt;a href="https://example.com/fa/docs/guide/configuration/#local-and-mirrored-script-assets"&gt;پیکربندی&lt;/a&gt; مراجعه کنید.&lt;/p&gt;
+&lt;a href="#%d9%be%db%8c%da%a9%d8%b1%d8%a8%d9%86%d8%af%db%8c" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;به‌طور پیش‌فرض، PhotoSwipe از CDN jsDelivr بارگذاری می‌شود. برای استفاده از نسخه self-host شده یا آینه‌شده، یک بلوک &lt;code&gt;gallery&lt;/code&gt; به &lt;code&gt;params&lt;/code&gt; در پیکربندی سایت خود اضافه کنید. برای جزئیات به صفحه &lt;a href="https://cyberxlab.3344198.xyz/fa/docs/guide/configuration/#local-and-mirrored-script-assets"&gt;پیکربندی&lt;/a&gt; مراجعه کنید.&lt;/p&gt;
 &lt;h2&gt;پارامترها&lt;span class="hx:absolute hx:-mt-20" id="پارامترها"&gt;&lt;/span&gt;
 &lt;a href="#%d9%be%d8%a7%d8%b1%d8%a7%d9%85%d8%aa%d8%b1%d9%87%d8%a7" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;&lt;code&gt;gallery&lt;/code&gt;&lt;span class="hx:absolute hx:-mt-20" id="gallery"&gt;&lt;/span&gt;
 &lt;a href="#gallery" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;table&gt;
@@ -2784,7 +2784,7 @@ data-copied-label="کپی شد!"
 &lt;td&gt;راهنمای span برای mosaic: &lt;code&gt;wide&lt;/code&gt; (۲ ستون)، &lt;code&gt;tall&lt;/code&gt; (۲ سطر) یا &lt;code&gt;large&lt;/code&gt; (۲x۲). تنها زمانی اعمال می‌شود که &lt;code&gt;type=&amp;quot;mosaic&amp;quot;&lt;/code&gt; باشد&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
-&lt;/table&gt;</description></item><item><title>مراحل</title><link>https://example.com/fa/docs/guide/shortcodes/steps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/guide/shortcodes/steps/</guid><description>
+&lt;/table&gt;</description></item><item><title>مراحل</title><link>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/steps/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/guide/shortcodes/steps/</guid><description>
 &lt;p&gt;یک کامپوننت داخلی برای نمایش یک سری مراحل.&lt;/p&gt;
 &lt;h2&gt;مثال&lt;span class="hx:absolute hx:-mt-20" id="مثال"&gt;&lt;/span&gt;
 &lt;a href="#%d9%85%d8%ab%d8%a7%d9%84" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hextra-steps hx:ml-4 hx:mb-12 hx:ltr:border-l hx:rtl:border-r hx:border-gray-200 hx:ltr:pl-6 hx:rtl:pr-6 hx:dark:border-neutral-800 [counter-reset:step]"&gt;

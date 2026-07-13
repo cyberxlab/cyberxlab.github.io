@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – 設定</title><link>https://example.com/ja/tags/%E8%A8%AD%E5%AE%9A/</link><description>Recent content in 設定 on Hextra</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><atom:link href="https://example.com/ja/tags/%E8%A8%AD%E5%AE%9A/index.xml" rel="self" type="application/rss+xml"/><item><title>設定</title><link>https://example.com/ja/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/ja/docs/guide/configuration/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – 設定</title><link>https://cyberxlab.3344198.xyz/ja/tags/%E8%A8%AD%E5%AE%9A/</link><description>Recent content in 設定 on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><atom:link href="https://cyberxlab.3344198.xyz/ja/tags/%E8%A8%AD%E5%AE%9A/index.xml" rel="self" type="application/rss+xml"/><item><title>設定</title><link>https://cyberxlab.3344198.xyz/ja/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/docs/guide/configuration/</guid><description>
 &lt;p&gt;Hugo はサイトのルートにある &lt;code&gt;hugo.yaml&lt;/code&gt; から設定を読み込みます。
 この設定ファイルであなたのサイトのあらゆる側面を設定できます。
 利用可能な設定項目とベストプラクティスを網羅的に理解するには、GitHub 上のこのサイトの設定ファイル &lt;a href="https://github.com/imfing/hextra/blob/main/docs/hugo.yaml"target="_blank" rel="noopener"&gt;&lt;code&gt;docs/hugo.yaml&lt;/code&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -221,7 +221,7 @@ data-copied-label="コピーしました！"
 &lt;h2&gt;サイドバー&lt;span class="hx:absolute hx:-mt-20" id="サイドバー"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%b5%e3%82%a4%e3%83%89%e3%83%90%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;メインサイドバー&lt;span class="hx:absolute hx:-mt-20" id="メインサイドバー"&gt;&lt;/span&gt;
 &lt;a href="#%e3%83%a1%e3%82%a4%e3%83%b3%e3%82%b5%e3%82%a4%e3%83%89%e3%83%90%e3%83%bc" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;メインサイドバーはコンテンツディレクトリの構造から自動生成されます。
-詳細は &lt;a href="https://example.com/ja/docs/guide/organize-files/"&gt;ファイルの整理&lt;/a&gt; ページを参照してください。&lt;/p&gt;
+詳細は &lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/organize-files/"&gt;ファイルの整理&lt;/a&gt; ページを参照してください。&lt;/p&gt;
 &lt;p&gt;単一ページを左サイドバーから除外するには、ページのフロントマターで &lt;code&gt;sidebar.exclude&lt;/code&gt; パラメータを設定します：&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/docs/guide/configuration.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
@@ -774,7 +774,7 @@ data-copied-label="コピーしました！"
 &lt;p&gt;各リンクには以下を設定できます：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;name&lt;/code&gt; - リンクの表示テキスト&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - オプションのアイコン名（&lt;a href="https://example.com/ja/docs/guide/shortcodes/icon/"&gt;アイコン&lt;/a&gt;を参照）&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - オプションのアイコン名（&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/icon/"&gt;アイコン&lt;/a&gt;を参照）&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;url&lt;/code&gt; - オプションのプレースホルダーを含む URL&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;FlexSearch インデックス&lt;span class="hx:absolute hx:-mt-20" id="flexsearch-インデックス"&gt;&lt;/span&gt;

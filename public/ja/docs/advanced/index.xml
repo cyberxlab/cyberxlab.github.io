@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – 高度なトピック</title><link>https://example.com/ja/docs/advanced/</link><description>Recent content in 高度なトピック on Hextra</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><atom:link href="https://example.com/ja/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>多言語対応</title><link>https://example.com/ja/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/ja/docs/advanced/multi-language/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – 高度なトピック</title><link>https://cyberxlab.3344198.xyz/ja/docs/advanced/</link><description>Recent content in 高度なトピック on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><atom:link href="https://cyberxlab.3344198.xyz/ja/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>多言語対応</title><link>https://cyberxlab.3344198.xyz/ja/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/docs/advanced/multi-language/</guid><description>
 &lt;p&gt;Hextra は Hugo の &lt;a href="https://gohugo.io/content-management/multilingual/"target="_blank" rel="noopener"&gt;多言語モード&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; を使用して、複数言語のサイトを作成することをサポートしています。&lt;/p&gt;
@@ -144,7 +144,7 @@ data-copied-label="コピーしました！"
 &lt;li&gt;&lt;a href="https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/"target="_blank" rel="noopener"&gt;Hugo 多言語対応 パート2: 文字列のローカライズ&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>追加ページ</title><link>https://example.com/ja/docs/advanced/additional-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/ja/docs/advanced/additional-pages/</guid><description>
+&lt;/ul&gt;</description></item><item><title>追加ページ</title><link>https://cyberxlab.3344198.xyz/ja/docs/advanced/additional-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/docs/advanced/additional-pages/</guid><description>
 &lt;p&gt;Hextra には明示的に有効化する追加ページがあります。用語集とアーカイブです。&lt;/p&gt;
 &lt;h2&gt;用語集&lt;span class="hx:absolute hx:-mt-20" id="用語集"&gt;&lt;/span&gt;
 &lt;a href="#%e7%94%a8%e8%aa%9e%e9%9b%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
@@ -254,7 +254,7 @@ data-copied-label="コピーしました！"
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;グロッサリーのサンプルページは &lt;a href="https://example.com/ja/glossary/"&gt;用語集&lt;/a&gt; で確認できます。&lt;/p&gt;
+&lt;p&gt;グロッサリーのサンプルページは &lt;a href="https://cyberxlab.3344198.xyz/ja/glossary/"&gt;用語集&lt;/a&gt; で確認できます。&lt;/p&gt;
 &lt;h2&gt;アーカイブ&lt;span class="hx:absolute hx:-mt-20" id="アーカイブ"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%a2%e3%83%bc%e3%82%ab%e3%82%a4%e3%83%96" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;投稿を年ごとにまとめたアーカイブタイムラインページを作成できます。&lt;/p&gt;
 &lt;ol&gt;
@@ -339,7 +339,7 @@ data-copied-label="コピーしました！"
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;空状態メッセージは i18n キー &lt;code&gt;noResultsFound&lt;/code&gt; を使用します。&lt;/p&gt;
-&lt;p&gt;アーカイブのサンプルページは &lt;a href="https://example.com/ja/archives/"&gt;アーカイブ&lt;/a&gt; で確認できます。&lt;/p&gt;</description></item><item><title>Hextraのカスタマイズ</title><link>https://example.com/ja/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/ja/docs/advanced/customization/</guid><description>
+&lt;p&gt;アーカイブのサンプルページは &lt;a href="https://cyberxlab.3344198.xyz/ja/archives/"&gt;アーカイブ&lt;/a&gt; で確認できます。&lt;/p&gt;</description></item><item><title>Hextraのカスタマイズ</title><link>https://cyberxlab.3344198.xyz/ja/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/docs/advanced/customization/</guid><description>
 &lt;p&gt;Hextraは、&lt;code&gt;hugo.yaml&lt;/code&gt;設定ファイル内でテーマを設定するためのデフォルトのカスタマイズオプションを提供しています。
 このページでは、利用可能なオプションとテーマをさらにカスタマイズする方法について説明します。&lt;/p&gt;
 &lt;h2&gt;カスタムCSS&lt;span class="hx:absolute hx:-mt-20" id="カスタムcss"&gt;&lt;/span&gt;
@@ -663,7 +663,7 @@ data-copied-label="コピーしました！"
 &lt;h2&gt;さらなるカスタマイズ&lt;span class="hx:absolute hx:-mt-20" id="さらなるカスタマイズ"&gt;&lt;/span&gt;
 &lt;a href="#%e3%81%95%e3%82%89%e3%81%aa%e3%82%8b%e3%82%ab%e3%82%b9%e3%82%bf%e3%83%9e%e3%82%a4%e3%82%ba" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;探しているものが見つかりませんでしたか？&lt;a href="https://github.com/imfing/hextra/discussions"target="_blank" rel="noopener"&gt;ディスカッションを開く&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;か、テーマへの貢献をお願いします！&lt;/p&gt;</description></item><item><title>コメントシステム</title><link>https://example.com/ja/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/ja/docs/advanced/comments/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;か、テーマへの貢献をお願いします！&lt;/p&gt;</description></item><item><title>コメントシステム</title><link>https://cyberxlab.3344198.xyz/ja/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/docs/advanced/comments/</guid><description>
 &lt;p&gt;Hextra はサイトにコメントシステムを追加する機能をサポートしています。
 現在 &lt;a href="https://giscus.app/"target="_blank" rel="noopener"&gt;giscus&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;

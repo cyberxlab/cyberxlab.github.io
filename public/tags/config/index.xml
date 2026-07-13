@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – Config</title><link>https://example.com/tags/config/</link><description>Recent content in Config on Hextra</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://example.com/tags/config/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuration</title><link>https://example.com/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/configuration/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – Config</title><link>https://cyberxlab.3344198.xyz/tags/config/</link><description>Recent content in Config on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://cyberxlab.3344198.xyz/tags/config/index.xml" rel="self" type="application/rss+xml"/><item><title>Configuration</title><link>https://cyberxlab.3344198.xyz/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/configuration/</guid><description>
 &lt;p&gt;Hugo reads its configuration from &lt;code&gt;hugo.yaml&lt;/code&gt; in the root of your Hugo site.
 The config file is where you can configure all aspects of your site.
 Check out the config file for this site &lt;a href="https://github.com/imfing/hextra/blob/main/docs/hugo.yaml"target="_blank" rel="noopener"&gt;&lt;code&gt;docs/hugo.yaml&lt;/code&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -239,7 +239,7 @@ data-copied-label="Copied!"
 &lt;h2&gt;Sidebar&lt;span class="hx:absolute hx:-mt-20" id="sidebar"&gt;&lt;/span&gt;
 &lt;a href="#sidebar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Main Sidebar&lt;span class="hx:absolute hx:-mt-20" id="main-sidebar"&gt;&lt;/span&gt;
 &lt;a href="#main-sidebar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For the main sidebar, it is automatically generated from the structure of the content directory.
-See the &lt;a href="https://example.com/docs/guide/organize-files/"&gt;Organize Files&lt;/a&gt; page for more details.&lt;/p&gt;
+See the &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/organize-files/"&gt;Organize Files&lt;/a&gt; page for more details.&lt;/p&gt;
 &lt;p&gt;To exclude a single page from the left sidebar, set the &lt;code&gt;sidebar.exclude&lt;/code&gt; parameter in the front matter of the page:&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/docs/guide/configuration.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
@@ -812,7 +812,7 @@ data-copied-label="Copied!"
 &lt;p&gt;Each link can have:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;name&lt;/code&gt; - The display text for the link&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - An optional icon name (see &lt;a href="https://example.com/docs/guide/shortcodes/icon/"&gt;Icons&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - An optional icon name (see &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/icon/"&gt;Icons&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;url&lt;/code&gt; - The URL with optional placeholders&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;FlexSearch Index&lt;span class="hx:absolute hx:-mt-20" id="flexsearch-index"&gt;&lt;/span&gt;

@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – ブログ</title><link>https://example.com/ja/blog/</link><description>Recent content in ブログ on Hextra</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><atom:link href="https://example.com/ja/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://example.com/ja/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/v0.12/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – ブログ</title><link>https://cyberxlab.3344198.xyz/ja/blog/</link><description>Recent content in ブログ on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>ja-JP</language><atom:link href="https://cyberxlab.3344198.xyz/ja/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>Hextra v0.12</title><link>https://cyberxlab.3344198.xyz/ja/blog/v0.12/</link><pubDate>Fri, 20 Feb 2026 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/blog/v0.12/</guid><description>
 &lt;p&gt;Hextra v0.12.0 は、ページコンテキストメニュー、画像ズーム、刷新されたタブ、その他多くの新機能に加え、包括的な WCAG 2.2 AA アクセシビリティ改善と多数のバグ修正を提供します。&lt;/p&gt;
 &lt;h2&gt;アップグレードガイド&lt;span class="hx:absolute hx:-mt-20" id="アップグレードガイド"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ほとんどのサイトで破壊的変更はありません。&lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -75,7 +75,7 @@ data-copied-label="コピーしました！"
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;h3&gt;タブの刷新とアイコン対応&lt;span class="hx:absolute hx:-mt-20" id="タブの刷新とアイコン対応"&gt;&lt;/span&gt;
-&lt;a href="#%e3%82%bf%e3%83%96%e3%81%ae%e5%88%b7%e6%96%b0%e3%81%a8%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e5%af%be%e5%bf%9c" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/tabs/"&gt;タブショートコード&lt;/a&gt;が刷新されました。各 &lt;code&gt;tab&lt;/code&gt; ショートコードでタブ名を直接設定でき、オプションの &lt;code&gt;icon&lt;/code&gt; パラメータでラベルの前にアイコンを表示できます。従来の構文も引き続きサポートされています。&lt;/p&gt;
+&lt;a href="#%e3%82%bf%e3%83%96%e3%81%ae%e5%88%b7%e6%96%b0%e3%81%a8%e3%82%a2%e3%82%a4%e3%82%b3%e3%83%b3%e5%af%be%e5%bf%9c" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/tabs/"&gt;タブショートコード&lt;/a&gt;が刷新されました。各 &lt;code&gt;tab&lt;/code&gt; ショートコードでタブ名を直接設定でき、オプションの &lt;code&gt;icon&lt;/code&gt; パラメータでラベルの前にアイコンを表示できます。従来の構文も引き続きサポートされています。&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; tabs &amp;gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt; {{&amp;lt; tab name=&amp;#34;Photos&amp;#34; icon=&amp;#34;photograph&amp;#34; &amp;gt;}}写真ライブラリを管理・整理します。{{&amp;lt; /tab &amp;gt;}}
@@ -208,7 +208,7 @@ data-copied-label="コピーしました！"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/262cc0fa-e0af-4a50-8c3d-4465059418b8" alt="アーカイブページ" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;用語集&lt;span class="hx:absolute hx:-mt-20" id="用語集"&gt;&lt;/span&gt;
-&lt;a href="#%e7%94%a8%e8%aa%9e%e9%9b%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;サイト全体の&lt;a href="https://example.com/ja/docs/guide/shortcodes/term/"&gt;用語集&lt;/a&gt;。専用のリストページとインライン定義用の &lt;code&gt;term&lt;/code&gt; ショートコードを備えています。&lt;/p&gt;
+&lt;a href="#%e7%94%a8%e8%aa%9e%e9%9b%86" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;サイト全体の&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/term/"&gt;用語集&lt;/a&gt;。専用のリストページとインライン定義用の &lt;code&gt;term&lt;/code&gt; ショートコードを備えています。&lt;/p&gt;
 &lt;h2&gt;アクセシビリティ&lt;span class="hx:absolute hx:-mt-20" id="アクセシビリティ"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%a2%e3%82%af%e3%82%bb%e3%82%b7%e3%83%93%e3%83%aa%e3%83%86%e3%82%a3" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;包括的な WCAG 2.2 AA アクセシビリティ改善 (#924):&lt;/p&gt;
 &lt;ul&gt;
@@ -301,7 +301,7 @@ data-copied-label="コピーしました！"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;完全な変更履歴&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.11.1...v0.12.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://example.com/ja/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/v0.11/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.11</title><link>https://cyberxlab.3344198.xyz/ja/blog/v0.11/</link><pubDate>Sat, 30 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/blog/v0.11/</guid><description>
 &lt;p&gt;Hextra v0.11.0 は、UX の磨き込みと便利な新コンポーネントに注力したリリースです。サイト全体バナー、改良されたコールアウトとバッジ、よりリッチなカード、アナリティクス連携、そしていくつかのナビゲーション改善を含みます。安定性の修正とドキュメント更新も同梱しています。&lt;/p&gt;
 &lt;h2&gt;アップグレードガイド&lt;span class="hx:absolute hx:-mt-20" id="アップグレードガイド"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%a2%e3%83%83%e3%83%97%e3%82%b0%e3%83%ac%e3%83%bc%e3%83%89%e3%82%ac%e3%82%a4%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;ほとんどのサイトで破壊的変更はありません。&lt;a href="https://gohugo.io/hugo-modules/use-modules/"target="_blank" rel="noopener"&gt;Hugo Modules&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -353,18 +353,18 @@ data-copied-label="コピーしました！"
 &lt;/div&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/33a08c9b-db84-4200-b37c-1a53c1bef08d" alt="トップバナー" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;コールアウト刷新&lt;span class="hx:absolute hx:-mt-20" id="コールアウト刷新"&gt;&lt;/span&gt;
-&lt;a href="#%e3%82%b3%e3%83%bc%e3%83%ab%e3%82%a2%e3%82%a6%e3%83%88%e5%88%b7%e6%96%b0" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; のデザインを刷新し、テーマを問わず可読性と強調表現を向上しました。&lt;/p&gt;
+&lt;a href="#%e3%82%b3%e3%83%bc%e3%83%ab%e3%82%a2%e3%82%a6%e3%83%88%e5%88%b7%e6%96%b0" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/callout/"&gt;Callout&lt;/a&gt; のデザインを刷新し、テーマを問わず可読性と強調表現を向上しました。&lt;/p&gt;
 &lt;p&gt;&lt;img src="https://github.com/user-attachments/assets/b3154dbb-e582-4c84-a8b8-1ecb02c3464d" alt="コールアウト刷新" data-zoomable loading="lazy" /&gt;&lt;/p&gt;
 &lt;h3&gt;アナリティクス: Umami と Matomo&lt;span class="hx:absolute hx:-mt-20" id="アナリティクス-umami-と-matomo"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%a2%e3%83%8a%e3%83%aa%e3%83%86%e3%82%a3%e3%82%af%e3%82%b9-umami-%e3%81%a8-matomo" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;以下のアナリティクスプロバイダに組み込み設定で対応:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/configuration/#umami-analytics"&gt;Umami&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/configuration/#matomo-analytics"&gt;Matomo&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;Asciinema ショートコード&lt;span class="hx:absolute hx:-mt-20" id="asciinema-ショートコード"&gt;&lt;/span&gt;
 &lt;a href="#asciinema-%e3%82%b7%e3%83%a7%e3%83%bc%e3%83%88%e3%82%b3%e3%83%bc%e3%83%89" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;a href="https://www.asciinema.org/"target="_blank" rel="noopener"&gt;Asciinema&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt; の端末録画を、新しい &lt;a href="https://example.com/ja/docs/guide/shortcodes/asciinema/"&gt;Asciinema ショートコード&lt;/a&gt; で埋め込みできます。&lt;/p&gt;
+&lt;/svg&gt;&lt;/a&gt; の端末録画を、新しい &lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/asciinema/"&gt;Asciinema ショートコード&lt;/a&gt; で埋め込みできます。&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-md" data-lang="md"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;{{&amp;lt; asciinema id=&amp;#34;123456&amp;#34; autoplay=true loop=true &amp;gt;}}&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx:opacity-0 hx:transition hx:group-hover/code:opacity-100 hx:flex hx:gap-1 hx:absolute hx:m-[11px] hx:right-0 hx:top-0"&gt;
 &lt;button
@@ -424,8 +424,8 @@ data-copied-label="コピーしました！"
 &lt;/div&gt;
 &lt;h3&gt;カードとバッジの改善&lt;span class="hx:absolute hx:-mt-20" id="カードとバッジの改善"&gt;&lt;/span&gt;
 &lt;a href="#%e3%82%ab%e3%83%bc%e3%83%89%e3%81%a8%e3%83%90%e3%83%83%e3%82%b8%e3%81%ae%e6%94%b9%e5%96%84" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/cards/"&gt;カード&lt;/a&gt;: 新オプション &lt;code&gt;tagIcon&lt;/code&gt; と &lt;code&gt;tagBorder&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://example.com/ja/docs/guide/shortcodes/others/"&gt;バッジ&lt;/a&gt;: 新しい色とボーダースタイル&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/cards/"&gt;カード&lt;/a&gt;: 新オプション &lt;code&gt;tagIcon&lt;/code&gt; と &lt;code&gt;tagBorder&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://cyberxlab.3344198.xyz/ja/docs/guide/shortcodes/others/"&gt;バッジ&lt;/a&gt;: 新しい色とボーダースタイル&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2&gt;利便性の向上&lt;span class="hx:absolute hx:-mt-20" id="利便性の向上"&gt;&lt;/span&gt;
 &lt;a href="#%e5%88%a9%e4%be%bf%e6%80%a7%e3%81%ae%e5%90%91%e4%b8%8a" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
@@ -449,7 +449,7 @@ data-copied-label="コピーしました！"
 &lt;hr&gt;
 &lt;p&gt;&lt;strong&gt;完全な変更履歴&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.10.2...v0.11.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://example.com/ja/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/v0.10/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Hextra v0.10</title><link>https://cyberxlab.3344198.xyz/ja/blog/v0.10/</link><pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/blog/v0.10/</guid><description>
 &lt;p&gt;Hextra v0.10.0 は、新機能、アーキテクチャの刷新、利便性向上を詰め込んだ大きなリリースです。&lt;/p&gt;
 &lt;p&gt;また、10名の&lt;a href="#contributors"&gt;新規コントリビューター&lt;/a&gt;からの貢献と、長らく要望のあった機能の実装も含まれています。&lt;/p&gt;
 &lt;h2&gt;アップグレードガイド&lt;span class="hx:absolute hx:-mt-20" id="アップグレードガイド"&gt;&lt;/span&gt;
@@ -820,7 +820,7 @@ data-copied-label="コピーしました！"
 &lt;/svg&gt;&lt;/a&gt; にも感謝します。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;完全な変更履歴&lt;/strong&gt;: &lt;a href="https://github.com/imfing/hextra/compare/v0.9.7...v0.10.0"target="_blank" rel="noopener"&gt;https://github.com/imfing/hextra/compare/v0.9.7...v0.10.0&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Markdown 構文ガイド</title><link>https://example.com/ja/blog/markdown/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://example.com/ja/blog/markdown/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Markdown 構文ガイド</title><link>https://cyberxlab.3344198.xyz/ja/blog/markdown/</link><pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/ja/blog/markdown/</guid><description>
 &lt;p&gt;この記事では、Hugo のコンテンツファイルで使用できる基本的な Markdown 構文のサンプルを紹介します。&lt;/p&gt;
 &lt;h2&gt;基本構文&lt;span class="hx:absolute hx:-mt-20" id="基本構文"&gt;&lt;/span&gt;
 &lt;a href="#%e5%9f%ba%e6%9c%ac%e6%a7%8b%e6%96%87" class="subheading-anchor" aria-label="このセクションへのパーマリンク"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;見出し&lt;span class="hx:absolute hx:-mt-20" id="見出し"&gt;&lt;/span&gt;

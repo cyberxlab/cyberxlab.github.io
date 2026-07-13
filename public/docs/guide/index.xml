@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – Guide</title><link>https://example.com/docs/guide/</link><description>Recent content in Guide on Hextra</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://example.com/docs/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Organize Files</title><link>https://example.com/docs/guide/organize-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/organize-files/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – Guide</title><link>https://cyberxlab.3344198.xyz/docs/guide/</link><description>Recent content in Guide on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://cyberxlab.3344198.xyz/docs/guide/index.xml" rel="self" type="application/rss+xml"/><item><title>Organize Files</title><link>https://cyberxlab.3344198.xyz/docs/guide/organize-files/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/organize-files/</guid><description>
 &lt;h2&gt;Directory Structure&lt;span class="hx:absolute hx:-mt-20" id="directory-structure"&gt;&lt;/span&gt;
 &lt;a href="#directory-structure" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;By default, Hugo searches for Markdown files in the &lt;code&gt;content&lt;/code&gt; directory, and the structure of the directory determines the final output structure of your website.
 Take this site as an example:&lt;/p&gt;
@@ -630,7 +630,7 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Configuration</title><link>https://example.com/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/configuration/</guid><description>
+&lt;/div&gt;</description></item><item><title>Configuration</title><link>https://cyberxlab.3344198.xyz/docs/guide/configuration/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/configuration/</guid><description>
 &lt;p&gt;Hugo reads its configuration from &lt;code&gt;hugo.yaml&lt;/code&gt; in the root of your Hugo site.
 The config file is where you can configure all aspects of your site.
 Check out the config file for this site &lt;a href="https://github.com/imfing/hextra/blob/main/docs/hugo.yaml"target="_blank" rel="noopener"&gt;&lt;code&gt;docs/hugo.yaml&lt;/code&gt;&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -871,7 +871,7 @@ data-copied-label="Copied!"
 &lt;h2&gt;Sidebar&lt;span class="hx:absolute hx:-mt-20" id="sidebar"&gt;&lt;/span&gt;
 &lt;a href="#sidebar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;Main Sidebar&lt;span class="hx:absolute hx:-mt-20" id="main-sidebar"&gt;&lt;/span&gt;
 &lt;a href="#main-sidebar" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;For the main sidebar, it is automatically generated from the structure of the content directory.
-See the &lt;a href="https://example.com/docs/guide/organize-files/"&gt;Organize Files&lt;/a&gt; page for more details.&lt;/p&gt;
+See the &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/organize-files/"&gt;Organize Files&lt;/a&gt; page for more details.&lt;/p&gt;
 &lt;p&gt;To exclude a single page from the left sidebar, set the &lt;code&gt;sidebar.exclude&lt;/code&gt; parameter in the front matter of the page:&lt;/p&gt;
 &lt;div class="hextra-code-block hx:relative hx:mt-6 hx:first:mt-0 hx:group/code"&gt;
 &lt;div class="hextra-code-filename not-prose" dir="auto"&gt;content/docs/guide/configuration.md&lt;/div&gt;&lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="nn"&gt;---&lt;/span&gt;&lt;span class="w"&gt;
@@ -1444,7 +1444,7 @@ data-copied-label="Copied!"
 &lt;p&gt;Each link can have:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;name&lt;/code&gt; - The display text for the link&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - An optional icon name (see &lt;a href="https://example.com/docs/guide/shortcodes/icon/"&gt;Icons&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;icon&lt;/code&gt; - An optional icon name (see &lt;a href="https://cyberxlab.3344198.xyz/docs/guide/shortcodes/icon/"&gt;Icons&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;url&lt;/code&gt; - The URL with optional placeholders&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3&gt;FlexSearch Index&lt;span class="hx:absolute hx:-mt-20" id="flexsearch-index"&gt;&lt;/span&gt;
@@ -1847,7 +1847,7 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Markdown</title><link>https://example.com/docs/guide/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/markdown/</guid><description>
+&lt;/div&gt;</description></item><item><title>Markdown</title><link>https://cyberxlab.3344198.xyz/docs/guide/markdown/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/markdown/</guid><description>
 &lt;p&gt;Hugo supports &lt;a href="https://en.wikipedia.org/wiki/Markdown"target="_blank" rel="noopener"&gt;Markdown&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; syntax for formatting text, creating lists, and more. This page will show you some of the most common Markdown syntax examples.&lt;/p&gt;
@@ -2271,7 +2271,7 @@ data-copied-label="Copied!"
 &lt;/svg&gt;&lt;/a&gt; during Gopherfest, November 18, 2015.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink"&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;/div&gt;</description></item><item><title>Syntax Highlighting</title><link>https://example.com/docs/guide/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/syntax-highlighting/</guid><description>
+&lt;/div&gt;</description></item><item><title>Syntax Highlighting</title><link>https://cyberxlab.3344198.xyz/docs/guide/syntax-highlighting/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/syntax-highlighting/</guid><description>
 &lt;p&gt;Hugo uses &lt;a href="https://github.com/alecthomas/chroma"target="_blank" rel="noopener"&gt;Chroma&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;, a general purpose syntax highlighter in pure Go, for syntax highlighting.
@@ -2501,7 +2501,7 @@ data-copied-label="Copied!"
 &lt;h2&gt;Supported Languages&lt;span class="hx:absolute hx:-mt-20" id="supported-languages"&gt;&lt;/span&gt;
 &lt;a href="#supported-languages" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;For a list of supported languages, please see the &lt;a href="https://github.com/alecthomas/chroma#supported-languages"target="_blank" rel="noopener"&gt;Chroma documentation&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>LaTeX</title><link>https://example.com/docs/guide/latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/latex/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>LaTeX</title><link>https://cyberxlab.3344198.xyz/docs/guide/latex/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/latex/</guid><description>
 &lt;p&gt;LaTeX math expressions are rendered using &lt;span class="katex"&gt;&lt;span class="katex-mathml"&gt;&lt;math xmlns="http://www.w3.org/1998/Math/MathML"&gt;&lt;semantics&gt;&lt;mrow&gt;&lt;mtext&gt;KaTeX&lt;/mtext&gt;&lt;/mrow&gt;&lt;annotation encoding="application/x-tex"&gt;\KaTeX&lt;/annotation&gt;&lt;/semantics&gt;&lt;/math&gt;&lt;/span&gt;&lt;span class="katex-html" aria-hidden="true"&gt;&lt;span class="base"&gt;&lt;span class="strut" style="height:0.8988em;vertical-align:-0.2155em;"&gt;&lt;/span&gt;&lt;span class="mord text"&gt;&lt;span class="mord textrm"&gt;K&lt;/span&gt;&lt;span class="mspace" style="margin-right:-0.17em;"&gt;&lt;/span&gt;&lt;span class="vlist-t"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.6833em;"&gt;&lt;span style="top:-2.905em;"&gt;&lt;span class="pstrut" style="height:2.7em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord textrm mtight sizing reset-size6 size3"&gt;A&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:-0.15em;"&gt;&lt;/span&gt;&lt;span class="mord text"&gt;&lt;span class="mord textrm"&gt;T&lt;/span&gt;&lt;span class="mspace" style="margin-right:-0.1667em;"&gt;&lt;/span&gt;&lt;span class="vlist-t vlist-t2"&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.4678em;"&gt;&lt;span style="top:-2.7845em;"&gt;&lt;span class="pstrut" style="height:3em;"&gt;&lt;/span&gt;&lt;span class="mord"&gt;&lt;span class="mord textrm"&gt;E&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-s"&gt;​&lt;/span&gt;&lt;/span&gt;&lt;span class="vlist-r"&gt;&lt;span class="vlist" style="height:0.2155em;"&gt;&lt;span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class="mspace" style="margin-right:-0.125em;"&gt;&lt;/span&gt;&lt;span class="mord textrm"&gt;X&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt; (&lt;a href="https://katex.org/"target="_blank" rel="noopener"&gt;katex.org&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;) by default. Simply start including them in your Markdown content without any manual configurations.&lt;/p&gt;
@@ -2709,7 +2709,7 @@ data-copied-label="Copied!"
 &lt;div class="hx:w-full hx:min-w-0 hx:leading-7"&gt;
 &lt;div class="hx:mt-6 hx:leading-7 hx:first:mt-0"&gt;&lt;p&gt;You can further customize MathJax (for example, adjust loader options, or change the CDN/source) by overriding the template at &lt;code&gt;layouts/_partials/scripts/mathjax.html&lt;/code&gt; in your project. Hugo will use your version instead of the theme&amp;rsquo;s default.&lt;/p&gt;&lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Diagrams</title><link>https://example.com/docs/guide/diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/diagrams/</guid><description>
+&lt;/div&gt;</description></item><item><title>Diagrams</title><link>https://cyberxlab.3344198.xyz/docs/guide/diagrams/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/diagrams/</guid><description>
 &lt;p&gt;Currently, Hextra supports &lt;a href="#mermaid"&gt;Mermaid&lt;/a&gt; for diagrams.&lt;/p&gt;
 &lt;h2&gt;Mermaid&lt;span class="hx:absolute hx:-mt-20" id="mermaid"&gt;&lt;/span&gt;
 &lt;a href="#mermaid" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href="https://github.com/mermaid-js/mermaid#readme"target="_blank" rel="noopener"&gt;Mermaid&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
@@ -2761,7 +2761,7 @@ Bob--&amp;gt;&amp;gt;John: Jolly good!
 &lt;/pre&gt;
 &lt;/div&gt;&lt;p&gt;For more information, please refer to &lt;a href="https://mermaid-js.github.io/mermaid/#/"target="_blank" rel="noopener"&gt;Mermaid Documentation&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Shortcodes</title><link>https://example.com/docs/guide/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/shortcodes/</guid><description>
+&lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Shortcodes</title><link>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/shortcodes/</guid><description>
 &lt;p&gt;&lt;a href="https://gohugo.io/content-management/shortcodes/"target="_blank" rel="noopener"&gt;Hugo Shortcodes&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; are simple snippets inside your content files calling built-in or custom templates.&lt;/p&gt;
@@ -2823,7 +2823,7 @@ class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hid
 class="hextra-card hx:group hx:flex hx:flex-col hx:justify-start hx:overflow-hidden hx:rounded-lg hx:border hx:border-gray-200 hx:text-current hx:no-underline hx:dark:shadow-none hx:hover:shadow-gray-100 hx:dark:hover:shadow-none hx:shadow-gray-100 hx:active:shadow-sm hx:active:shadow-gray-200 hx:transition-all hx:duration-200 hx:hover:border-gray-300 hx:bg-transparent hx:shadow-xs hx:dark:border-neutral-800 hx:hover:bg-slate-50 hx:hover:shadow-md hx:dark:hover:border-neutral-700 hx:dark:hover:bg-neutral-900"href="gallery"
 &gt;&lt;div class="hx:mt-auto"&gt;
 &lt;span class="hextra-card-icon hx:flex hx:font-semibold hx:items-start hx:gap-2 hx:p-4 hx:text-gray-700 hx:hover:text-gray-900 hx:dark:text-neutral-200 hx:dark:hover:text-neutral-50"&gt;&lt;svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" aria-hidden="true"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/&gt;&lt;/svg&gt;Gallery&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
-&lt;/div&gt;</description></item><item><title>Deploy Site</title><link>https://example.com/docs/guide/deploy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/guide/deploy-site/</guid><description>
+&lt;/div&gt;</description></item><item><title>Deploy Site</title><link>https://cyberxlab.3344198.xyz/docs/guide/deploy-site/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/guide/deploy-site/</guid><description>
 &lt;p&gt;Hugo generates static websites, allowing for flexible hosting options.
 This page provides guides for deploying your Hextra site on various platforms.&lt;/p&gt;
 &lt;h2&gt;GitHub Pages&lt;span class="hx:absolute hx:-mt-20" id="github-pages"&gt;&lt;/span&gt;

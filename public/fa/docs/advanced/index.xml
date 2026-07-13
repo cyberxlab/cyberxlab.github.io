@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>هگزترا – مباحث پیشرفته</title><link>https://example.com/fa/docs/advanced/</link><description>Recent content in مباحث پیشرفته on هگزترا</description><generator>Hugo -- gohugo.io</generator><language>fa</language><atom:link href="https://example.com/fa/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>چند زبانه</title><link>https://example.com/fa/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/advanced/multi-language/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – مباحث پیشرفته</title><link>https://cyberxlab.3344198.xyz/fa/docs/advanced/</link><description>Recent content in مباحث پیشرفته on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>fa</language><atom:link href="https://cyberxlab.3344198.xyz/fa/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>چند زبانه</title><link>https://cyberxlab.3344198.xyz/fa/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/advanced/multi-language/</guid><description>
 &lt;p&gt;Hextra از ایجاد سایت با چندین زبان با استفاده از &lt;a href="https://gohugo.io/content-management/multilingual/"target="_blank" rel="noopener"&gt;حالت چندزبانه&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt; هوگو پشتیبانی می‌کند.&lt;/p&gt;
@@ -144,7 +144,7 @@ data-copied-label="کپی شد!"
 &lt;li&gt;&lt;a href="https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/"target="_blank" rel="noopener"&gt;چندزبانه هوگو بخش 2: بومی‌سازی رشته‌ها&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>صفحات اضافی</title><link>https://example.com/fa/docs/advanced/additional-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/advanced/additional-pages/</guid><description>
+&lt;/ul&gt;</description></item><item><title>صفحات اضافی</title><link>https://cyberxlab.3344198.xyz/fa/docs/advanced/additional-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/advanced/additional-pages/</guid><description>
 &lt;p&gt;Hextra چند صفحهٔ اضافی دارد که باید به‌صورت جداگانه فعال شوند: واژه‌نامه و آرشیو.&lt;/p&gt;
 &lt;h2&gt;واژه‌نامه&lt;span class="hx:absolute hx:-mt-20" id="واژهنامه"&gt;&lt;/span&gt;
 &lt;a href="#%d9%88%d8%a7%da%98%d9%87%d9%86%d8%a7%d9%85%d9%87" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
@@ -254,7 +254,7 @@ data-copied-label="کپی شد!"
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;یک صفحهٔ نمونه از واژه‌نامه در &lt;a href="https://example.com/fa/glossary/"&gt;واژه‌نامه&lt;/a&gt; در دسترس است.&lt;/p&gt;
+&lt;p&gt;یک صفحهٔ نمونه از واژه‌نامه در &lt;a href="https://cyberxlab.3344198.xyz/fa/glossary/"&gt;واژه‌نامه&lt;/a&gt; در دسترس است.&lt;/p&gt;
 &lt;h2&gt;آرشیو&lt;span class="hx:absolute hx:-mt-20" id="آرشیو"&gt;&lt;/span&gt;
 &lt;a href="#%d8%a2%d8%b1%d8%b4%db%8c%d9%88" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;می‌توانید برای نوشته‌های یک بخش، یک صفحه آرشیو زمانی (گروه‌بندی‌شده بر اساس سال) بسازید.&lt;/p&gt;
 &lt;ol&gt;
@@ -339,7 +339,7 @@ data-copied-label="کپی شد!"
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;پیام حالت خالی از کلید ترجمه &lt;code&gt;noResultsFound&lt;/code&gt; استفاده می‌کند.&lt;/p&gt;
-&lt;p&gt;یک صفحهٔ نمونه از آرشیو در &lt;a href="https://example.com/fa/archives/"&gt;آرشیو&lt;/a&gt; در دسترس است.&lt;/p&gt;</description></item><item><title>سفارشی‌سازی Hextra</title><link>https://example.com/fa/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/advanced/customization/</guid><description>
+&lt;p&gt;یک صفحهٔ نمونه از آرشیو در &lt;a href="https://cyberxlab.3344198.xyz/fa/archives/"&gt;آرشیو&lt;/a&gt; در دسترس است.&lt;/p&gt;</description></item><item><title>سفارشی‌سازی Hextra</title><link>https://cyberxlab.3344198.xyz/fa/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/advanced/customization/</guid><description>
 &lt;p&gt;Hextra برخی گزینه‌های پیش‌فرض سفارشی‌سازی را در فایل پیکربندی &lt;code&gt;hugo.yaml&lt;/code&gt; ارائه می‌دهد تا تم را پیکربندی کنید.
 این صفحه گزینه‌های موجود و نحوه سفارشی‌سازی بیشتر تم را توضیح می‌دهد.&lt;/p&gt;
 &lt;h2&gt;CSS سفارشی&lt;span class="hx:absolute hx:-mt-20" id="css-سفارشی"&gt;&lt;/span&gt;
@@ -663,7 +663,7 @@ data-copied-label="کپی شد!"
 &lt;h2&gt;سفارشی‌سازی بیشتر&lt;span class="hx:absolute hx:-mt-20" id="سفارشیسازی-بیشتر"&gt;&lt;/span&gt;
 &lt;a href="#%d8%b3%d9%81%d8%a7%d8%b1%d8%b4%db%8c%d8%b3%d8%a7%d8%b2%db%8c-%d8%a8%db%8c%d8%b4%d8%aa%d8%b1" class="subheading-anchor" aria-label="پیوند ثابت به این بخش"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;آیا آنچه را که به دنبالش بودید پیدا نکردید؟ با خیال راحت &lt;a href="https://github.com/imfing/hextra/discussions"target="_blank" rel="noopener"&gt;یک بحث باز کنید&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
-&lt;/svg&gt;&lt;/a&gt; یا به تم کمک کنید!&lt;/p&gt;</description></item><item><title>سیستم نظرات</title><link>https://example.com/fa/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/fa/docs/advanced/comments/</guid><description>
+&lt;/svg&gt;&lt;/a&gt; یا به تم کمک کنید!&lt;/p&gt;</description></item><item><title>سیستم نظرات</title><link>https://cyberxlab.3344198.xyz/fa/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/fa/docs/advanced/comments/</guid><description>
 &lt;p&gt;Hextra از افزودن سیستم نظرات به سایت شما پشتیبانی می‌کند.
 در حال حاضر &lt;a href="https://giscus.app/"target="_blank" rel="noopener"&gt;giscus&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;

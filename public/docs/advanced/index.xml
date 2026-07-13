@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Hextra – Advanced Topics</title><link>https://example.com/docs/advanced/</link><description>Recent content in Advanced Topics on Hextra</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://example.com/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Additional Pages</title><link>https://example.com/docs/advanced/additional-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/advanced/additional-pages/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cyber・X・Lab – Advanced Topics</title><link>https://cyberxlab.3344198.xyz/docs/advanced/</link><description>Recent content in Advanced Topics on Cyber・X・Lab</description><generator>Hugo -- gohugo.io</generator><language>en</language><atom:link href="https://cyberxlab.3344198.xyz/docs/advanced/index.xml" rel="self" type="application/rss+xml"/><item><title>Additional Pages</title><link>https://cyberxlab.3344198.xyz/docs/advanced/additional-pages/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/advanced/additional-pages/</guid><description>
 &lt;p&gt;Hextra includes additional pages that you can enable explicitly: glossary and archives.&lt;/p&gt;
 &lt;h2&gt;Glossary&lt;span class="hx:absolute hx:-mt-20" id="glossary"&gt;&lt;/span&gt;
 &lt;a href="#glossary" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;div class="hx:overflow-x-auto hx:mt-6 hx:flex hx:rounded-lg hx:border hx:py-2 hx:ltr:pr-4 hx:rtl:pl-4 hx:contrast-more:border-current hx:contrast-more:dark:border-current hx:border-blue-200 hx:bg-blue-100 hx:text-blue-900 hx:dark:border-blue-200/30 hx:dark:bg-blue-900/30 hx:dark:text-blue-200"&gt;
@@ -108,7 +108,7 @@ data-copied-label="Copied!"
 &lt;/button&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;p&gt;An example glossary page is available at &lt;a href="https://example.com/glossary/"&gt;Glossary&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;An example glossary page is available at &lt;a href="https://cyberxlab.3344198.xyz/glossary/"&gt;Glossary&lt;/a&gt;.&lt;/p&gt;
 &lt;h2&gt;Archives&lt;span class="hx:absolute hx:-mt-20" id="archives"&gt;&lt;/span&gt;
 &lt;a href="#archives" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can create an archive timeline page (grouped by year) for posts in a section.&lt;/p&gt;
 &lt;ol&gt;
@@ -193,7 +193,7 @@ data-copied-label="Copied!"
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;The empty-state message uses the &lt;code&gt;noResultsFound&lt;/code&gt; i18n key.&lt;/p&gt;
-&lt;p&gt;An example archive page is available at &lt;a href="https://example.com/archives/"&gt;Archives&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Multi-language</title><link>https://example.com/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/advanced/multi-language/</guid><description>
+&lt;p&gt;An example archive page is available at &lt;a href="https://cyberxlab.3344198.xyz/archives/"&gt;Archives&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Multi-language</title><link>https://cyberxlab.3344198.xyz/docs/advanced/multi-language/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/advanced/multi-language/</guid><description>
 &lt;p&gt;Hextra supports creating site with multiple languages using Hugo&amp;rsquo;s &lt;a href="https://gohugo.io/content-management/multilingual/"target="_blank" rel="noopener"&gt;multilingual mode&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;.&lt;/p&gt;
@@ -339,7 +339,7 @@ data-copied-label="Copied!"
 &lt;li&gt;&lt;a href="https://www.regisphilibert.com/blog/2018/08/hugo-multilingual-part-2-i18n-string-localization/"target="_blank" rel="noopener"&gt;Hugo Multilingual Part 2: Strings localization&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
 &lt;/svg&gt;&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Comments System</title><link>https://example.com/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/advanced/comments/</guid><description>
+&lt;/ul&gt;</description></item><item><title>Comments System</title><link>https://cyberxlab.3344198.xyz/docs/advanced/comments/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/advanced/comments/</guid><description>
 &lt;p&gt;Hextra supports adding comments system to your site.
 Currently &lt;a href="https://giscus.app/"target="_blank" rel="noopener"&gt;giscus&lt;svg class="hx:inline hx:rtl:rotate-270 hx:align-baseline" height="1em" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;
 &lt;path d="m9.1716 7.7574h7.0711m0 0v7.0711m0-7.0711-8.4853 8.4853" stroke-linecap="round" stroke-linejoin="round"/&gt;
@@ -392,7 +392,7 @@ data-copied-label="Copied!"
 &lt;div class="hextra-success-icon hx:hidden hx:group-[.copied]/copybtn:block hx:pointer-events-none hx:h-4 hx:w-4"&gt;&lt;/div&gt;
 &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>Customizing Hextra</title><link>https://example.com/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://example.com/docs/advanced/customization/</guid><description>
+&lt;/div&gt;</description></item><item><title>Customizing Hextra</title><link>https://cyberxlab.3344198.xyz/docs/advanced/customization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cyberxlab.3344198.xyz/docs/advanced/customization/</guid><description>
 &lt;p&gt;Hextra offers some default customization options in the &lt;code&gt;hugo.yaml&lt;/code&gt; config file to configure the theme.
 This page describes the available options and how to customize the theme further.&lt;/p&gt;
 &lt;h2&gt;Custom CSS&lt;span class="hx:absolute hx:-mt-20" id="custom-css"&gt;&lt;/span&gt;
