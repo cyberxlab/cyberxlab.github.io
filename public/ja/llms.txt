@@ -3,12 +3,6 @@
 > Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
 
 
-## ブログ
-- [Hextra v0.12](https://example.com/ja/blog/v0.12/): Hextra v0.12.0 は、ページコンテキストメニュー、画像ズーム、刷新されたタブ、その他多くの新機能に加え、包括的な WCAG 2.2 AA アクセシビリティ改善と多数のバグ修正を提供します。 … - Published 2026-02-20
-- [Hextra v0.11](https://example.com/ja/blog/v0.11/): Hextra v0.11.0 は、UX の磨き込みと便利な新コンポーネントに注力したリリースです。サイト全体バナー、改良されたコールアウトとバッジ、よりリッチなカード、アナリティクス連携、そしていくつ … - Published 2025-08-30
-- [Hextra v0.10](https://example.com/ja/blog/v0.10/): Hextra v0.10.0 は、新機能、アーキテクチャの刷新、利便性向上を詰め込んだ大きなリリースです。 - Published 2025-08-14
-- [Markdown 構文ガイド](https://example.com/ja/blog/markdown/): この記事では、Hugo のコンテンツファイルで使用できる基本的な Markdown 構文のサンプルを紹介します。 - Published 2020-01-01
-
 ## アーカイブ
 
 ## はじめに
@@ -49,6 +43,12 @@ hugo.yamlenableInlineShortcodes: true 利用可能なアイコン …
 - [Hextraのカスタマイズ](https://example.com/ja/docs/advanced/customization/): Hextraは、hugo.yaml設定ファイル内でテーマを設定するためのデフォルトのカスタマイズオプションを提供しています。 このページでは、利用可能なオプションとテーマをさらにカスタマイズする方法に …
 - [コメントシステム](https://example.com/ja/docs/advanced/comments/): Hextra はサイトにコメントシステムを追加する機能をサポートしています。 現在 giscus が利用可能です。
 
+## ブログ
+- [Hextra v0.12](https://example.com/ja/blog/v0.12/): Hextra v0.12.0 は、ページコンテキストメニュー、画像ズーム、刷新されたタブ、その他多くの新機能に加え、包括的な WCAG 2.2 AA アクセシビリティ改善と多数のバグ修正を提供します。 … - Published 2026-02-20
+- [Hextra v0.11](https://example.com/ja/blog/v0.11/): Hextra v0.11.0 は、UX の磨き込みと便利な新コンポーネントに注力したリリースです。サイト全体バナー、改良されたコールアウトとバッジ、よりリッチなカード、アナリティクス連携、そしていくつ … - Published 2025-08-30
+- [Hextra v0.10](https://example.com/ja/blog/v0.10/): Hextra v0.10.0 は、新機能、アーキテクチャの刷新、利便性向上を詰め込んだ大きなリリースです。 - Published 2025-08-14
+- [Markdown 構文ガイド](https://example.com/ja/blog/markdown/): この記事では、Hugo のコンテンツファイルで使用できる基本的な Markdown 構文のサンプルを紹介します。 - Published 2020-01-01
+
 ## 用語集
 
 ## Root Pages
@@ -56,5 +56,5 @@ hugo.yamlenableInlineShortcodes: true 利用可能なアイコン …
 - [ショーケース](https://example.com/ja/showcase/): Hextra で構築されたオープンソースプロジェクト GoReleaser golangci-lint RustDesk Docs Sortie PrintN Beginner Privacy …
 
 ---
-Generated on 2026-07-13 18:15:56 UTC
+Generated on 2026-07-13 18:27:07 UTC
 Site: https://example.com/

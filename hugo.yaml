@@ -198,6 +198,10 @@ params:
     default: system
     displayToggle: true
 
+  icons:
+    remote:
+      enable: true
+
   footer:
     enable: true
     displayCopyright: true

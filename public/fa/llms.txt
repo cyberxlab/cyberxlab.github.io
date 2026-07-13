@@ -3,12 +3,6 @@
 > Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
 
 
-## وبلاگ
-- [Hextra v0.12](https://example.com/fa/blog/v0.12/): Hextra v0.12.0 مجموعه‌ای غنی از ویژگی‌های جدید شامل منوی زمینه صفحه، زوم تصویر، تب‌های بازطراحی‌شده … - Published 2026-02-20
-- [Hextra v0.11](https://example.com/fa/blog/v0.11/): Hextra v0.11.0 بر صیقل UX و مؤلفه‌های جدید کاربردی تمرکز دارد: بنر سراسری سایت، کال‌اوت‌ها و بج‌های … - Published 2025-08-30
-- [Hextra v0.10](https://example.com/fa/blog/v0.10/): Hextra v0.10.0 یک انتشار بزرگ است که مملو از قابلیت‌های جدید، ارتقاهای معماری و بهبودهای کیفیت زندگی … - Published 2025-08-14
-- [راهنمای نحو Markdown](https://example.com/fa/blog/markdown/): این مقاله نمونه‌ای از نحو پایه‌ای Markdown را ارائه می‌دهد که می‌توان در فایل‌های محتوای Hugo … - Published 2020-01-01
-
 ## آرشیو
 
 ## معرفی
@@ -50,10 +44,16 @@ hextra/feature-card رمز مختصر …
 
 ## واژه‌نامه
 
+## وبلاگ
+- [Hextra v0.12](https://example.com/fa/blog/v0.12/): Hextra v0.12.0 مجموعه‌ای غنی از ویژگی‌های جدید شامل منوی زمینه صفحه، زوم تصویر، تب‌های بازطراحی‌شده … - Published 2026-02-20
+- [Hextra v0.11](https://example.com/fa/blog/v0.11/): Hextra v0.11.0 بر صیقل UX و مؤلفه‌های جدید کاربردی تمرکز دارد: بنر سراسری سایت، کال‌اوت‌ها و بج‌های … - Published 2025-08-30
+- [Hextra v0.10](https://example.com/fa/blog/v0.10/): Hextra v0.10.0 یک انتشار بزرگ است که مملو از قابلیت‌های جدید، ارتقاهای معماری و بهبودهای کیفیت زندگی … - Published 2025-08-14
+- [راهنمای نحو Markdown](https://example.com/fa/blog/markdown/): این مقاله نمونه‌ای از نحو پایه‌ای Markdown را ارائه می‌دهد که می‌توان در فایل‌های محتوای Hugo … - Published 2020-01-01
+
 ## Root Pages
 - [درباره ما](https://example.com/fa/about/): هگزترا به گونه‌ای طراحی شده است که یک موضوع ساده، سریع و انعطاف پذیر برای ساخت وب‌سایت‌های استاتیک …
 - [ویترین](https://example.com/fa/showcase/): پروژه‌های متن‌باز که توسط هگزترا طراحی شده‌اند. GoReleaser golangci-lint RustDesk Docs Sortie …
 
 ---
-Generated on 2026-07-13 18:15:55 UTC
+Generated on 2026-07-13 18:27:06 UTC
 Site: https://example.com/
