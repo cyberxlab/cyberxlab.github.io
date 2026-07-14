@@ -198,15 +198,14 @@ params:
     default: system
     displayToggle: true
 
+  footer:
+    displayPoweredBy: false
+    displayCopyright: true
+    width: normal
+
   icons:
     remote:
       enable: true
-
-  footer:
-    enable: true
-    displayCopyright: true
-    displayPoweredBy: true
-    width: normal
 
   # Display the last modification date
   displayUpdatedDate: true
