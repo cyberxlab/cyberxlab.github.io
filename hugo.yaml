@@ -110,36 +110,36 @@ menu:
     - identifier: x-twitter
       name: X (Twitter)
       url: https://x.com/CyberXLab
-      weight: 3
+      weight: 10
       params:
         icon: x-twitter
     - identifier: youtube
       name: YouTube
       url: https://www.youtube.com/@cyberxlab-xyz
-      weight: 4
+      weight: 11
       params:
         icon: youtube
     - identifier: discord
       name: Discord
       url: https://discord.gg/gZd3QZrwRe
-      weight: 5
+      weight: 12
       params:
         icon: discord
     - identifier: telegram
       name: Telegram
       url: https://t.me/cyberxlab_community
-      weight: 6
+      weight: 13
       params:
         icon: telegram
     - identifier: wechat
       name: WeChat
       pageRef: /wechat
-      weight: 7
+      weight: 14
       params:
         icon: chat
     - identifier: more
       name: More
-      weight: 8
+      weight: 3
     - identifier: documentation
       name: Documentation
       pageRef: /docs
