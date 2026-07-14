@@ -1,3 +1,46 @@
-<svg viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" fill="white">
-  <path fill-rule="evenodd" clip-rule="evenodd" d="m 105.50024,22.224647 c -9.59169,-5.537563 -21.40871,-5.537563 -31.000093,0 L 39.054693,42.689119 C 29.463353,48.226675 23.55484,58.460531 23.55484,69.535642 v 40.928918 c 0,11.07542 5.908513,21.3092 15.499853,26.84652 l 35.445453,20.46446 c 9.591313,5.53732 21.408404,5.53732 31.000094,0 l 35.44507,-20.46446 c 9.59131,-5.53732 15.49985,-15.7711 15.49985,-26.84652 V 69.535642 c 0,-11.075111 -5.90854,-21.308967 -15.49985,-26.846523 z M 34.112797,85.737639 c -1.384445,2.397827 -1.384445,5.352099 0,7.749927 l 24.781554,42.922974 c 1.38437,2.39783 3.942853,3.87496 6.711592,3.87496 h 49.563107 c 2.76905,0 5.3273,-1.47713 6.71144,-3.87496 l 24.78194,-42.922974 c 1.38414,-2.397828 1.38414,-5.3521 0,-7.749927 L 121.88049,42.814746 c -1.38414,-2.397828 -3.94239,-3.874964 -6.71144,-3.874964 H 65.605944 c -2.768739,0 -5.327223,1.477059 -6.711592,3.874964 z" style="stroke-width:0.774993" />
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <style>
+    :root {
+      --bg-circle: transparent;
+      --chip-main: #ffffff;
+      --chip-cyan: #22d3ee;
+      --chip-accent: #f87171;
+      --chip-inner: #111827;
+    }
+  </style>
+
+  <circle cx="500" cy="500" r="450" fill="var(--bg-circle)" />
+
+  <rect x="270" y="270" width="460" height="460" rx="60" fill="var(--chip-main)" />
+  <rect x="340" y="190" width="60" height="80" fill="var(--chip-main)" />
+  <rect x="480" y="190" width="60" height="80" fill="var(--chip-main)" />
+  <rect x="620" y="190" width="60" height="80" fill="var(--chip-main)" />
+  <rect x="340" y="730" width="60" height="80" fill="var(--chip-main)" />
+  <rect x="480" y="730" width="60" height="80" fill="var(--chip-main)" />
+  <rect x="620" y="730" width="60" height="80" fill="var(--chip-main)" />
+  <rect x="190" y="340" width="80" height="60" fill="var(--chip-main)" />
+  <rect x="190" y="480" width="80" height="60" fill="var(--chip-main)" />
+  <rect x="190" y="620" width="80" height="60" fill="var(--chip-main)" />
+  <rect x="730" y="340" width="80" height="60" fill="var(--chip-main)" />
+  <rect x="730" y="480" width="80" height="60" fill="var(--chip-main)" />
+  <rect x="730" y="620" width="80" height="60" fill="var(--chip-main)" />
+
+  <rect x="330" y="330" width="340" height="340" rx="40" fill="var(--chip-inner)" />
+
+  <rect x="480" y="190" width="60" height="80" fill="var(--chip-cyan)" />
+  <rect x="190" y="480" width="80" height="60" fill="var(--chip-cyan)" />
+  <rect x="730" y="340" width="80" height="60" fill="var(--chip-cyan)" />
+  <rect x="730" y="480" width="80" height="60" fill="var(--chip-cyan)" />
+  <rect x="480" y="730" width="60" height="80" fill="var(--chip-cyan)" />
+
+  <circle cx="370" cy="210" r="20" fill="var(--chip-accent)" />
+  <circle cx="650" cy="210" r="20" fill="var(--chip-accent)" />
+  <circle cx="790" cy="650" r="20" fill="var(--chip-accent)" />
+  <circle cx="650" cy="790" r="20" fill="var(--chip-accent)" />
+
+  <g stroke-width="70" stroke-linecap="square" fill="none">
+    <line x1="620" y1="380" x2="380" y2="620" stroke="var(--chip-main)" />
+    <line x1="380" y1="380" x2="500" y2="500" stroke="var(--chip-main)" />
+    <line x1="500" y1="500" x2="620" y2="620" stroke="var(--chip-cyan)" />
+  </g>
 </svg>
