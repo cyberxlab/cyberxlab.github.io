@@ -213,7 +213,7 @@ params:
     displayToggle: true
 
   footer:
-    displayPoweredBy: false
+    displayPoweredBy: true
     displayCopyright: true
     width: normal
 
