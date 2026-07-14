@@ -15,8 +15,6 @@
     <div class="hx:mx-auto hx:flex hx:gap-2 hx:py-2 hx:px-4 hextra-max-footer-width">
       {{- partial "language-switch.html" (dict "context" .) -}}
       {{- with $displayThemeToggle }}{{ partial "theme-toggle.html" }}{{ end -}}
-      <div class="hx:grow"></div>
-      <a href="{{ with $aboutPage }}{{ .RelPermalink }}{{ else }}/about/{{ end }}" class="hx:cursor-pointer hx:rounded-md hx:text-left hx:font-medium hx:h-7 hx:px-2 hx:text-xs hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:hover:bg-gray-100 hx:hover:text-gray-900 hx:dark:hover:bg-primary-100/5 hx:dark:hover:text-gray-50 hx:flex hx:items-center">{{ $aboutTitle | safeHTML }}</a>
     </div>
     {{- if or hugo.IsMultilingual $displayThemeToggle -}}
       <hr class="hx:border-gray-200 hx:dark:border-neutral-800" />
@@ -30,6 +28,7 @@
       class="hextra-max-footer-width hx:mx-auto hx:flex hx:items-center hx:justify-between hx:py-12 hx:pl-[max(env(safe-area-inset-left),1.5rem)] hx:pr-[max(env(safe-area-inset-right),1.5rem)] hx:text-gray-600 hx:dark:text-gray-400"
     >
       {{- if .Site.Params.footer.displayCopyright }}<div class="hx:text-xs">{{ $copyright | markdownify }}</div>{{- end -}}
+      <a href="{{ with $aboutPage }}{{ .RelPermalink }}{{ else }}/about/{{ end }}" class="hx:ml-4 hx:cursor-pointer hx:text-xs hx:font-medium hx:text-gray-600 hx:transition-colors hx:dark:text-gray-400 hx:hover:text-gray-900 hx:dark:hover:text-gray-50">{{ $aboutTitle | safeHTML }}</a>
       {{- if (.Site.Params.footer.displayPoweredBy | default true) }}<div class="hx:font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{- end -}}
     </div>
   {{- end -}}
