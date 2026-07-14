@@ -102,7 +102,6 @@ menu:
       weight: 1
       params:
         type: link
-        icon: collection
     - identifier: blog
       name: Blog
       pageRef: /blog
