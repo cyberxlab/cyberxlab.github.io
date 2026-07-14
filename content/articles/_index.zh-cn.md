@@ -15,7 +15,7 @@ layout: wide
   {{< card
         link="/articles/hermes-quickstart/"
         title="Hermes Agent 快速入门"
-        image="https://hermes-agent.nousresearch.com/img/logo.svg"
+        image="/images/hermes-quickstart.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 

@@ -9,7 +9,7 @@ Open source projects powered by Hextra
   {{< card
         link="/articles/hermes-quickstart/"
         title="Hermes Agent Quickstart"
-        image="https://hermes-agent.nousresearch.com/img/logo.svg"
+        image="/images/hermes-quickstart.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
   >}}
 

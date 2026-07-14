@@ -3,10 +3,10 @@
 > Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
 
 
+## Archives
+
 ## Articles
 - [Hermes Agent Quickstart](https://cyberxlab.3344198.xyz/articles/hermes-quickstart/): This guide gets you from zero to a working Hermes setup that survives real use. Install, choose a … - Published 2026-07-14
-
-## Archives
 
 ## Blog
 - [Hextra v0.12](https://cyberxlab.3344198.xyz/blog/v0.12/): Hextra v0.12.0 delivers a rich set of new features including page context menus, image zoom, … - Published 2026-02-20
@@ -57,5 +57,5 @@ Glossary definition is maintained in a …
 - [WeChat](https://cyberxlab.3344198.xyz/wechat/): Scan the QR code below to join our WeChat community.
 
 ---
-Generated on 2026-07-14 14:38:37 UTC
+Generated on 2026-07-14 14:55:25 UTC
 Site: https://cyberxlab.3344198.xyz/
