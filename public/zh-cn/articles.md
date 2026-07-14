@@ -7,6 +7,13 @@
 
 {{< cards >}}
   {{< card
+        link="/articles/hermes-quickstart/"
+        title="Hermes Agent 快速入门"
+        image="https://hermes-agent.nousresearch.com/img/logo.svg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
+  {{< card
         link="https://goreleaser.com"
         title="GoReleaser"
         image="https://github.com/user-attachments/assets/6f02b5f5-4a84-4c18-983f-149d9568a8d1"

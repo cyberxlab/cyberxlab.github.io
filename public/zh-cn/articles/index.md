@@ -1,17 +1,18 @@
----
-title: Articles
-description: "Open source projects powered by Hextra"
-toc: false
-layout: wide
----
-
+# 文章
 <div class="hx:mt-4"></div>
 
 <p class="hx:mb-12 hx:text-center hx:text-lg hx:text-gray-500 hx:dark:text-gray-400">
-Open source projects powered by Hextra
+由 Hextra 驱动的开源网站和项目。
 </p>
 
 {{< cards >}}
+  {{< card
+        link="/articles/hermes-quickstart/"
+        title="Hermes Agent 快速入门"
+        image="https://hermes-agent.nousresearch.com/img/logo.svg"
+        imageStyle="object-fit:cover; aspect-ratio:16/9;"
+  >}}
+
   {{< card
         link="https://goreleaser.com"
         title="GoReleaser"
@@ -151,3 +152,4 @@ Open source projects powered by Hextra
   >}}
 
 {{< /cards >}}
+
