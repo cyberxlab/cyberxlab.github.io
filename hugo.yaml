@@ -107,45 +107,39 @@ menu:
       name: Blog
       pageRef: /blog
       weight: 2
-    - identifier: community
-      name: Community
-      weight: 3
     - identifier: x-twitter
-      name: X (Twitter) ↗
+      name: X (Twitter)
       url: https://x.com/CyberXLab
-      parent: community
-      weight: 1
-      params:
-        type: link
-    - identifier: youtube
-      name: YouTube ↗
-      url: https://www.youtube.com/@cyberxlab-xyz
-      parent: community
-      weight: 2
-      params:
-        type: link
-    - identifier: discord
-      name: Discord ↗
-      url: https://discord.gg/gZd3QZrwRe
-      parent: community
       weight: 3
       params:
-        type: link
-    - identifier: telegram
-      name: Telegram ↗
-      url: https://t.me/cyberxlab_community
-      parent: community
+        icon: x-twitter
+    - identifier: youtube
+      name: YouTube
+      url: https://www.youtube.com/@cyberxlab-xyz
       weight: 4
       params:
-        type: link
+        icon: youtube
+    - identifier: discord
+      name: Discord
+      url: https://discord.gg/gZd3QZrwRe
+      weight: 5
+      params:
+        icon: discord
+    - identifier: telegram
+      name: Telegram
+      url: https://t.me/cyberxlab_community
+      weight: 6
+      params:
+        icon: telegram
     - identifier: wechat
       name: WeChat
       pageRef: /wechat
-      parent: community
-      weight: 5
+      weight: 7
+      params:
+        icon: chat
     - identifier: more
       name: More
-      weight: 5
+      weight: 8
     - identifier: documentation
       name: Documentation
       pageRef: /docs
