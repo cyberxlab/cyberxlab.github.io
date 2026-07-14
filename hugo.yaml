@@ -121,12 +121,48 @@ menu:
       name: About
       pageRef: /about
       weight: 4
+    - identifier: community
+      name: Community
+      weight: 5
+    - identifier: x-twitter
+      name: X (Twitter) ↗
+      url: https://x.com/CyberXLab
+      parent: community
+      weight: 1
+      params:
+        type: link
+    - identifier: youtube
+      name: YouTube ↗
+      url: https://www.youtube.com/@cyberxlab-xyz
+      parent: community
+      weight: 2
+      params:
+        type: link
+    - identifier: discord
+      name: Discord ↗
+      url: https://discord.gg/gZd3QZrwRe
+      parent: community
+      weight: 3
+      params:
+        type: link
+    - identifier: telegram
+      name: Telegram ↗
+      url: https://t.me/cyberxlab_community
+      parent: community
+      weight: 4
+      params:
+        type: link
+    - identifier: wechat
+      name: WeChat
+      pageRef: /wechat
+      parent: community
+      weight: 5
     - name: Search
-      weight: 6
+      weight: 8
       params:
         type: search
     - name: GitHub
-      weight: 7
+      weight: 9
       url: "https://github.com/cyberxlab"
       params:
         icon: github
