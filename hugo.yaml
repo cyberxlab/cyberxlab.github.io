@@ -31,7 +31,7 @@ languages:
     params:
       banner:
         message: |
-          Hextra **v0.12** 发布啦！🎉 查看[更新内容]({{% relref "blog/v0.12" %}})
+          🎉 Cyber・X・Lab 正式上线！查看[公告]({{% relref "blog/cyberxlab-launch" %}})
       page:
         contextMenu:
           links:
@@ -154,9 +154,9 @@ params:
   externalLinkDecoration: true
 
   banner:
-    key: 'announcement-v0.12'
+    key: 'announcement-cyberxlab-launch'
     message: |
-      Hextra **v0.12** is here! 🎉 Discover [what's new]({{% relref "blog/v0.12" %}})
+      🎉 Cyber・X・Lab is now live! Read the [announcement]({{% relref "blog/cyberxlab-launch" %}})
 
   navbar:
     displayTitle: true

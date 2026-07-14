@@ -9,10 +9,7 @@
 - [Hermes Agent Quickstart](https://cyberxlab.3344198.xyz/articles/hermes-quickstart/): This guide gets you from zero to a working Hermes setup that survives real use. Install, choose a … - Published 2026-07-14
 
 ## Blog
-- [Hextra v0.12](https://cyberxlab.3344198.xyz/blog/v0.12/): Hextra v0.12.0 delivers a rich set of new features including page context menus, image zoom, … - Published 2026-02-20
-- [Hextra v0.11](https://cyberxlab.3344198.xyz/blog/v0.11/): Hextra v0.11.0 focuses on UX polish and useful new components: site-wide banner, improved callouts … - Published 2025-08-30
-- [Hextra v0.10](https://cyberxlab.3344198.xyz/blog/v0.10/): Hextra v0.10.0 is a big release packed with new capabilities, architectural upgrades, and … - Published 2025-08-14
-- [Markdown Syntax Guide](https://cyberxlab.3344198.xyz/blog/markdown/): This article offers a sample of basic Markdown syntax that can be used in Hugo content files. - Published 2020-01-01
+- [Cyber・X・Lab is now live](https://cyberxlab.3344198.xyz/blog/cyberxlab-launch/): Cyber・X・Lab is an open and inclusive community for cutting-edge technology. We believe the true … - Published 2026-07-14
 
 ## Introduction
 - [Getting Started](https://cyberxlab.3344198.xyz/docs/getting-started/): Quick Start from Template imfing/hextra-starter-template
@@ -57,5 +54,5 @@ Glossary definition is maintained in a …
 - [WeChat](https://cyberxlab.3344198.xyz/wechat/): Scan the QR code below to join our WeChat community.
 
 ---
-Generated on 2026-07-14 15:13:19 UTC
+Generated on 2026-07-14 15:31:02 UTC
 Site: https://cyberxlab.3344198.xyz/
