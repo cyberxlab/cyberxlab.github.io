@@ -204,8 +204,8 @@ params:
       tokenize: forward
 
   editURL:
-    enable: true
-    base: "https://github.com/imfing/hextra/edit/main/docs/content"
+    enable: false
+    base: "https://github.com/cyberxlab/cyberxlab.github.io/edit/main/content"
 
   blog:
     list:
