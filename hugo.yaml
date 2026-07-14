@@ -67,7 +67,7 @@ menu:
   main:
     - identifier: showcase
       name: Showcase
-      pageRef: /showcase
+      pageRef: /articles
       weight: 1
       params:
         type: link
