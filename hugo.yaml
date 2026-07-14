@@ -143,10 +143,6 @@ menu:
       pageRef: /wechat
       parent: community
       weight: 5
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 4
     - identifier: more
       name: More
       weight: 5
