@@ -96,34 +96,20 @@ enableInlineShortcodes: true
 
 menu:
   main:
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
+    - identifier: showcase
+      name: Showcase
+      pageRef: /showcase
       weight: 1
-    - identifier: versions
-      name: Versions
-      weight: 5
+      params:
+        type: link
+        icon: collection
     - identifier: blog
       name: Blog
       pageRef: /blog
       weight: 2
-    - identifier: more
-      name: More
-      weight: 4
-    - identifier: showcase
-      name: Showcase
-      pageRef: /showcase
-      weight: 3
-      params:
-        type: link
-        icon: collection
-    - identifier: about
-      name: About
-      pageRef: /about
-      weight: 4
     - identifier: community
       name: Community
-      weight: 5
+      weight: 3
     - identifier: x-twitter
       name: X (Twitter) ↗
       url: https://x.com/CyberXLab
@@ -157,30 +143,18 @@ menu:
       pageRef: /wechat
       parent: community
       weight: 5
-    - name: Search
-      weight: 8
-      params:
-        type: search
-    - name: GitHub
-      weight: 9
-      url: "https://github.com/cyberxlab"
-      params:
-        icon: github
-    - identifier: development
-      name: Development ↗
-      url: https://imfing.github.io/hextra/versions/latest/
-      parent: versions
-      params:
-        type: link
-        icon: beaker
-    - identifier: v0.10
-      name: v0.10 ↗
-      url: https://imfing.github.io/hextra/versions/v0.10/
-      parent: versions
-    - identifier: v0.11
-      name: v0.11 ↗
-      url: https://imfing.github.io/hextra/versions/v0.11/
-      parent: versions
+    - identifier: about
+      name: About
+      pageRef: /about
+      weight: 4
+    - identifier: more
+      name: More
+      weight: 5
+    - identifier: documentation
+      name: Documentation
+      pageRef: /docs
+      parent: more
+      weight: 1
     - identifier: archives
       name: Archives
       pageRef: /archives
@@ -191,6 +165,15 @@ menu:
       pageRef: /glossary
       parent: more
       weight: 3
+    - name: Search
+      weight: 8
+      params:
+        type: search
+    - name: GitHub
+      weight: 9
+      url: "https://github.com/cyberxlab"
+      params:
+        icon: github
 
   sidebar:
     - identifier: more
