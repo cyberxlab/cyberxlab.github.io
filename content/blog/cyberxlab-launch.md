@@ -1,11 +1,11 @@
 ---
-title: "Cyber・X・Lab is now live"
+title: "Cyber·X·Lab is now live"
 date: 2026-07-14
 draft: false
-description: "Cyber・X・Lab is an open and inclusive community for cutting-edge technology. We believe the true value of technology lies in practice and sharing."
+description: "Cyber·X·Lab is an open and inclusive community for cutting-edge technology. We believe the true value of technology lies in practice and sharing."
 ---
 
-Cyber・X・Lab is an open and inclusive community for cutting-edge technology. We believe the true value of technology lies in practice and sharing. Guided by our core philosophy of **Research・Build・Share**, we are building a growth platform that spans from learning to hands-on practice to collaborative creation.
+Cyber·X·Lab is an open and inclusive community for cutting-edge technology. We believe the true value of technology lies in practice and sharing. Guided by our core philosophy of **Research·Build·Share**, we are building a growth platform that spans from learning to hands-on practice to collaborative creation.
 
 We continuously focus on artificial intelligence, open-source tools, system architecture, and cybersecurity. Through accessible in-depth articles, structured video tutorials, and reusable open-source projects, we break down complex technology into content that is easy to understand and practical to use — helping every technology enthusiast lower the learning barrier and genuinely improve their hands-on skills.
 

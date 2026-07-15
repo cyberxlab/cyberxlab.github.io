@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://cyberxlab.3344198.xyz/"
-title: "Cyber・X・Lab"
+title: "Cyber·X·Lab"
 
 enableRobotsTXT: true
 # Parse Git commit
@@ -22,16 +22,16 @@ languages:
   en:
     label: English
     weight: 1
-    title: Cyber・X・Lab
+    title: Cyber·X·Lab
   zh-cn:
     label: 简体中文
     locale: zh-CN
     weight: 2
-    title: Cyber・X・Lab
+    title: Cyber·X·Lab
     params:
       banner:
         message: |
-          🎉 Cyber・X・Lab 正式上线！查看[公告]({{% relref "blog/cyberxlab-launch" %}})
+          🎉 Cyber·X·Lab 正式上线！查看[公告]({{% relref "blog/cyberxlab-launch" %}})
       page:
         contextMenu:
           links:
@@ -142,7 +142,7 @@ params:
   banner:
     key: 'announcement-cyberxlab-launch'
     message: |
-      🎉 Cyber・X・Lab is now live! Read the [announcement]({{% relref "blog/cyberxlab-launch" %}})
+      🎉 Cyber·X·Lab is now live! Read the [announcement]({{% relref "blog/cyberxlab-launch" %}})
 
   navbar:
     displayTitle: true
