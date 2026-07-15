@@ -17,5 +17,6 @@ layout: wide
         title="Hermes Agent 快速入门"
         image="/images/hermes-quickstart.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
+        subtitle="从零开始搭建 Hermes Agent 环境——安装、选择模型供应商、验证聊天可用，遇到问题知道怎么修。"
   >}}
 {{< /cards >}}

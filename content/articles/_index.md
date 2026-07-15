@@ -17,5 +17,6 @@ Articles and guides from the Cyber・X・Lab community.
         title="Hermes Agent Quickstart"
         image="/images/hermes-quickstart.png"
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
+        subtitle="Get from zero to a working Hermes Agent setup — install, choose a provider, verify a working chat, and know what to do when something breaks."
   >}}
 {{< /cards >}}
