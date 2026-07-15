@@ -133,10 +133,6 @@ menu:
       name: "About"
       pageRef: "/about"
       weight: 1
-    - identifier: hugoDocs
-      name: "Hugo Docs ↗"
-      url: "https://gohugo.io/documentation/"
-      weight: 2
 
 params:
   description: Modern, responsive, batteries-included Hugo theme for creating beautiful static websites.
