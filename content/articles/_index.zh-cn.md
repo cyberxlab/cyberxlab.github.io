@@ -5,11 +5,14 @@ toc: false
 layout: wide
 ---
 
-<div class="hx:mt-4"></div>
-
-<p class="hx:mb-12 hx:text-center hx:text-lg hx:text-gray-500 hx:dark:text-gray-400">
-来自 Cyber·X·Lab 社区的文章与指南。
-</p>
+<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12" style="min-height: 280px;">
+  <img src="/images/hermes-quickstart.png" alt="Cyber·X·Lab 文章" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
+  <div class="hx:absolute hx:inset-0 hx:bg-gradient-to-t hx:from-black/70 hx:via-black/30 hx:to-transparent"></div>
+  <div class="hx:relative hx:flex hx:flex-col hx:justify-end hx:px-8 hx:py-10" style="min-height: 280px;">
+    <h1 class="hx:text-3xl hx:font-bold hx:text-white hx:mb-2 hx:tracking-tight">文章</h1>
+    <p class="hx:text-base hx:text-gray-200 hx:max-w-2xl">来自 Cyber·X·Lab 社区的文章与指南 —— 深度解析、教程和实践指南，为技术爱好者打造。</p>
+  </div>
+</section>
 
 {{< cards >}}
   {{< card
