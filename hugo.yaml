@@ -78,30 +78,28 @@ menu:
     - identifier: x-twitter
       name: X (Twitter)
       url: https://x.com/CyberXLab
-      weight: 10
-      params:
-        icon: x-twitter
+      parent: community
+      weight: 1
     - identifier: youtube
       name: YouTube
       url: https://www.youtube.com/@cyberxlab-xyz
-      weight: 11
-      params:
-        icon: youtube
+      parent: community
+      weight: 2
     - identifier: discord
       name: Discord
       url: https://discord.gg/gZd3QZrwRe
       parent: community
-      weight: 1
+      weight: 3
     - identifier: telegram
       name: Telegram
       url: https://t.me/cyberxlab_community
       parent: community
-      weight: 2
+      weight: 4
     - identifier: wechat
       name: WeChat
       pageRef: /wechat
       parent: community
-      weight: 3
+      weight: 5
     - identifier: community
       name: Community
       weight: 3
