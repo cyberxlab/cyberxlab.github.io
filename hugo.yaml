@@ -148,8 +148,8 @@ params:
     logo:
       path: images/logo.png
       dark: images/logo-dark.png
-      width: 48
-      height: 48
+      width: 24
+      height: 24
       # link: /
     width: wide
 
