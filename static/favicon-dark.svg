@@ -1,37 +1,5 @@
-<svg viewBox="100 100 800 800" xmlns="http://www.w3.org/2000/svg">
-  <style>
-    .no-fill { fill: none; }
-    .stroke-primary { stroke: #f0f0f0; stroke-linecap: butt; }
-    .stroke-secondary { stroke: #cccccc; stroke-linecap: butt; }
-    .stroke-accent { stroke: #ff9500; stroke-linecap: butt; }
-    .fill-primary { fill: #f0f0f0; }
-    .fill-secondary { fill: #cccccc; }
-    .fill-accent { fill: #ff9500; }
-  </style>
-  <g class="stroke-secondary no-fill" stroke-width="8">
-    <ellipse cx="500" cy="500" rx="220" ry="90" transform="rotate(-30 500 500)"/>
-    <ellipse cx="500" cy="500" rx="220" ry="90" transform="rotate(30 500 500)"/>
-    <circle cx="310" cy="495" r="12" class="fill-secondary" stroke="none"/>
-    <circle cx="690" cy="495" r="12" class="fill-secondary" stroke="none"/>
-  </g>
-  <path d="M300 300 L360 300 L500 460 L640 300 L700 300 L540 500 L700 700 L640 700 L500 540 L360 700 L300 700 L460 500 Z" class="fill-primary" stroke="none"/>
-  <g>
-    <path d="M464 550 L536 550 L536 700 A 36 36 0 0 1 464 700 Z" class="fill-accent" stroke="none"/>
-    <path d="M450 280 L550 280 L550 300 L540 300 L540 700 A 40 40 0 0 1 460 700 L460 300 L450 300 Z" class="no-fill stroke-primary" stroke-width="8" stroke-linejoin="round"/>
-    <line x1="480" y1="370" x2="510" y2="370" class="stroke-primary" stroke-width="6" stroke-linecap="round"/>
-    <line x1="480" y1="400" x2="510" y2="400" class="stroke-primary" stroke-width="6" stroke-linecap="round"/>
-    <circle cx="495" cy="430" r="4" class="fill-primary" stroke="none"/>
-  </g>
-  <g stroke-width="20" class="no-fill">
-    <path d="M893.92 569.47 A 400 400 0 0 1 430.56 893.92" class="stroke-primary"/>
-    <path d="M106.08 430.56 A 400 400 0 0 1 569.44 106.08" class="stroke-primary"/>
-    <path d="M700 153.6 A 400 400 0 0 1 893.92 430.53" class="stroke-accent"/>
-    <path d="M300 846.4 A 400 400 0 0 1 106.08 569.47" class="stroke-accent"/>
-  </g>
-  <g stroke-width="16" class="no-fill">
-    <path d="M844.68 560.79 A 350 350 0 0 1 439.24 844.68" class="stroke-secondary"/>
-    <path d="M155.32 439.24 A 350 350 0 0 1 560.76 155.32" class="stroke-secondary"/>
-    <path d="M675 196.89 A 350 350 0 0 1 844.68 439.21" class="stroke-accent"/>
-    <path d="M325 803.11 A 350 350 0 0 1 155.32 560.79" class="stroke-accent"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="46" fill="none" stroke="#f5f5f5" stroke-width="4"/>
+  <path d="M30 30 L70 70 M70 30 L30 70" stroke="#f5f5f5" stroke-width="8" stroke-linecap="square"/>
+  <rect x="44" y="48" width="12" height="22" rx="6" fill="#ff9a2e"/>
 </svg>
