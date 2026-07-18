@@ -146,8 +146,8 @@ params:
     displayTitle: true
     displayLogo: true
     logo:
-      path: images/logo.png
-      dark: images/logo-dark.png
+      path: images/logo.svg
+      dark: images/logo-dark.svg
       width: 36
       height: 36
       # link: /
