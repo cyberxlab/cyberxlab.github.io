@@ -50,4 +50,9 @@ layout: wide-articles
         title="PowerShell SSH Remoting in 2026: Production Guide"
         subtitle="This article walks through the end-to-end setup of PowerShell 7+ SSH remoting in 2026, from OpenSSH installation and subsystem configuration to key-based auth, cipher hardening, and operational troubleshooting for Linux-to-Windows and Windows-to-Linux scenarios."
   >}}
+  {{< card
+        link="/articles/navigation-api-baseline/"
+        title="The Navigation API: Modern Client-Side Routing for SPAs"
+        subtitle="This article provides a production-ready guide to the Navigation API, covering intercept semantics, the two-phase commit model, manual scroll control, state management, and integration with View Transitions. Includes feature detection, graceful degradation strategies, and a verification checklist for cross-browser SPA routing."
+  >}}
 {{< /cards >}}

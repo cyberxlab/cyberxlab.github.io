@@ -50,4 +50,9 @@ layout: wide-articles
         title="PowerShell SSH 远程处理 2026：生产实践指南"
         subtitle="本文系统讲解 2026 年 PowerShell SSH 远程处理的端到端实践：从 OpenSSH 安装与子系统配置，到密钥认证、加密算法加固，以及 Linux→Windows 与 Windows→Linux 场景的运维排查。"
   >}}
+  {{< card
+        link="/zh-cn/articles/navigation-api-baseline/"
+        title="Navigation API：面向现代 SPA 的客户端路由原语"
+        subtitle="本文提供 Navigation API 的生产级实践指南，涵盖 intercept 语义、两阶段提交、手动滚动控制、状态管理，以及与 View Transitions 的集成。包含特性探测、优雅降级策略，以及跨浏览器 SPA 路由的验证清单。"
+  >}}
 {{< /cards >}}
