@@ -22,4 +22,9 @@ layout: wide
         imageStyle="object-fit:cover; aspect-ratio:16/9;"
         subtitle="从零开始搭建 Hermes Agent 环境——安装、选择模型供应商、验证聊天可用，遇到问题知道怎么修。"
   >}}
+  {{< card
+        link="/zh-cn/articles/markdown-数据驱动短代码/"
+        title="Markdown 数据驱动短代码"
+        subtitle="本文介绍在 Hugo 中使用数据文件驱动短代码的思路与实现步骤，包括数据结构设计、短代码模板编写、样式处理以及使用示例，帮助读者实现内容与展示的解耦，提升可维护性。"
+  >}}
 {{< /cards >}}
