@@ -1,31 +1,39 @@
 ---
-title: Hextra Theme
+title: Cyber·X·Lab
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
+<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12 hx:mt-6" style="min-height: 480px;">
+  <img src="/images/home-hero.webp" alt="Cyber·X·Lab" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
+  <!-- 暗色渐变：从右向左加深。WALL-E 在左下角，流形在中，我们将文字排在右侧 -->
+  <div class="hx:absolute hx:inset-0 hx:bg-gradient-to-l hx:from-black/90 hx:via-black/60 hx:to-transparent"></div>
+  
+  <div class="hx:relative hx:flex hx:flex-col hx:justify-center hx:items-end hx:px-8 hx:py-16 hx:text-right hx:h-full" style="min-height: 480px;">
+    
+<div class="hx:inline-flex hx:items-center hx:gap-2 hx:px-4 hx:py-1.5 hx:rounded-full hx:bg-white/10 hx:border hx:border-white/20 hx:text-sm hx:text-white hx:mb-6 hx:backdrop-blur-md">
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
   <span>Free, open source</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
-<div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-headline >}}
-  Build modern websites&nbsp;<br class="hx:sm:block hx:hidden" />with Markdown and Hugo
-{{< /hextra/hero-headline >}}
 </div>
 
-<div class="hx:mb-12">
-{{< hextra/hero-subtitle >}}
-  Fast, batteries-included Hugo theme&nbsp;<br class="hx:sm:block hx:hidden" />for creating beautiful static websites
-{{< /hextra/hero-subtitle >}}
+<h1 class="hx:text-5xl hx:md:text-6xl hx:font-extrabold hx:text-white hx:mb-6 hx:tracking-tight hx:leading-tight">
+  Explore, Build, &<br/>Innovate with AI
+</h1>
+
+<p class="hx:text-lg hx:md:text-xl hx:max-w-2xl hx:mb-10" style="color: rgba(255, 255, 255, 0.85) !important;">
+  A community-driven space for deep technical explorations, autonomous agent workflows, and modern web architectures.
+</p>
+
+<div class="hx:flex hx:flex-wrap hx:gap-4 hx:justify-end">
+  <a href="/docs" class="hx:inline-flex hx:items-center hx:justify-center hx:px-6 hx:py-3 hx:text-base hx:font-medium hx:text-black hx:bg-white hx:rounded-full hx:hover:bg-gray-100 hx:transition-colors">
+    Get Started
+  </a>
+  <a href="/articles" class="hx:inline-flex hx:items-center hx:justify-center hx:px-6 hx:py-3 hx:text-base hx:font-medium hx:text-white hx:bg-white/10 hx:border hx:border-white/20 hx:rounded-full hx:hover:bg-white/20 hx:backdrop-blur-md hx:transition-colors">
+    Read Articles
+  </a>
 </div>
 
-<div class="hx:mb-6">
-{{< hextra/hero-button text="Get Started" link="docs" >}}
-</div>
-
-<div class="hx:mt-6"></div>
+  </div>
+</section>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card

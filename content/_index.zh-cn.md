@@ -1,31 +1,39 @@
 ---
-title: Hextra 主题
+title: Cyber·X·Lab
 layout: hextra-home
 ---
 
-{{< hextra/hero-badge >}}
+<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12 hx:mt-6" style="min-height: 480px;">
+  <img src="/images/home-hero.webp" alt="Cyber·X·Lab" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
+  <!-- 暗色渐变：从右向左加深。WALL-E 在左下角，流形在中，我们将文字排在右侧 -->
+  <div class="hx:absolute hx:inset-0 hx:bg-gradient-to-l hx:from-black/90 hx:via-black/60 hx:to-transparent"></div>
+  
+  <div class="hx:relative hx:flex hx:flex-col hx:justify-center hx:items-end hx:px-8 hx:py-16 hx:text-right hx:h-full" style="min-height: 480px;">
+    
+<div class="hx:inline-flex hx:items-center hx:gap-2 hx:px-4 hx:py-1.5 hx:rounded-full hx:bg-white/10 hx:border hx:border-white/20 hx:text-sm hx:text-white hx:mb-6 hx:backdrop-blur-md">
   <div class="hx:w-2 hx:h-2 hx:rounded-full hx:bg-primary-400"></div>
-  <span>免费 开源</span>
-  {{< icon name="arrow-circle-right" attributes="height=14" >}}
-{{< /hextra/hero-badge >}}
-
-<div class="hx:mt-6 hx:mb-6">
-{{< hextra/hero-headline >}}
-  创建现代化网站&nbsp;<br class="hx:sm:block hx:hidden" />由 Markdown 和 Hugo 驱动
-{{< /hextra/hero-headline >}}
+  <span>免费 · 开源</span>
 </div>
 
-<div class="hx:mb-12">
-{{< hextra/hero-subtitle >}}
-  极速且全能的 Hugo 主题框架&nbsp;<br class="hx:sm:block hx:hidden" />为构建现代化的静态网站而生
-{{< /hextra/hero-subtitle >}}
+<h1 class="hx:text-5xl hx:md:text-6xl hx:font-extrabold hx:text-white hx:mb-6 hx:tracking-tight hx:leading-tight">
+  探索、构建与<br/>AI 驱动创新
+</h1>
+
+<p class="hx:text-lg hx:md:text-xl hx:max-w-2xl hx:mb-10" style="color: rgba(255, 255, 255, 0.85) !important;">
+  一个由社区驱动的技术探索空间，专注于深度技术实践、自动化 AI Agent 工作流与现代 Web 架构。
+</p>
+
+<div class="hx:flex hx:flex-wrap hx:gap-4 hx:justify-end">
+  <a href="/zh-cn/docs" class="hx:inline-flex hx:items-center hx:justify-center hx:px-6 hx:py-3 hx:text-base hx:font-medium hx:text-black hx:bg-white hx:rounded-full hx:hover:bg-gray-100 hx:transition-colors">
+    现在开始
+  </a>
+  <a href="/zh-cn/articles" class="hx:inline-flex hx:items-center hx:justify-center hx:px-6 hx:py-3 hx:text-base hx:font-medium hx:text-white hx:bg-white/10 hx:border hx:border-white/20 hx:rounded-full hx:hover:bg-white/20 hx:backdrop-blur-md hx:transition-colors">
+    阅读文章
+  </a>
 </div>
 
-<div class="hx:mb-6">
-{{< hextra/hero-button text="现在开始" link="docs" >}}
-</div>
-
-<div class="hx:mt-6"></div>
+  </div>
+</section>
 
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
