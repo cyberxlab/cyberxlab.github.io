@@ -55,4 +55,9 @@ layout: wide-articles
         title="The Navigation API: Modern Client-Side Routing for SPAs"
         subtitle="This article provides a production-ready guide to the Navigation API, covering intercept semantics, the two-phase commit model, manual scroll control, state management, and integration with View Transitions. Includes feature detection, graceful degradation strategies, and a verification checklist for cross-browser SPA routing."
   >}}
+  {{< card
+        link="/articles/cache-directory-tagging-spec/"
+        title="The 43-Byte Convention That Protects Backups: Cache Directory Tagging in Practice"
+        subtitle="How a 43-byte magic header — Signature: 8a477f597d28d172789f06886806bc55 — lets apps mark cache trees so tar, Borg and restic skip them by default; the spec's exact semantics, adopter quirks, and the security tradeoff that makes blind exclusion dangerous."
+  >}}
 {{< /cards >}}

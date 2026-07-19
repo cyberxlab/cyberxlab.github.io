@@ -55,4 +55,9 @@ layout: wide-articles
         title="Navigation API：面向现代 SPA 的客户端路由原语"
         subtitle="本文提供 Navigation API 的生产级实践指南，涵盖 intercept 语义、两阶段提交、手动滚动控制、状态管理，以及与 View Transitions 的集成。包含特性探测、优雅降级策略，以及跨浏览器 SPA 路由的验证清单。"
   >}}
+  {{< card
+        link="/zh-cn/articles/cache-directory-tagging-spec/"
+        title="保护备份的 43 字节约定：缓存目录标记实战"
+        subtitle="一个 43 字节的魔数头部 —— Signature: 8a477f597d28d172789f06886806bc55 —— 让应用把自己的缓存目录标记出来，tar、Borg、restic 默认跳过；本文拆解规范的确切语义、各采纳方差异、以及让盲目排除变得危险的那个安全权衡。"
+  >}}
 {{< /cards >}}
