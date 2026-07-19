@@ -35,4 +35,9 @@ layout: wide-articles
         title="Data-Driven Markdown Shortcodes"
         subtitle="Explore how to use data files (JSON/YAML) in Hugo to drive reusable shortcodes, decoupling content from presentation."
   >}}
+  {{< card
+        link="/articles/rate-limit-handling/"
+        title="Rate Limit Handling: Building HTTP Clients That Survive 429s"
+        subtitle="This article walks through a layered strategy for handling HTTP 429 rate-limit responses in production API clients, covering exponential backoff with jitter, the Retry-After header, client-side token buckets, and an internal proxy service for multi-callers scenarios."
+  >}}
 {{< /cards >}}

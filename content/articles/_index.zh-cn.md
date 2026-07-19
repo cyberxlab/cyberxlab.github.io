@@ -35,4 +35,9 @@ layout: wide-articles
         title="数据驱动 Markdown 短代码"
         subtitle="本文介绍在 Hugo 中使用数据文件驱动短代码的思路与实现步骤，包括数据结构设计、短代码模板编写、样式处理以及使用示例，帮助读者实现内容与展示的解耦，提升可维护性。"
   >}}
+  {{< card
+        link="/zh-cn/articles/rate-limit-handling/"
+        title="速率限制处理：构建能在 429 中存活的 HTTP 客户端"
+        subtitle="本文系统讲解生产环境 API 客户端处理 HTTP 429 速率限制的分层策略，覆盖带抖动的指数退避、Retry-After 头部、客户端令牌桶，以及用于多调用方场景的内部代理服务。"
+  >}}
 {{< /cards >}}
