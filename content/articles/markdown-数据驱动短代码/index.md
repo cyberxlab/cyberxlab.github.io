@@ -46,7 +46,7 @@ toc: true
 ```html
 {{ $data := .Site.Data.alerts }}
 {{ $item := (index $data (isset .Params "type" | ternary .Params.Type "info")) }}
-<div class="alert alert-{{ .Params.type | default \"info\" }}" style="border-left: 4px solid {{ .Item.color }}; background-color: {{ .Item.bg }};">
+<div class="alert alert-{{ .Params.type | default "info" }}" style="border-left: 4px solid {{ .Item.color }}; background-color: {{ .Item.bg }};">
   <div class="alert-header">
     <span class="alert-icon">{{ .Item.icon }}</span>
     <strong>{{ .Item.title }}</strong>
@@ -70,9 +70,9 @@ toc: true
 ## 实施步骤
 
 1. **准备数据文件**：在 `data/` 目录下创建所需的 YAML/JSON 文件，确保结构统一。
-2. **编写短代码模板**：在 `layouts/shortcuts/` 下创建对应的 HTML 模板，使用 `.Site.Data` 读取数据。
+2. **编写短代码模板**：在 `layouts/shortcodes/` 下创建对应的 HTML 模板，使用 `.Site.Data` 读取数据。
 3. **添加样式（可选）**：在 `assets/css/custom.css` 中定义通用的 `.alert` 类，或直接在模板内嵌入内联样式。
-4. **在内容中引用**：使用 `{{< shortname param1="value" param2="value" >}}` 调用，将需要展示的内容放在标签内部。
+4. **在内容中引用**：使用 `{{< alert type="info" >}}内容{{< /alert >}}` 调用，将需要展示的内容放在标签内部。
 5. **测试与调整**：本地运行 `hugo server` 查看效果，根据实际显示调整数据字段或模板。
 
 ## 最佳实践

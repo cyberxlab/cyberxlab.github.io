@@ -1,3 +1,7 @@
-<div class="alert alert-{{ .Get \"type\" | default \"info\" }}">
-{{ .Inner | markdownify }}
+{{/* Alert shortcode
+   Usage: {{< alert type="info" >}} content {{< /alert >}}
+   Types: info, tip, warning, danger
+*/}}
+<div class="alert alert-{{ .Get "type" | default "info" }}">
+  {{ .Inner | markdownify }}
 </div>
