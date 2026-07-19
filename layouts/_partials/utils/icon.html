@@ -18,9 +18,9 @@
   {{- if and $remoteProvider $remoteName -}}
     {{- $remoteEnabled := true -}}
     {{- $remoteProviders := dict
-      "lucide" (dict "url" "https://unpkg.com/lucide-static@1/icons/%s.svg")
-      "tabler" (dict "url" "https://unpkg.com/@tabler/icons@3/icons/outline/%s.svg")
-      "simple" (dict "url" "https://cdn.jsdelivr.net/npm/simple-icons@16/icons/%s.svg")
+        "lucide" (dict "url" "https://unpkg.com/lucide-static@1/icons/%s.svg")
+        "tabler" (dict "url" "https://unpkg.com/@tabler/icons@3/icons/outline/%s.svg")
+        "simple" (dict "url" "https://cdn.jsdelivr.net/npm/simple-icons@16/icons/%s.svg")
     -}}
     {{- with site.Params.icons.remote -}}
       {{- if isset . "enable" -}}
@@ -41,15 +41,14 @@
 
       {{- with index $remoteProviders $remoteProvider -}}
         {{- $remoteUrl := printf .url $remoteName -}}
-        {{- with try (resources.GetRemote $remoteUrl) -}}
-          {{- with .Err -}}
-            {{- errorf "Could not retrieve remote icon %q from %s. Reason: %s." $name $remoteUrl . -}}
-          {{- else with .Value -}}
-            {{- $icon = .Content -}}
-            {{- $isRemoteIcon = true -}}
-            {{- if and (not (strings.Contains $icon "fill=")) (not (strings.Contains $icon "stroke=")) -}}
-              {{- $icon = replaceRE "<svg" `<svg fill="currentColor"` $icon -}}
-            {{- end -}}
+        {{- $res := resources.GetRemote $remoteUrl -}}
+        {{- if $res.Err -}}
+          {{- errorf "Could not retrieve remote icon %q from %s. Reason: %s." $name $remoteUrl $res.Err -}}
+        {{- else -}}
+          {{- $icon = $res.Content -}}
+          {{- $isRemoteIcon = true -}}
+          {{- if and (not (strings.Contains $icon "fill=")) (not (strings.Contains $icon "stroke=")) -}}
+            {{- $icon = replaceRE "<svg" `<svg fill="currentColor"` $icon -}}
           {{- end -}}
         {{- end -}}
       {{- end -}}
@@ -64,14 +63,14 @@
 {{- $icon = $icon | safeHTML -}}
 
 {{- if $isRemoteIcon -}}
-  {{- $icon = replaceRE `(<svg[^>]*?)\sclass=(\"[^\"]*\"|'[^']*'|[^\s>]+)` `$1` $icon -}}
+  {{- $icon = replaceRE `(<svg[^>]*?)\sclass=("[\"]*|'[^']*'|[^>\s]+)` `$1` $icon -}}
 {{- end -}}
 
 {{- if .attributes -}}
   {{- $attributes := .attributes -}}
   {{- if $isRemoteIcon -}}
-    {{- $icon = replaceRE `(<svg[^>]*?)\swidth=(\"[^\"]*\"|'[^']*'|[^\s>]+)` `$1` $icon -}}
-    {{- $icon = replaceRE `(<svg[^>]*?)\sheight=(\"[^\"]*\"|'[^']*'|[^\s>]+)` `$1` $icon -}}
+    {{- $icon = replaceRE `(<svg[^>]*?)\swidth=("[\"]*|'[^']*'|[^\s>]+)` `$1` $icon -}}
+    {{- $icon = replaceRE `(<svg[^>]*?)\sheight=("[\"]*|'[^']*'|[^\s>]+)` `$1` $icon -}}
   {{- end -}}
   {{- $icon = replaceRE "<svg" (printf "<svg %s" $attributes) $icon -}}
 {{- end -}}
