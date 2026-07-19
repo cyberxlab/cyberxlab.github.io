@@ -45,4 +45,9 @@ layout: wide-articles
         title="未授权 RCE 解剖：拆解 wp2shell WordPress 核心漏洞链"
         subtitle="本文从工程角度拆解 wp2shell 未授权 RCE：REST API 批量路由混淆（CVE-2026-63030）与 WP_Query 的 author__not_in SQL 注入（CVE-2026-60137）如何串成未授权代码执行，并给出暴露面探测、检测与在补丁之外进一步硬化站点的方法。"
   >}}
+  {{< card
+        link="/zh-cn/articles/powershell-ssh-remoting-2026/"
+        title="PowerShell SSH 远程处理 2026：生产实践指南"
+        subtitle="本文系统讲解 2026 年 PowerShell SSH 远程处理的端到端实践：从 OpenSSH 安装与子系统配置，到密钥认证、加密算法加固，以及 Linux→Windows 与 Windows→Linux 场景的运维排查。"
+  >}}
 {{< /cards >}}

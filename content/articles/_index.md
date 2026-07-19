@@ -45,4 +45,9 @@ layout: wide-articles
         title="Anatomy of a Pre-Auth RCE: Decomposing the wp2shell WordPress Core Chain"
         subtitle="An engineering decomposition of the wp2shell pre-auth RCE in WordPress core: how a REST API batch-route confusion (CVE-2026-63030) and a WP_Query author__not_in SQL injection (CVE-2026-60137) chained into unauthenticated code execution, how to detect exposure, and how to harden sites beyond patching."
   >}}
+  {{< card
+        link="/articles/powershell-ssh-remoting-2026/"
+        title="PowerShell SSH Remoting in 2026: Production Guide"
+        subtitle="This article walks through the end-to-end setup of PowerShell 7+ SSH remoting in 2026, from OpenSSH installation and subsystem configuration to key-based auth, cipher hardening, and operational troubleshooting for Linux-to-Windows and Windows-to-Linux scenarios."
+  >}}
 {{< /cards >}}
