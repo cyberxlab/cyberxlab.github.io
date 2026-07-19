@@ -40,4 +40,9 @@ layout: wide-articles
         title="速率限制处理：构建能在 429 中存活的 HTTP 客户端"
         subtitle="本文系统讲解生产环境 API 客户端处理 HTTP 429 速率限制的分层策略，覆盖带抖动的指数退避、Retry-After 头部、客户端令牌桶，以及用于多调用方场景的内部代理服务。"
   >}}
+  {{< card
+        link="/zh-cn/articles/wordpress-preauth-rce-anatomy/"
+        title="未授权 RCE 解剖：拆解 wp2shell WordPress 核心漏洞链"
+        subtitle="本文从工程角度拆解 wp2shell 未授权 RCE：REST API 批量路由混淆（CVE-2026-63030）与 WP_Query 的 author__not_in SQL 注入（CVE-2026-60137）如何串成未授权代码执行，并给出暴露面探测、检测与在补丁之外进一步硬化站点的方法。"
+  >}}
 {{< /cards >}}

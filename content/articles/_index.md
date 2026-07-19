@@ -40,4 +40,9 @@ layout: wide-articles
         title="Rate Limit Handling: Building HTTP Clients That Survive 429s"
         subtitle="This article walks through a layered strategy for handling HTTP 429 rate-limit responses in production API clients, covering exponential backoff with jitter, the Retry-After header, client-side token buckets, and an internal proxy service for multi-callers scenarios."
   >}}
+  {{< card
+        link="/articles/wordpress-preauth-rce-anatomy/"
+        title="Anatomy of a Pre-Auth RCE: Decomposing the wp2shell WordPress Core Chain"
+        subtitle="An engineering decomposition of the wp2shell pre-auth RCE in WordPress core: how a REST API batch-route confusion (CVE-2026-63030) and a WP_Query author__not_in SQL injection (CVE-2026-60137) chained into unauthenticated code execution, how to detect exposure, and how to harden sites beyond patching."
+  >}}
 {{< /cards >}}
