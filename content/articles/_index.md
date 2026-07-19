@@ -5,7 +5,7 @@ toc: false
 layout: wide-articles
 ---
 
-<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12" style="min-height: 280px;">
+<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-6" style="min-height: 280px;">
   <img src="/images/articles-hero.webp" alt="Cyber·X·Lab Articles" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
   <!-- 暗色渐变：从左往右加深，网络节点背景均衡分布，白字标题落在左侧暗区 -->
   <div class="hx:absolute hx:inset-0 hx:bg-gradient-to-r hx:from-black/85 hx:via-black/45 hx:to-transparent"></div>
@@ -14,6 +14,14 @@ layout: wide-articles
     <p class="hx:text-base hx:max-w-2xl" style="color: rgba(255, 255, 255, 0.85) !important;">Articles and guides from the Cyber·X·Lab community — deep dives, tutorials, and hands-on guides for technology enthusiasts.</p>
   </div>
 </section>
+
+<!-- RSS 订阅入口：banner 下方，左对齐 -->
+<div class="hx:mb-6">
+  {{< hextra/hero-badge link="index.xml" >}}
+    <span>RSS Feed</span>
+    {{< icon name="rss" attributes="height=14" >}}
+  {{< /hextra/hero-badge >}}
+</div>
 
 {{< cards >}}
   {{< card
