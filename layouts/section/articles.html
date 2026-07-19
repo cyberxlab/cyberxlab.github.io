@@ -1,16 +1,27 @@
 {{ define "main" }}
-<article class="article-list">
-  <h1>{{ .Title }}</h1>
-  <div class="article-list__items">
-    {{ range .Pages }}
-    <div class="article-list__item">
-      <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-      {{ if .Summary }}
-      <div class="article-list__summary">{{ .Summary | safeHTML }}</div>
+  <header class="page-header">
+    <h1 class="page-title">{{ .Title }}</h1>
+  </header>
+
+  {{ if .Params.show_toc | default .Site.Params.article.show_toc }}
+  {{ partial "toc.html" . }}
+  {{ end }}
+
+  <div class="article-list">
+    {{ $pages := .Pages }}
+    {{ if gt (len $pages) 0 }}
+      {{ range $pages }}
+        <article class="article-list__item">
+          <a href="{{ .RelPermalink }}" class="article-list__link">
+            <h2 class="article-list__title">{{ .Title }}</h2>
+            {{ if .Summary }}
+              <div class="article-list__summary">{{ .Summary }}</div>
+            {{ end }}
+          </a>
+        </article>
       {{ end }}
-      <a href="{{ .RelPermalink }}" class="article-list__more">阅读全文 →</a>
-    </div>
+    {{ else }}
+      <p>{{ i18n "no_posts" }}</p>
     {{ end }}
   </div>
-</article>
 {{ end }}
