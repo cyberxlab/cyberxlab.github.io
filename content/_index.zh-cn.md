@@ -3,10 +3,10 @@ title: Cyber·X·Lab
 layout: hextra-home
 ---
 
-<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12 hx:mt-6" style="min-height: 480px;">
-  <img src="/images/home-hero.webp" alt="Cyber·X·Lab" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
+<section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12 hx:mt-6 hx:w-full" style="height: 480px; display: block;">
+  <img src="/images/home-hero.webp" alt="Cyber·X·Lab" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; display:block;" loading="lazy" decoding="async" />
   <!-- 暗色渐变：主体（医生手+笔记本+医疗 HUD）在右侧，左侧为暗色散景区。整体压暗以融于 dark 主题 -->
-  <div class="hx:absolute hx:inset-0 hx:bg-gradient-to-r hx:from-black/80 hx:via-black/40 hx:to-transparent"></div>
+  <div style="position:absolute; inset:0; width:100%; height:100%; background:linear-gradient(to right, rgba(0,0,0,0.8), rgba(0,0,0,0.4), transparent);"></div>
 </section>
 
 {{< hextra/feature-grid >}}
