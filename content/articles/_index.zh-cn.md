@@ -60,4 +60,9 @@ layout: wide-articles
         title="保护备份的 43 字节约定：缓存目录标记实战"
         subtitle="一个 43 字节的魔数头部 —— Signature: 8a477f597d28d172789f06886806bc55 —— 让应用把自己的缓存目录标记出来，tar、Borg、restic 默认跳过；本文拆解规范的确切语义、各采纳方差异、以及让盲目排除变得危险的那个安全权衡。"
   >}}
+  {{< card
+        link="/zh-cn/articles/openssl-hollowbyte-dos-anatomy/"
+        title="HollowByte 解剖：11 字节如何让一台服务器在无一枚 CVE 的情况下搁浅"
+        subtitle="拆解 Okta Red Team 于 2026 年 7 月公开的 OpenSSL HollowByte DoS：4 字节的 TLS 握手头如何让未校验的预分配一路涨到 131 KB、glibc 碎片化如何把已释放的块变成永久堆积、OpenSSL 的修复如何转向惰性增量分配，以及站点可靠性工程师如何检测并硬化这一漏洞类别。"
+  >}}
 {{< /cards >}}

@@ -60,4 +60,9 @@ layout: wide-articles
         title="The 43-Byte Convention That Protects Backups: Cache Directory Tagging in Practice"
         subtitle="How a 43-byte magic header — Signature: 8a477f597d28d172789f06886806bc55 — lets apps mark cache trees so tar, Borg and restic skip them by default; the spec's exact semantics, adopter quirks, and the security tradeoff that makes blind exclusion dangerous."
   >}}
+  {{< card
+        link="/articles/openssl-hollowbyte-dos-anatomy/"
+        title="HollowByte Anatomy: How 11 Bytes Can Strand a Server Without a Single CVE"
+        subtitle="An engineering decomposition of HollowByte, the OpenSSL DoS disclosed by Okta Red Team in July 2026: how a 4-byte TLS handshake header triggers an unvalidated pre-allocation up to 131 KB per connection, how glibc fragmentation turns attacks into permanent RSS bloat, how the fix moved to lazy incremental buffer growth, and how site-reliability engineers detect and harden against the class."
+  >}}
 {{< /cards >}}
