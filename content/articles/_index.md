@@ -26,39 +26,9 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
-        link="/articles/hermes-quickstart/"
-        title="Hermes Agent Quickstart"
-        subtitle="Get from zero to a working Hermes Agent setup — install, choose a provider, verify a working chat, and know what to do when something breaks."
-  >}}
-  {{< card
-        link="/articles/data-driven-shortcodes/"
-        title="Data-Driven Markdown Shortcodes"
-        subtitle="Explore how to use data files (JSON/YAML) in Hugo to drive reusable shortcodes, decoupling content from presentation."
-  >}}
-  {{< card
-        link="/articles/rate-limit-handling/"
-        title="Rate Limit Handling: Building HTTP Clients That Survive 429s"
-        subtitle="This article walks through a layered strategy for handling HTTP 429 rate-limit responses in production API clients, covering exponential backoff with jitter, the Retry-After header, client-side token buckets, and an internal proxy service for multi-callers scenarios."
-  >}}
-  {{< card
-        link="/articles/wordpress-preauth-rce-anatomy/"
-        title="Anatomy of a Pre-Auth RCE: Decomposing the wp2shell WordPress Core Chain"
-        subtitle="An engineering decomposition of the wp2shell pre-auth RCE in WordPress core: how a REST API batch-route confusion (CVE-2026-63030) and a WP_Query author__not_in SQL injection (CVE-2026-60137) chained into unauthenticated code execution, how to detect exposure, and how to harden sites beyond patching."
-  >}}
-  {{< card
-        link="/articles/powershell-ssh-remoting-2026/"
-        title="PowerShell SSH Remoting in 2026: Production Guide"
-        subtitle="This article walks through the end-to-end setup of PowerShell 7+ SSH remoting in 2026, from OpenSSH installation and subsystem configuration to key-based auth, cipher hardening, and operational troubleshooting for Linux-to-Windows and Windows-to-Linux scenarios."
-  >}}
-  {{< card
-        link="/articles/navigation-api-baseline/"
-        title="The Navigation API: Modern Client-Side Routing for SPAs"
-        subtitle="This article provides a production-ready guide to the Navigation API, covering intercept semantics, the two-phase commit model, manual scroll control, state management, and integration with View Transitions. Includes feature detection, graceful degradation strategies, and a verification checklist for cross-browser SPA routing."
-  >}}
-  {{< card
-        link="/articles/cache-directory-tagging-spec/"
-        title="The 43-Byte Convention That Protects Backups: Cache Directory Tagging in Practice"
-        subtitle="How a 43-byte magic header — Signature: 8a477f597d28d172789f06886806bc55 — lets apps mark cache trees so tar, Borg and restic skip them by default; the spec's exact semantics, adopter quirks, and the security tradeoff that makes blind exclusion dangerous."
+        link="/articles/linux-scheduler-metrics-evaluation/"
+        title="Evaluating Linux Scheduler Latency: Practical Metrics and Measurement Techniques"
+        subtitle="Learn how to diagnose CPU starvation and evaluate scheduler latency on Linux. This guide covers eBPF-based tracing with runqlat and low-overhead stats from the proc filesystem."
   >}}
   {{< card
         link="/articles/openssl-hollowbyte-dos-anatomy/"
@@ -66,8 +36,38 @@ layout: wide-articles
         subtitle="An engineering decomposition of HollowByte, the OpenSSL DoS disclosed by Okta Red Team in July 2026: how a 4-byte TLS handshake header triggers an unvalidated pre-allocation up to 131 KB per connection, how glibc fragmentation turns attacks into permanent RSS bloat, how the fix moved to lazy incremental buffer growth, and how site-reliability engineers detect and harden against the class."
   >}}
   {{< card
-        link="/articles/linux-scheduler-metrics-evaluation/"
-        title="Evaluating Linux Scheduler Latency: Practical Metrics and Measurement Techniques"
-        subtitle="Learn how to diagnose CPU starvation and evaluate scheduler latency on Linux. This guide covers eBPF-based tracing with runqlat and low-overhead stats from the proc filesystem."
+        link="/articles/cache-directory-tagging-spec/"
+        title="The 43-Byte Convention That Protects Backups: Cache Directory Tagging in Practice"
+        subtitle="How a 43-byte magic header — Signature: 8a477f597d28d172789f06886806bc55 — lets apps mark cache trees so tar, Borg and restic skip them by default; the spec's exact semantics, adopter quirks, and the security tradeoff that makes blind exclusion dangerous."
+  >}}
+  {{< card
+        link="/articles/navigation-api-baseline/"
+        title="The Navigation API: Modern Client-Side Routing for SPAs"
+        subtitle="This article provides a production-ready guide to the Navigation API, covering intercept semantics, the two-phase commit model, manual scroll control, state management, and integration with View Transitions. Includes feature detection, graceful degradation strategies, and a verification checklist for cross-browser SPA routing."
+  >}}
+  {{< card
+        link="/articles/powershell-ssh-remoting-2026/"
+        title="PowerShell SSH Remoting in 2026: Production Guide"
+        subtitle="This article walks through the end-to-end setup of PowerShell 7+ SSH remoting in 2026, from OpenSSH installation and subsystem configuration to key-based auth, cipher hardening, and operational troubleshooting for Linux-to-Windows and Windows-to-Linux scenarios."
+  >}}
+  {{< card
+        link="/articles/wordpress-preauth-rce-anatomy/"
+        title="Anatomy of a Pre-Auth RCE: Decomposing the wp2shell WordPress Core Chain"
+        subtitle="An engineering decomposition of the wp2shell pre-auth RCE in WordPress core: how a REST API batch-route confusion (CVE-2026-63030) and a WP_Query author__not_in SQL injection (CVE-2026-60137) chained into unauthenticated code execution, how to detect exposure, and how to harden sites beyond patching."
+  >}}
+  {{< card
+        link="/articles/rate-limit-handling/"
+        title="Rate Limit Handling: Building HTTP Clients That Survive 429s"
+        subtitle="This article walks through a layered strategy for handling HTTP 429 rate-limit responses in production API clients, covering exponential backoff with jitter, the Retry-After header, client-side token buckets, and an internal proxy service for multi-callers scenarios."
+  >}}
+  {{< card
+        link="/articles/data-driven-shortcodes/"
+        title="Data-Driven Markdown Shortcodes"
+        subtitle="Explore how to use data files (JSON/YAML) in Hugo to drive reusable shortcodes, decoupling content from presentation."
+  >}}
+  {{< card
+        link="/articles/hermes-quickstart/"
+        title="Hermes Agent Quickstart"
+        subtitle="Get from zero to a working Hermes Agent setup — install, choose a provider, verify a working chat, and know what to do when something breaks."
   >}}
 {{< /cards >}}

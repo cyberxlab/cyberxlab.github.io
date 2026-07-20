@@ -26,39 +26,9 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
-        link="/articles/hermes-quickstart/"
-        title="Hermes Agent 快速上手"
-        subtitle="从零开始搭建一个完整的 Hermes Agent 工作环境 —— 安装、选择模型供应商、验证可用的对话，并掌握常见问题的排查方法。"
-  >}}
-  {{< card
-        link="/zh-cn/articles/data-driven-shortcodes/"
-        title="数据驱动 Markdown 短代码"
-        subtitle="本文介绍在 Hugo 中使用数据文件驱动短代码的思路与实现步骤，包括数据结构设计、短代码模板编写、样式处理以及使用示例，帮助读者实现内容与展示的解耦，提升可维护性。"
-  >}}
-  {{< card
-        link="/zh-cn/articles/rate-limit-handling/"
-        title="速率限制处理：构建能在 429 中存活的 HTTP 客户端"
-        subtitle="本文系统讲解生产环境 API 客户端处理 HTTP 429 速率限制的分层策略，覆盖带抖动的指数退避、Retry-After 头部、客户端令牌桶，以及用于多调用方场景的内部代理服务。"
-  >}}
-  {{< card
-        link="/zh-cn/articles/wordpress-preauth-rce-anatomy/"
-        title="未授权 RCE 解剖：拆解 wp2shell WordPress 核心漏洞链"
-        subtitle="本文从工程角度拆解 wp2shell 未授权 RCE：REST API 批量路由混淆（CVE-2026-63030）与 WP_Query 的 author__not_in SQL 注入（CVE-2026-60137）如何串成未授权代码执行，并给出暴露面探测、检测与在补丁之外进一步硬化站点的方法。"
-  >}}
-  {{< card
-        link="/zh-cn/articles/powershell-ssh-remoting-2026/"
-        title="PowerShell SSH 远程处理 2026：生产实践指南"
-        subtitle="本文系统讲解 2026 年 PowerShell SSH 远程处理的端到端实践：从 OpenSSH 安装与子系统配置，到密钥认证、加密算法加固，以及 Linux→Windows 与 Windows→Linux 场景的运维排查。"
-  >}}
-  {{< card
-        link="/zh-cn/articles/navigation-api-baseline/"
-        title="Navigation API：面向现代 SPA 的客户端路由原语"
-        subtitle="本文提供 Navigation API 的生产级实践指南，涵盖 intercept 语义、两阶段提交、手动滚动控制、状态管理，以及与 View Transitions 的集成。包含特性探测、优雅降级策略，以及跨浏览器 SPA 路由的验证清单。"
-  >}}
-  {{< card
-        link="/zh-cn/articles/cache-directory-tagging-spec/"
-        title="保护备份的 43 字节约定：缓存目录标记实战"
-        subtitle="一个 43 字节的魔数头部 —— Signature: 8a477f597d28d172789f06886806bc55 —— 让应用把自己的缓存目录标记出来，tar、Borg、restic 默认跳过；本文拆解规范的确切语义、各采纳方差异、以及让盲目排除变得危险的那个安全权衡。"
+        link="/zh-cn/articles/linux-scheduler-metrics-evaluation/"
+        title="评估 Linux 调度器延迟：实用指标与测量技术"
+        subtitle="了解如何诊断 CPU 饥饿并评估 Linux 调度器延迟。本指南涵盖了基于 eBPF 的 runqlat 跟踪，以及通过 proc 文件系统获取的超低开销指标采样。"
   >}}
   {{< card
         link="/zh-cn/articles/openssl-hollowbyte-dos-anatomy/"
@@ -66,8 +36,38 @@ layout: wide-articles
         subtitle="拆解 Okta Red Team 于 2026 年 7 月公开的 OpenSSL HollowByte DoS：4 字节的 TLS 握手头如何让未校验的预分配一路涨到 131 KB、glibc 碎片化如何把已释放的块变成永久堆积、OpenSSL 的修复如何转向惰性增量分配，以及站点可靠性工程师如何检测并硬化这一漏洞类别。"
   >}}
   {{< card
-        link="/zh-cn/articles/linux-scheduler-metrics-evaluation/"
-        title="评估 Linux 调度器延迟：实用指标与测量技术"
-        subtitle="了解如何诊断 CPU 饥饿并评估 Linux 调度器延迟。本指南涵盖了基于 eBPF 的 runqlat 跟踪，以及通过 proc 文件系统获取的超低开销指标采样。"
+        link="/zh-cn/articles/cache-directory-tagging-spec/"
+        title="保护备份的 43 字节约定：缓存目录标记实战"
+        subtitle="一个 43 字节的魔数头部 —— Signature: 8a477f597d28d172789f06886806bc55 —— 让应用把自己的缓存目录标记出来，tar、Borg、restic 默认跳过；本文拆解规范的确切语义、各采纳方差异、以及让盲目排除变得危险的那个安全权衡。"
+  >}}
+  {{< card
+        link="/zh-cn/articles/navigation-api-baseline/"
+        title="Navigation API：面向现代 SPA 的客户端路由原语"
+        subtitle="本文提供 Navigation API 的生产级实践指南，涵盖 intercept 语义、两阶段提交、手动滚动控制、状态管理，以及与 View Transitions 的集成。包含特性探测、优雅降级策略，以及跨浏览器 SPA 路由的验证清单。"
+  >}}
+  {{< card
+        link="/zh-cn/articles/powershell-ssh-remoting-2026/"
+        title="PowerShell SSH 远程处理 2026：生产实践指南"
+        subtitle="本文系统讲解 2026 年 PowerShell SSH 远程处理的端到端实践：从 OpenSSH 安装与子系统配置，到密钥认证、加密算法加固，以及 Linux→Windows 与 Windows→Linux 场景的运维排查。"
+  >}}
+  {{< card
+        link="/zh-cn/articles/wordpress-preauth-rce-anatomy/"
+        title="未授权 RCE 解剖：拆解 wp2shell WordPress 核心漏洞链"
+        subtitle="本文从工程角度拆解 wp2shell 未授权 RCE：REST API 批量路由混淆（CVE-2026-63030）与 WP_Query 的 author__not_in SQL 注入（CVE-2026-60137）如何串成未授权代码执行，并给出暴露面探测、检测与在补丁之外进一步硬化站点的方法。"
+  >}}
+  {{< card
+        link="/zh-cn/articles/rate-limit-handling/"
+        title="速率限制处理：构建能在 429 中存活的 HTTP 客户端"
+        subtitle="本文系统讲解生产环境 API 客户端处理 HTTP 429 速率限制的分层策略，覆盖带抖动的指数退避、Retry-After 头部、客户端令牌桶，以及用于多调用方场景的内部代理服务。"
+  >}}
+  {{< card
+        link="/zh-cn/articles/data-driven-shortcodes/"
+        title="数据驱动 Markdown 短代码"
+        subtitle="本文介绍在 Hugo 中使用数据文件驱动短代码的思路与实现步骤，包括数据结构设计、短代码模板编写、样式处理以及使用示例，帮助读者实现内容与展示的解耦，提升可维护性。"
+  >}}
+  {{< card
+        link="/zh-cn/articles/hermes-quickstart/"
+        title="Hermes Agent 快速上手"
+        subtitle="从零开始搭建一个完整的 Hermes Agent 工作环境 —— 安装、选择模型供应商、验证可用的对话，并掌握常见问题的排查方法。"
   >}}
 {{< /cards >}}
