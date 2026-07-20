@@ -1,6 +1,6 @@
 ---
 title: "HollowByte 解剖：11 字节如何让一台服务器在无一枚 CVE 的情况下搁浅"
-date: 2026-07-20T05:34:00Z
+date: 2026-07-20T00:07:00Z
 draft: false
 tags: ["Security", "OpenSSL", "DoS"]
 categories: ["技术实践"]

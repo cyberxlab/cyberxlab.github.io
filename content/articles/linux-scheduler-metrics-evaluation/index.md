@@ -1,6 +1,6 @@
 ---
 title: "Evaluating Linux Scheduler Latency: Practical Metrics and Measurement Techniques"
-date: 2026-07-20T12:00:00Z
+date: 2026-07-20T00:15:00Z
 draft: false
 tags: ["Linux", "Kernel", "Performance", "eBPF"]
 categories: ["Technical Practices"]

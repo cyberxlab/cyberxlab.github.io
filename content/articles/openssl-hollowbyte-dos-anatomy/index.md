@@ -1,6 +1,6 @@
 ---
 title: "HollowByte Anatomy: How 11 Bytes Can Strand a Server Without a Single CVE"
-date: 2026-07-20T05:34:00Z
+date: 2026-07-20T00:07:00Z
 draft: false
 tags: ["Security", "OpenSSL", "DoS"]
 categories: ["Technical Practices"]
