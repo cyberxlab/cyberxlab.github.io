@@ -26,6 +26,11 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
+        link="/articles/regressive-jpeg-engineering-postmortem/"
+        title="Regressive JPEG: A Postmortem on Baseline-Fallback Regression"
+        subtitle="A focused postmortem on a progressive-JPEG-to-baseline regression in a Hugo/static pipeline: detection with file signatures, root-cause in image-processing libraries, and a CI guard you can copy."
+  >}}
+  {{< card
         link="/articles/gitroot-self-hosted-pr-merge-tool/"
         title="Deep Dive into GitRoot: A Self-Hosted Git Forge with Code-Driven PR Merges"
         subtitle="Explore how GitRoot implements a highly resilient, database-free Git forge by storing all metadata (issues, grafts, and boards) as plain text files directly within the repository, using its Grafter plugin to automate PR reviews and merges directly from your IDE."

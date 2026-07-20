@@ -26,6 +26,11 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
+        link="/zh-cn/articles/regressive-jpeg-engineering-postmortem/"
+        title="回归式 JPEG：从渐进式退化到 baseline 的故障复盘"
+        subtitle="围绕 Hugo/静态站管线里一次渐进式 JPEG 被静默重新编码成 baseline 的回归案例：用文件签名定位问题、追因到图像库，并给出可入 CI 的拦截脚本。"
+  >}}
+  {{< card
         link="/zh-cn/articles/gitroot-self-hosted-pr-merge-tool/"
         title="深入剖析 GitRoot：基于代码驱动 PR 合并的自托管 Git 极简 Forge"
         subtitle="探索 GitRoot 如何通过将所有元数据（Issue、Graft 分支、看板）以纯文本文件形式直接存储在 Git 仓库中，实现无数据库、极其高弹性的自托管 Git Forge。同时详细分析其 Grafter 插件如何在不离开 IDE 的情况下完成 PR 评审和自动合并。"
