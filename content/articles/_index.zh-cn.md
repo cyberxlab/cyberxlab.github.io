@@ -65,4 +65,9 @@ layout: wide-articles
         title="HollowByte 解剖：11 字节如何让一台服务器在无一枚 CVE 的情况下搁浅"
         subtitle="拆解 Okta Red Team 于 2026 年 7 月公开的 OpenSSL HollowByte DoS：4 字节的 TLS 握手头如何让未校验的预分配一路涨到 131 KB、glibc 碎片化如何把已释放的块变成永久堆积、OpenSSL 的修复如何转向惰性增量分配，以及站点可靠性工程师如何检测并硬化这一漏洞类别。"
   >}}
+  {{< card
+        link="/zh-cn/articles/linux-scheduler-metrics-evaluation/"
+        title="评估 Linux 调度器延迟：实用指标与测量技术"
+        subtitle="了解如何诊断 CPU 饥饿并评估 Linux 调度器延迟。本指南涵盖了基于 eBPF 的 runqlat 跟踪，以及通过 proc 文件系统获取的超低开销指标采样。"
+  >}}
 {{< /cards >}}

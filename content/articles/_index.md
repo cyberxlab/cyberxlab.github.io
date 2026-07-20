@@ -65,4 +65,9 @@ layout: wide-articles
         title="HollowByte Anatomy: How 11 Bytes Can Strand a Server Without a Single CVE"
         subtitle="An engineering decomposition of HollowByte, the OpenSSL DoS disclosed by Okta Red Team in July 2026: how a 4-byte TLS handshake header triggers an unvalidated pre-allocation up to 131 KB per connection, how glibc fragmentation turns attacks into permanent RSS bloat, how the fix moved to lazy incremental buffer growth, and how site-reliability engineers detect and harden against the class."
   >}}
+  {{< card
+        link="/articles/linux-scheduler-metrics-evaluation/"
+        title="Evaluating Linux Scheduler Latency: Practical Metrics and Measurement Techniques"
+        subtitle="Learn how to diagnose CPU starvation and evaluate scheduler latency on Linux. This guide covers eBPF-based tracing with runqlat and low-overhead stats from the proc filesystem."
+  >}}
 {{< /cards >}}
