@@ -26,6 +26,11 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
+        link="/articles/gitroot-self-hosted-pr-merge-tool/"
+        title="Deep Dive into GitRoot: A Self-Hosted Git Forge with Code-Driven PR Merges"
+        subtitle="Explore how GitRoot implements a highly resilient, database-free Git forge by storing all metadata (issues, grafts, and boards) as plain text files directly within the repository, using its Grafter plugin to automate PR reviews and merges directly from your IDE."
+  >}}
+  {{< card
         link="/articles/bitset-enum-flags-pattern/"
         title="Type-Safe Bit Flags for C++ Enum Classes"
         subtitle="From scoped enum foundation to a generic BitFlags template, this guide shows how to keep type safety while making C++ bit-flag enums ergonomic and easy to audit."

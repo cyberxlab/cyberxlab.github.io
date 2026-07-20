@@ -26,6 +26,11 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
+        link="/zh-cn/articles/gitroot-self-hosted-pr-merge-tool/"
+        title="深入剖析 GitRoot：基于代码驱动 PR 合并的自托管 Git 极简 Forge"
+        subtitle="探索 GitRoot 如何通过将所有元数据（Issue、Graft 分支、看板）以纯文本文件形式直接存储在 Git 仓库中，实现无数据库、极其高弹性的自托管 Git Forge。同时详细分析其 Grafter 插件如何在不离开 IDE 的情况下完成 PR 评审和自动合并。"
+  >}}
+  {{< card
         link="/zh-cn/articles/bitset-enum-flags-pattern/"
         title="为 C++ 枚举类设计类型安全位标志"
         subtitle="从 scoped enum 基础到通用 BitFlags 模板，本文展示如何兼顾类型安全与可审计的位标志操作，避免跨枚举误用与运算符优先级陷阱。"
