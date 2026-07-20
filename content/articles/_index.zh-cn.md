@@ -26,6 +26,11 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
+        link="/zh-cn/articles/bitset-enum-flags-pattern/"
+        title="为 C++ 枚举类设计类型安全位标志"
+        subtitle="从 scoped enum 基础到通用 BitFlags 模板，本文展示如何兼顾类型安全与可审计的位标志操作，避免跨枚举误用与运算符优先级陷阱。"
+  >}}
+  {{< card
         link="/zh-cn/articles/linux-scheduler-metrics-evaluation/"
         title="评估 Linux 调度器延迟：实用指标与测量技术"
         subtitle="了解如何诊断 CPU 饥饿并评估 Linux 调度器延迟。本指南涵盖了基于 eBPF 的 runqlat 跟踪，以及通过 proc 文件系统获取的超低开销指标采样。"

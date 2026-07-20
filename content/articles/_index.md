@@ -26,6 +26,11 @@ layout: wide-articles
 
 {{< cards >}}
   {{< card
+        link="/articles/bitset-enum-flags-pattern/"
+        title="Type-Safe Bit Flags for C++ Enum Classes"
+        subtitle="From scoped enum foundation to a generic BitFlags template, this guide shows how to keep type safety while making C++ bit-flag enums ergonomic and easy to audit."
+  >}}
+  {{< card
         link="/articles/linux-scheduler-metrics-evaluation/"
         title="Evaluating Linux Scheduler Latency: Practical Metrics and Measurement Techniques"
         subtitle="Learn how to diagnose CPU starvation and evaluate scheduler latency on Linux. This guide covers eBPF-based tracing with runqlat and low-overhead stats from the proc filesystem."
