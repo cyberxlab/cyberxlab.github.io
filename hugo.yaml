@@ -151,8 +151,8 @@ params:
     logo:
       path: images/logo.png
       dark: images/logo-dark.png
-      width: 39
-      height: 39
+      width: 56
+      height: 56
       # link: /
     width: wide
 
