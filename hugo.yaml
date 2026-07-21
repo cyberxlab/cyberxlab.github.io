@@ -106,19 +106,20 @@ menu:
     - identifier: community
       name: Community
       weight: 3
-    - identifier: more
-      name: More
-      weight: 4
-    - identifier: documentation
-      name: Documentation
-      pageRef: /docs
-      parent: more
-      weight: 1
-    - identifier: glossary
-      name: Glossary
-      pageRef: /glossary
-      parent: more
-      weight: 2
+    # Hidden: "More" dropdown menu (uncomment when content is ready)
+    # - identifier: more
+    #   name: More
+    #   weight: 4
+    # - identifier: documentation
+    #   name: Documentation
+    #   pageRef: /docs
+    #   parent: more
+    #   weight: 1
+    # - identifier: glossary
+    #   name: Glossary
+    #   pageRef: /glossary
+    #   parent: more
+    #   weight: 2
     - name: Search
       weight: 8
       params:
