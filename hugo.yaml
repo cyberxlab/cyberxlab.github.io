@@ -77,7 +77,7 @@ menu:
     - identifier: blog
       name: Blog
       pageRef: /blog
-      weight: 2
+      weight: 4
     - identifier: x-twitter
       name: X (Twitter)
       url: https://x.com/CyberXLab
