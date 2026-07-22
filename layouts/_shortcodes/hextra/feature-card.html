@@ -1,28 +1,23 @@
 {{- /*
-Override of Hextra feature-card to use inline styles for image positioning,
-avoiding reliance on Tailwind hx: classes that may not compile in production.
+Override of Hextra feature-card:
+- CSS class for image positioning (via assets/css/custom.css)
+- No link wrapper (cards are display-only until content is ready)
 */ -}}
 
 {{- $title := .Get "title" -}}
 {{- $subtitle := .Get "subtitle" -}}
 {{- $class := .Get "class" -}}
 {{- $image := .Get "image" -}}
-{{- $imageClass := .Get "imageClass" -}}
 {{- $style := .Get "style" -}}
 {{- $icon := .Get "icon" -}}
-{{- $link := .Get "link" -}}
-
-{{- $external := hasPrefix $link "http" -}}
-{{- $href := cond (strings.HasPrefix $link "/") ($link | relURL) $link -}}
 
 {{- if hasPrefix $image "/" -}}
   {{- $image = relURL (strings.TrimPrefix "/" $image) -}}
 {{- end -}}
 
-<a
-  {{ with $link }}href="{{ $href }}" {{ with $external }} target="_blank" rel="noreferrer"{{ end }}{{ end }}
+<div
   {{ with $style }}style="{{ . | safeCSS }}"{{ end }}
-  class="{{ $class }} hextra-feature-card not-prose hx:block hx:relative hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:hover:border-gray-300 hx:dark:border-neutral-800 hx:dark:hover:border-neutral-700 hx:before:pointer-events-none hx:before:absolute hx:before:inset-0 hx:before:bg-glass-gradient"
+  class="{{ $class }} hextra-feature-card not-prose hx:block hx:relative hx:overflow-hidden hx:rounded-3xl hx:border hx:border-gray-200 hx:dark:border-neutral-800 hx:before:pointer-events-none hx:before:absolute hx:before:inset-0 hx:before:bg-glass-gradient"
 >
   <div class="hx:relative hx:w-full hx:p-6">
     <h3 class="hx:text-2xl hx:font-medium hx:leading-6 hx:mb-2 hx:flex hx:items-center">
@@ -36,6 +31,6 @@ avoiding reliance on Tailwind hx: classes that may not compile in production.
     <p class="hx:text-gray-500 hx:dark:text-gray-400 hx:text-sm hx:leading-6">{{ $subtitle | markdownify }}</p>
   </div>
   {{- with $image -}}
-    <img src="{{ . }}" class="{{ $imageClass }}" style="position:absolute;bottom:0;left:0;width:100%;height:55%;object-fit:cover;opacity:0.7;" alt="{{ $title }}" loading="lazy" />
+    <img src="{{ . }}" alt="{{ $title }}" />
   {{- end -}}
-</a>
+</div>
