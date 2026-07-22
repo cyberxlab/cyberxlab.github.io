@@ -9,50 +9,80 @@ layout: hextra-home
   <div style="position:absolute; inset:0; width:100%; height:100%; background:linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0.4), transparent);"></div>
 </section>
 
+## Research
+
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="Fast and Full-featured"
-    subtitle="Simple and easy to use, yet powerful and feature-rich."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="images/hextra-doc.webp"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    title="AI & Embodied Intelligence"
+    subtitle="Large language models, automated code/research agents, and AI applied across disciplines."
+    icon="chip"
+    link="/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(99,102,241,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Markdown is All You Need"
-    subtitle="Compose with just Markdown. Enrich with Shortcode components."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
-    image="images/hextra-markdown.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    title="Biotech & Computational Biology"
+    subtitle="Synthetic biology, AI-driven drug design, and digital biology research."
+    icon="beaker"
+    link="/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Full Text Search"
-    subtitle="Built-in full text search with FlexSearch, no extra setup required."
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="images/hextra-search.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="Lightweight as a Feather"
-    subtitle="No dependency or Node.js is needed to use Hextra. Powered by Hugo, one of *the fastest* static site generators, building your site in just seconds with a single binary."
-  >}}
-  {{< hextra/feature-card
-    title="Responsive with Dark Mode Included"
-    subtitle="Looks great on different screen sizes. Built-in dark mode support, with auto-switching based on user's system preference."
-  >}}
-  {{< hextra/feature-card
-    title="Build and Host for Free"
-    subtitle="Build with GitHub Actions, and host for free on GitHub Pages. Alternatively it can be hosted on any static hosting service."
-  >}}
-  {{< hextra/feature-card
-    title="Multi-Language Made Easy"
-    subtitle="Create multi-language pages by just adding locales suffix to the Markdown file. Adding i18n support to your site is intuitive."
-  >}}
-  {{< hextra/feature-card
-    title="And Much More..."
+    title="Space Tech & Orbital Computing"
+    subtitle="Satellite communications, space data processing, and frontier aerospace engineering."
     icon="sparkles"
-    subtitle="Syntax highlighting / Table of contents / SEO / RSS / LaTeX / Mermaid / Customizable / and more..."
+    link="/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
+  >}}
+{{< /hextra/feature-grid >}}
+
+## Build
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Open-Source Tools & Infrastructure"
+    subtitle="Building geek-friendly open-source projects and toolchains to lower the barrier to deployment."
+    icon="code"
+    link="/articles"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(168,85,247,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Science Experiments & Hardcore Tutorials"
+    subtitle="Structured hands-on guides and experiment documentation — turning theory into practice."
+    icon="beaker"
+    link="/articles"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(236,72,153,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Frontier Digital Tech Practice"
+    subtitle="Cross-disciplinary tech fusion: computational physics, simulation, and hardcore engineering."
+    icon="terminal"
+    link="/articles"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(14,165,233,0.15), hsla(0,0%,100%,0));"
+  >}}
+{{< /hextra/feature-grid >}}
+
+## Share
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="Deep Articles & Research Reports"
+    subtitle="Accessible yet rigorous deep dives into frontier science — breaking down knowledge walls."
+    icon="document-text"
+    link="/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(234,179,8,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Cross-Disciplinary Community"
+    subtitle="Connecting enthusiasts and experts across AI, biology, aerospace, and software engineering."
+    icon="users"
+    link="/wechat"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Geek Innovation Incubation"
+    subtitle="Encouraging questions, discussion, and open-source collaboration — incubating frontier experiments."
+    icon="light-bulb"
+    link="https://github.com/cyberxlab"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}

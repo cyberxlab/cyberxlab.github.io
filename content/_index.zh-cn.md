@@ -9,50 +9,80 @@ layout: hextra-home
   <div style="position:absolute; inset:0; width:100%; height:100%; background:linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0.4), transparent);"></div>
 </section>
 
+## 核心前沿研究
+
 {{< hextra/feature-grid >}}
   {{< hextra/feature-card
-    title="快速且功能全面"
-    subtitle="简单易用，功能强大丰富。"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="/images/hextra-doc.webp"
-    imageClass="hx:top-[40%] hx:left-[24px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(194,97,254,0.15),hsla(0,0%,100%,0));"
+    title="AI 与具身智能"
+    subtitle="大模型、自动化代码/科学研究 Agent，以及人工智能在多学科中的应用。"
+    icon="chip"
+    link="/zh-cn/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(99,102,241,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="Markdown 写作"
-    subtitle="只需使用 Markdown 进行编辑。多样的 Shortcode 组件开箱即用。"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-lg:min-h-[340px]"
-    image="/images/hextra-markdown.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[180%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(142,53,74,0.15),hsla(0,0%,100%,0));"
+    title="生物科技与计算生物"
+    subtitle="合成生物学、AI 药物设计与生物数字化研究。"
+    icon="beaker"
+    link="/zh-cn/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
-    title="全文搜索"
-    subtitle="内置 FlexSearch 全文搜索，无需额外设置。"
-    class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
-    image="/images/hextra-search.webp"
-    imageClass="hx:top-[40%] hx:left-[36px] hx:w-[110%] hx:sm:w-[110%] hx:dark:opacity-80"
-    style="background: radial-gradient(ellipse at 50% 80%,rgba(221,210,59,0.15),hsla(0,0%,100%,0));"
-  >}}
-  {{< hextra/feature-card
-    title="轻如羽毛"
-    subtitle="使用 Hextra 无需依赖 Node.js。由 Hugo 提供支持，Hugo 是最快的静态网站生成器之一，只需一个二进制文件即可在数秒内创建网站。"
-  >}}
-  {{< hextra/feature-card
-    title="响应式布局，暗黑模式"
-    subtitle="适应不同的屏幕尺寸。内置暗黑模式支持，并根据用户的系统偏好自动切换。"
-  >}}
-  {{< hextra/feature-card
-    title="免费构建和托管"
-    subtitle="使用 GitHub Actions 进行构建，并在 GitHub Pages 上免费托管。也可以托管在任何静态托管服务上。"
-  >}}
-  {{< hextra/feature-card
-    title="多语言轻松实现"
-    subtitle="仅需通过在 Markdown 文件后添加语言代码即可创建多语言页面。向您的站点添加 i18n 支持直观易行。"
-  >}}
-  {{< hextra/feature-card
-    title="还有更多..."
+    title="太空科技与轨道计算"
+    subtitle="卫星通信、太空数据处理与前沿航天工程探索。"
     icon="sparkles"
-    subtitle="代码高亮 / 目录 / SEO / RSS / LaTeX 公式 / Mermaid 图标 / 自定义 / 等等..."
+    link="/zh-cn/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
+  >}}
+{{< /hextra/feature-grid >}}
+
+## 工程实践与产出
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="开源工具与基础设施"
+    subtitle="打造极客友好的开源项目与工具链，降低技术落地成本。"
+    icon="code"
+    link="/zh-cn/articles"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(168,85,247,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="科学实验与硬核教程"
+    subtitle="提供结构化的动手指南与实验文档，让理论落地为实践。"
+    icon="beaker"
+    link="/zh-cn/articles"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(236,72,153,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="前沿数字技术实践"
+    subtitle="跨学科技术融合，探索计算物理、模拟仿真等硬核工程。"
+    icon="terminal"
+    link="/zh-cn/articles"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(14,165,233,0.15), hsla(0,0%,100%,0));"
+  >}}
+{{< /hextra/feature-grid >}}
+
+## 开源生态与分享
+
+{{< hextra/feature-grid >}}
+  {{< hextra/feature-card
+    title="深度文章与研究报告"
+    subtitle="通俗且严谨的前沿科技解读，打破知识传播墙。"
+    icon="document-text"
+    link="/zh-cn/blog"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(234,179,8,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="跨学科交流社区"
+    subtitle="连接 AI、生物、航天及软件领域的爱好者与专家。"
+    icon="users"
+    link="/zh-cn/wechat"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="极客创新孵化"
+    subtitle="鼓励提问、探讨与开源项目协作，孵化有趣的前沿尝试。"
+    icon="light-bulb"
+    link="https://github.com/cyberxlab"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
