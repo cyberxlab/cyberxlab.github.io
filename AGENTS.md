@@ -160,14 +160,14 @@ Deployment is fully automated via GitHub Actions:
 
 ### Navigation Menu Structure
 
-The navbar has the following structure (defined in `hugo.yaml` → `menu.main`):
+The navbar has the following structure (defined in `hugo.yaml` → `languages.<lang>.menu.main`):
 
 ```
 Showcase (→ /articles)
 Blog (→ /blog)
 Community ▾                          # Dropdown menu
   ├── X (Twitter)  → external
-  ├── YouTube      → external
+  ├── YouTube      → external (language-specific)
   ├── Discord      → external
   ├── Telegram    → external
   └── WeChat      → /wechat
@@ -177,7 +177,7 @@ More ▾                               # Dropdown menu
 [Search] [GitHub icon]
 ```
 
-**When modifying menus:** Always update both the `menu.main` section in `hugo.yaml` AND the corresponding i18n translation keys in `i18n/en.yaml` and `i18n/zh-cn.yaml`.
+**When modifying menus:** Always update both the `languages.<lang>.menu.main` sections in `hugo.yaml` AND the corresponding i18n translation keys in `i18n/en.yaml` and `i18n/zh-cn.yaml`.
 
 ### i18n Custom Overrides
 
