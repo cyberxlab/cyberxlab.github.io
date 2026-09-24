@@ -1,5 +1,5 @@
 ---
-title: "Google Gemma in Healthcare: A Deep-Dive Research Report"
+title: "Google Gemma in Healthcare: Deep-Dive Research Report"
 description: "An in-depth analysis of MedGemma 1.5 and TxGemma — exploring core architecture, clinical benchmarks, and commercialization pathways as medical AI enters the era of universal multimodal foundation models."
 date: 2026-09-24
 draft: false
@@ -35,7 +35,7 @@ TxGemma brings generative AI to molecular design and ADMET prediction. The **Age
 
 ---
 
-> 📖 **完整中文报告** — This report was originally authored in Chinese. Read the full analysis (8 sections, including detailed benchmark tables and strategic investment recommendations) in the [Chinese version](../medgemma-healthcare-deep-dive/).
+> 📖 **完整中文报告** — This report was originally authored in Chinese. Read the full analysis (8 sections, including detailed benchmark tables and strategic investment recommendations) in the [Chinese version](/zh-cn/articles/medgemma-healthcare-deep-dive/).
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Google Gemma 模型在健康医疗领域的应用深度调研报告"
+title: "Google Gemma 模型在健康医疗领域的应用"
 description: "深度解析 MedGemma 1.5 与 TxGemma 的核心架构、临床性能基准与商业化路径——医疗 AI 进入跨模态通用基座模型的范式革命时代。"
 date: 2026-09-24
 draft: false
