@@ -65,7 +65,6 @@
       "script",
       "section",
       "semantics",
-      "source",
       "span",
       "strong",
       "style",
@@ -81,8 +80,7 @@
       "time",
       "title",
       "tr",
-      "ul",
-      "video"
+      "ul"
     ],
     "classes": [
       "[-webkit-tap-highlight-color:transparent]",
@@ -1451,7 +1449,6 @@
       "表格",
       "表格内的行内-markdown",
       "覆盖-cdn-基础-url",
-      "视频深度对谈",
       "诊断身份验证故障",
       "语法高亮",
       "语言切换器",

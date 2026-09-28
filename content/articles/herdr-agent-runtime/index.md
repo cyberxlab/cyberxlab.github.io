@@ -3,7 +3,7 @@ title: "Herdr 深度拆解：AI 智能体专属终端运行时与多 Agent 协�
 date: 2026-09-28
 description: "关于 Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation 的深度研究与实践指南"
 summary: "关于 Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation 的深度研究与实践指南"
-tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation", "AIGC", "ANSI", "API", "AWS", "Advantage", "Agent", "Agent-Native", "Agent-to-Agent", "Alacritty", "Apache", "Architecture", "Backfill", "Banner", "Bash", "Beta"]
+tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation", "ANSI", "API", "ARP", "Agency", "Agent", "Agent-driven-Agent", "Agent-native", "Agent-to-Agent", "Alacritty", "Analyze", "Autonomous", "Banner", "Blocked", "Bridge", "Buffer"]
 draft: false
 ---
 
@@ -12,16 +12,8 @@ draft: false
 > [!TIP]
 > 📥 **配套资源与源材料**：
 > - 🖼️ **全景信息图**：[高清 Bento 网格信息图 (PNG)](infographic.png)
-> - 📄 **课件下载**：[完整幻灯片讲义 (PDF)](slides.pdf)
 > - 🔗 **源仓库/论文**：[Herdr 官方网站与产品愿景](https://herdr.dev/)
 > - 🔗 **源仓库/论文**：[Herdr GitHub 官方代码仓库](https://github.com/herdrdev/herdr)
-
-## 视频深度对谈
-
-<video controls width="100%" poster="cover.png">
-  <source src="overview.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
 
 ---
 
