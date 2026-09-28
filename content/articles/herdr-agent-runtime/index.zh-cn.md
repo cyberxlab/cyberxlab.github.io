@@ -9,14 +9,6 @@ draft: false
 
 ![封面](cover.png)
 
-> [!TIP]
-> 📥 **配套资源与源材料**：
-> - 🖼️ **全景信息图**：[高清 Bento 网格信息图 (PNG)](infographic.png)
-> - 🔗 **源仓库/论文**：[Herdr 官方网站与产品愿景](https://herdr.dev/)
-> - 🔗 **源仓库/论文**：[Herdr GitHub 官方代码仓库](https://github.com/herdrdev/herdr)
-
----
-
 ![Cyber·X·Lab Research Infographic Banner](infographic.png)
 
 ### 1. 核心摘要 (Executive Summary)
@@ -235,6 +227,15 @@ Herdr 正在推动 **Agent Runtime Protocol (ARP)** 的标准化，旨在让所�
 *   **Herdr Cloud 的终局**：实现真正意义上的“全球无缝漫游”工作区，开发者不再受限于特定的物理机器，Agent 将真正成为在分布式集群中自由穿梭的“智能 herd”。
 
 ---
-**项目资源**：[官方站点](https://herdr.dev) | [开源地址 (GitHub)](https://github.com/herdrdev/herdr)
-**出品机构**：Cyber·X·Lab（数字生命与智能体系统实验室）
-**官方站点**：[cyberxlab.xyz](https://cyberxlab.xyz) | **技术支持**：support@cyberxlab.xyz | **商业合作**：bd@cyberxlab.xyz
+
+### 📚 相关资源与项目链接
+
+* 🌐 **项目主页**：[herdr.dev](https://herdr.dev)
+* 💻 **开源仓库**：[GitHub - herdrdev/herdr](https://github.com/herdrdev/herdr)
+* 📺 **视频精讲**：[YouTube 官方视频解析](https://www.youtube.com/watch?v=GDKJNlZdTEk)
+
+---
+
+> **关于 Cyber·X·Lab**  
+> 数字生命与智能体系统实验室，专注于前沿 AI Agent 运行时、多智能体协同架构与现代开发基础设施的技术研究与开源布道。  
+> 🌐 **官方站点**：[cyberxlab.xyz](https://cyberxlab.xyz) · ✉️ **交流与反馈**：`support@cyberxlab.xyz`
