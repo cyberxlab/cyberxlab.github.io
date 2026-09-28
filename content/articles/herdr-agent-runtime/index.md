@@ -9,8 +9,6 @@ draft: false
 
 ![封面](cover.png)
 
-![Cyber·X·Lab Research Infographic Banner](infographic.png)
-
 ### 1. 核心摘要 (Executive Summary)
 
 > **架构定义**：Herdr 并非传统意义上的终端模拟器（Terminal Emulator），而是专为 AI Agent 设计的**解耦式终端运行时（Decoupled Terminal Runtime）**。它通过轻量化 Rust 编写的后台守护进程（Daemon）接管终端会话的生命周期，使 AI 智能体能够实现“进程与界面分离”，从而在复杂的分布式工程环境中具备持续执行与状态自感知的核心能力。
@@ -57,6 +55,8 @@ draft: false
 ---
 
 ### 3. 底层架构与核心机制深度拆解 (Deep Dive)
+
+![Herdr 全景架构与状态机工作流](infographic.png)
 
 #### 3.1 系统架构拓扑与内核映射
 Herdr 采用典型的 C/S 架构，但其创新的关键在于 `herdr-server` 对 PTY（伪终端）的深度接管。
@@ -231,11 +231,5 @@ Herdr 正在推动 **Agent Runtime Protocol (ARP)** 的标准化，旨在让所�
 ### 📚 相关资源与项目链接
 
 * 🌐 **项目主页**：[herdr.dev](https://herdr.dev)
-* 💻 **开源仓库**：[GitHub - herdrdev/herdr](https://github.com/herdrdev/herdr)
-* 📺 **视频精讲**：[YouTube 官方视频解析](https://www.youtube.com/watch?v=GDKJNlZdTEk)
-
----
-
-> **关于 Cyber·X·Lab**  
-> 数字生命与智能体系统实验室，专注于前沿 AI Agent 运行时、多智能体协同架构与现代开发基础设施的技术研究与开源布道。  
-> 🌐 **官方站点**：[cyberxlab.xyz](https://cyberxlab.xyz) · ✉️ **交流与反馈**：`support@cyberxlab.xyz`
+* 💻 **开源代码仓**：[GitHub - herdrdev/herdr](https://github.com/herdrdev/herdr)
+* 📺 **视频精讲**：[Herdr 深度拆解：AI 智能体专属终端运行时与多 Agent 协同体系](https://www.youtube.com/watch?v=GDKJNlZdTEk)
