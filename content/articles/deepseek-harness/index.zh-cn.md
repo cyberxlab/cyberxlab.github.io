@@ -71,22 +71,8 @@ draft: false
 
 Cordis 的核心准则是：**内核只提供最纯粹的生命周期管理、上下文拓扑维护与事件路由机制，所有的业务逻辑、模型驱动、工具链与交互协议全部以插件（Plugin）形式挂载。**
 
-```
-+-------------------------------------------------------------------+
-|                     Applications & Profiles                       |
-|   Standard Profile   |   Code Profile   |   Creator Profile       |
-+-------------------------------------------------------------------+
-|               Cordis Domain Service Contracts                     |
-|  FileSystemService  |  TerminalSandbox  |  LLMInferenceProvider   |
-+-------------------------------------------------------------------+
-|                 Cordis Microkernel Core Engine                    |
-|  [Context Tree]     [Event Bus]     [Algebraic Effect Dispatcher] |
-|  • Scope Forking    • Stream Tap    • Compensation Stack          |
-+-------------------------------------------------------------------+
-|                     Operating System & I/O                        |
-|  Process Groups     Socket Watchdog  File Descriptors (POSIX)     |
-+-------------------------------------------------------------------+
-```
+![Cordis Microkernel 运行时架构堆栈图](./arch_cordis_microkernel.png)
+*图 2：Cordis 微内核四层系统架构堆栈（Applications、Service Contracts、Microkernel Core、POSIX Layer）*
 
 在 Cordis 体系中，内核本体不依赖任何特定的大模型 SDK，也不绑定任何特定的 CLI 或 Web 前端。内核核心仅占用极小内存，在毫秒级内完成初始化，为长链路任务提供了高密度的纯净运行环境。
 
@@ -165,18 +151,8 @@ $$\text{Effect}\langle \text{Op}, \text{Compensation} \rangle$$
 
 DeepSeek Harness 构建了基于响应式流（Reactive Streams）的环境互效感知总线：
 
-```
-+-------------------------------------------------------------------+
-|                     Reactive Coeffect Engine                      |
-|                                                                   |
-|   [ OS Signals ] ---> [ Reactive Stream ] ---> [ Backpressure ]   |
-|   [ FS Watcher ] ---> [ Event Normalizer] ---> [ Rate Limiter ]   |
-|   [ Network FD ] ---> [ Phase Modulator ] ---> [ Kernel Bus   ]   |
-+-------------------------------------------------------------------+
-                                  |
-                                  v
-                    Dispatched into Cordis Context
-```
+![Algebraic Effects & Reactive Coeffects 对偶闭环架构图](./arch_reactive_coeffects.png)
+*图 3：代数效果（主动输出）与响应式互效（环境感知）对偶闭环系统*
 
 1. **双向响应流管道**：利用内核底层的 `kqueue`（macOS）与 `inotify`（Linux）实时监听工作区文件系统的变动。当文件被外部修改时，变动事件立即被格式化并推送到当前激活上下文的响应队列中。
 2. **自适应背压流量调节（Backpressure Regulation）**：在大型项目编译时，可能会在瞬间产生数以万计的构建产物变动事件。Coeffect 引擎内置了响应式滑动窗口与去重合并算法，动态实施背压控制，防止海量 I/O 事件冲垮模型的提示词上下文队列。

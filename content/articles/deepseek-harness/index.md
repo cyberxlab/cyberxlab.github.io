@@ -45,26 +45,8 @@ Rather than treating agency as a prompt graph, DeepSeek Harness models autonomou
 ### 2.1 The "Everything is a Plugin" Paradigm
 DeepSeek Harness enforces a strict microkernel design: **there is zero privileged code in the core runtime**. The kernel itself is merely a dynamic event bus and dependency injection container. Every fundamental capability—including model adapters, AST transformers, filesystem sandboxes, terminal multiplexers, and UI frontends—is packaged as an isolated Cordis plugin.
 
-```
-┌─────────────────────────────────────────────────────────────────────────┐
-│                      DeepSeek Harness Desktop App Layer                 │
-│      (Electron / WebUI @ 127.0.0.1:3080 / Headless Node.js Runner)      │
-└────────────────────────────────────┬────────────────────────────────────┘
-                                     │
-┌────────────────────────────────────▼────────────────────────────────────┐
-│                    Cordis Meta-Framework Microkernel                    │
-│   (Service Registry · Dynamic Dependency Resolver · Event Bus Root)     │
-├─────────────────────────────────────────────────────────────────────────┤
-│  [ Model Adapter Plugin ]          │  [ Tool & Skill Registry Plugin ]  │
-│  DeepSeek-V3 / R1 / Third-Party    │  Monorepo FS, Ripgrep, PTY Shell   │
-├────────────────────────────────────┼────────────────────────────────────┤
-│  [ Sandbox Execution Plugin ]      │  [ Agent Loop Orchestrator ]       │
-│  Isolated Container / Wasm Env     │  ReAct, Plan-and-Solve, Swarm      │
-├────────────────────────────────────┼────────────────────────────────────┤
-│  [ Session Storage Plugin ]        │  [ Scheduling & Cron Plugin ]      │
-│  Event-Sourced Context Persistence │  Background Heartbeats & Daemons   │
-└─────────────────────────────────────────────────────────────────────────┘
-```
+![Cordis Microkernel Architecture Stack](./arch_cordis_microkernel.png)
+*Figure 2: Cordis Microkernel 4-Tier Systems Architecture Stack (Applications, Service Contracts, Microkernel Core, POSIX Layer).*
 
 ### 2.2 Algebraic Effect Inversion (Revertible Effects)
 In long-running autonomous workflows, side effects cannot be treated as fire-and-forget operations. Cordis formalizes **Temporal Composability** through algebraic effect inversion:
