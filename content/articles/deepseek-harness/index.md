@@ -9,6 +9,11 @@ draft: false
 
 ![Cover](cover.png)
 
+![DeepSeek Harness Architecture Overview](./infographic.png)
+*Figure 1: DeepSeek Harness Reactive Microkernel & Algebraic Reversible Effects Architecture Overview.*
+
+---
+
 ## 1. Architectural North Star & Problem Space
 
 ### 1.1 The Runtime Bottleneck of Autonomous Agency
