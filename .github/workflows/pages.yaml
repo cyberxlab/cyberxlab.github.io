@@ -62,6 +62,16 @@ jobs:
             --buildFuture \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+          # Dual-route mirror sync for language fallback
+          if [ -d public/articles ] && [ -d public/zh-cn/articles ]; then
+            find public/articles -name "*.pdf" | while read -r f; do
+              rel="${f#public/articles/}"
+              target="public/zh-cn/articles/$rel"
+              mkdir -p "$(dirname "$target")"
+              cp -n "$f" "$target" 2>/dev/null || true
+            done
+          fi
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
