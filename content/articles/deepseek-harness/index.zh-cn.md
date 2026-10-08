@@ -1,5 +1,5 @@
 ---
-title: "deepseek-harness"
+title: "DeepSeek Harness 深度拆解：核心机制、运行时内幕与工程实战"
 date: 2026-10-08
 description: "关于 Research 的深度技术拆解与架构全景解析"
 summary: "关于 Research 的深度技术拆解与架构全景解析"
