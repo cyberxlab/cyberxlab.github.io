@@ -9,7 +9,7 @@ draft: false
 
 ![Cover](cover.png)
 
-> 📥 **Slide Deck**: [Download 4K Technical Slides (PDF)](slides.en.pdf)
+> 📥 **Presentation Slide Decks**: 🇨🇳 [Chinese 4K Slide Deck (PDF)](slides.cn.pdf) &nbsp;|&nbsp; 🇺🇸 [English 4K Slide Deck (PDF)](slides.en.pdf)
 
 > **Technical Overview**: When LLMs transition from ephemeral text completions into autonomous agents operating terminals, compilers, and file systems, conventional agent frameworks hit immediate engineering limits: state bloat, orphaned background processes, and rigid execution DAGs. DeepSeek Harness (`dsh`) treats agent execution as an operating systems challenge rather than a prompt engineering problem. By combining a **Cordis-driven microkernel**, **algebraic reversible effect streams**, and **POSIX process group isolation**, it provides a lightweight, modular runtime for autonomous developer workflows. This guide breaks down its internal topology, execution lifecycle, sandbox isolation contracts, and real-world engineering trade-offs.
 
