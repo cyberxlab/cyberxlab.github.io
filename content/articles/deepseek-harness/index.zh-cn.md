@@ -1,13 +1,15 @@
 ---
-title: "DeepSeek Harness 深度拆解：核心机制、运行时内幕与工程实战"
+title: "deepseek-harness"
 date: 2026-10-08
-description: "从操作系统微内核和代数效果视角，深入拆解 DeepSeek Harness 运行时拓扑、Cordis 插件机理、可逆效果流与 POSIX 进程树隔离防护。"
-summary: "从操作系统微内核和代数效果视角，深入拆解 DeepSeek Harness 运行时拓扑、Cordis 插件机理、可逆效果流与 POSIX 进程树隔离防护。"
+description: "关于 Research 的深度技术拆解与架构全景解析"
+summary: "关于 Research 的深度技术拆解与架构全景解析"
 tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "AIOps", "API", "Action", "Adoption", "Agent", "Architectural", "Architecture", "Bot", "CLI", "ChildProcess", "Compensating", "Constraints", "Context", "Cordis", "Core"]
 draft: false
 ---
 
 ![Cover](cover.png)
+
+> 📥 **演示讲义**：[下载 4K 高清技术幻灯片 (PDF)](slides.pdf)
 
 > **导读**：当大语言模型从单次问答走向能够操作终端、读写文件并运行编译器的自主智能体（Agent）时，传统框架死板的图编排和全局共享状态正在暴露出严重的工程缺陷：状态无限膨胀、子进程泄漏失控、以及静态 DAG 难以应对动态试错。DeepSeek Harness（`dsh`）从操作系统微内核和类型系统中吸取灵感，用 **Cordis 微内核**、**可逆代数效果流** 与 **POSIX 进程树硬隔离**，构建了一套轻量、模块化、确定性的开源 Agent 运行时。本文将面向工程研发人员，深入剖析其系统拓扑、插槽通信、进程治理逻辑与真实的架构权衡。
 
