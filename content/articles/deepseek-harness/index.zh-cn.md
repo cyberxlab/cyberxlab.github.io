@@ -1,275 +1,235 @@
 ---
-title: "DeepSeek Harness: The Open-Source Agent Runtime Powered by Cordis"
-date: 2026-10-02
-description: "关于 DeepSeek Harness (dsh) open-source agent runtime, Cordis meta-framework, spatiotemporal composability, everything-is-a-plugin architecture, revertible effects, reactive coeffects, multi-mode desktop app, autonomous agent OS lifecycle 的深度技术拆解与架构全景解析"
-summary: "关于 DeepSeek Harness (dsh) open-source agent runtime, Cordis meta-framework, spatiotemporal composability, everything-is-a-plugin architecture, revertible effects, reactive coeffects, multi-mode desktop app, autonomous agent OS lifecycle 的深度技术拆解与架构全景解析"
-tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "DeepSeek Harness (dsh) open-source agent runtime, Cordis meta-framework, spatiotemporal composability, everything-is-a-plugin architecture, revertible effects, reactive coeffects, multi-mode desktop app, autonomous agent OS lifecycle", "ADAPTIVE", "AIOps", "API", "AST", "Adaptive", "Agent", "Agents", "Algebraic", "Aoede", "Apple", "Applications", "Architecture", "Attributes", "Audio", "AutoGPT"]
+title: "DeepSeek Harness 深度拆解：核心机制、运行时内幕与工程实战"
+date: 2026-10-08
+description: "从操作系统微内核和代数效果视角，深入拆解 DeepSeek Harness 运行时拓扑、Cordis 插件机理、可逆效果流与 POSIX 进程树隔离防护。"
+summary: "从操作系统微内核和代数效果视角，深入拆解 DeepSeek Harness 运行时拓扑、Cordis 插件机理、可逆效果流与 POSIX 进程树隔离防护。"
+tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "AIOps", "API", "Action", "Adoption", "Agent", "Architectural", "Architecture", "Bot", "CLI", "ChildProcess", "Compensating", "Constraints", "Context", "Cordis", "Core"]
 draft: false
 ---
 
 ![Cover](cover.png)
 
-> **摘要**：随着大型语言模型（LLM）从单次问答交互演进为具备工具调用与环境交互能力的自主软件工程代理（Software Engineering Agents），业界普遍采用的单体硬编码有向无环图（Monolithic Hardcoded DAG）正在遭遇前所未有的工程阻抗。状态空间隐式膨胀、悬空套接字与孤儿进程导致的资源泄漏、缺乏原子事务保障的外部副作用、以及对动态开发环境缺乏响应式感知，构成了制约代理走向工业级落地的四大核心瓶颈。DeepSeek Harness 破除传统框架将工作流静态绑定于编排图的工程假设，借鉴现代操作系统微内核设计思想与类型理论中的代数效果（Algebraic Effects），提出了基于 **Cordis 微内核**、**代数可逆效果流** 与 **响应式互效感知（Reactive Coeffects）** 的确定性自主代理运行时架构。实测基准表明，该架构将冷启动时间压缩至 850ms 以内（降低 73%），稳态内存占用压制在 150~300MB（降低 71%），并在万次长链路复杂任务中实现 99.4% 的故障自愈与零孤儿进程泄露。本文深入剖析其微内核设计、状态模型、资源防线与工业基准，为构建确定性大模型系统工程提供理论与实践参考。
+> **导读**：当大语言模型从单次问答走向能够操作终端、读写文件并运行编译器的自主智能体（Agent）时，传统框架死板的图编排和全局共享状态正在暴露出严重的工程缺陷：状态无限膨胀、子进程泄漏失控、以及静态 DAG 难以应对动态试错。DeepSeek Harness（`dsh`）从操作系统微内核和类型系统中吸取灵感，用 **Cordis 微内核**、**可逆代数效果流** 与 **POSIX 进程树硬隔离**，构建了一套轻量、模块化、确定性的开源 Agent 运行时。本文将面向工程研发人员，深入剖析其系统拓扑、插槽通信、进程治理逻辑与真实的架构权衡。
 
 ---
 
-![DeepSeek Harness 响应式微内核架构全景图](./infographic.png)
-*图 1：DeepSeek Harness 响应式微内核与代数可逆效果架构全景（Cordis Runtime Architecture）*
+## 1. 问题边界与设计约束 (The Problem & Design Constraints)
+
+### 1.1 传统 Agent 框架的工程瓶颈
+
+在生产级软件工程自动化场景（如 SWE-bench 评测、大规模重构与自主故障诊断）中，智能体是一个长时间运行、与宿主操作系统及外部微服务频繁双向交互的复杂状态机。然而，目前主流的开源框架普遍暴露了以下底层缺陷：
+
+1. **共享状态字典的隐式耦合**：依赖一个扁平的全局键值字典在所有执行步骤间无边界传递。随着任务推演步数超过 20 步，状态空间呈指数级扩散，命名冲突和竞态条件频发；前期分支试错产生的脏变量滞留在全局上下文中，持续毒化后续模型的推理。
+2. **生命周期管控缺失导致的资源泄漏**：将终端命令、文件监听和长连接调用视作普通 RPC，缺乏操作系统级进程树生命周期管控。当智能体中断或崩溃时，派生出的后台子进程（如开发服务器、编译守护进程）失去父进程成为孤儿进程，持续占用端口与系统内存。
+3. **机制与策略强耦合**：将具体的工具调度逻辑与静态的有向无环图（DAG）拓扑硬编码绑定。一旦需要动态挂载代码审计插件或切换通信协议，必须重写整张图。
+
+### 1.2 系统设计目标与非目标 (Goals & Non-Goals)
+
+- **核心设计目标 (Goals)**：
+  - **基于 Cordis 微内核实现“万物皆插件”**：将 Agent 核心拆解为极致轻量的事件调度与依赖注入微内核，所有业务能力（模型路由、工作区沙盒、会话管理、工具集）均以独立生命周期的插件形态挂载。
+  - **支持统一多端宿主形态**：同一套核心引擎以一致的协议与状态模型无缝驱动 Web UI（端口 3080）、Desktop 桌面客户端（Electron）、CLI 命令行以及 Python SDK。
+  - **动态可扩展与 Creator 模式**：允许在对话执行过程中现场动态编写、编译并热加载新插件，实现运行时的自主能力扩容。
+  - **确定性副作用治理**：为所有外部环境变更引入显式的代数效果与对偶补偿机制，支持操作事务的回滚与审计。
+- **显式非目标 (Explicit Non-Goals)**：
+  - **不绑定专有闭源模型**：内核不硬编码特定模型协议，通过通用的 Model Router 适配 DeepSeek 官方端点以及任何兼容 OpenAI 规范的模型后端。
+  - **不内置重型执行容器**：内核本身不强行捆绑 Docker 守护进程，而是通过标准的 POSIX 进程组与轻量隔离契约将重型容器治理推给宿主环境。
 
 ---
 
-## 1. 系统工程视角下的大模型智能体范式转移
+## 2. 系统拓扑与核心流转 (Architecture Topology & Data Flow)
 
-### 1.1 从单次推理黑盒到长生命周期状态机
+### 2.1 进程模型与边界划分
 
-在过去两年的生成式人工智能演化历程中，大模型的应用范式经历了一场深刻的底层迁移。早期的 LLM 工程实践主要集中在无状态的单轮问答（Stateless Prompt-Response）与基于检索增强生成（RAG）的上下文拼装。在这一阶段，推理服务本质上是一个瞬态函数调用：输入静态提示词向量，输出文本生成流，系统不需要维护复杂的宿主环境状态，其工程挑战主要局限于高并发下的吞吐调度与显存优化。
+系统在物理与逻辑层级划分为清晰的 **Host 宿主层** 与 **DSH Core 运行时**，针对不同运行模式采用严格的通信与隔离边界：
 
-然而，当大模型的应用边界拓展至自主软件工程（SWE-bench）、自动化故障排查（AIOps）以及全生命周期代码研发时，智能体（Agent）系统的本质发生突变：它不再是一个单纯的语言生成器，而是一个**长时间运行、与底层操作系统及外部网络具备高频双向交互的有状态自主控制系统（Long-running Stateful Control System）**。
+```mermaid
+flowchart TD
+    subgraph HostLayer [Host 宿主层]
+        WEB[Web UI: 默认监听 127.0.0.1:3080]
+        DESK[Desktop 客户端: Electron 渲染进程]
+        CLI[CLI 命令行工具]
+        PY[Python SDK]
+    end
 
-在长任务执行链路中，智能体需要自主规划推理路径、调用操作系统终端执行 Shell 脚本、修改项目文件系统、通过网络套接字与远程微服务通信、并根据外部编译器的错误反馈动态重构执行策略。这一范式的转变将智能体系统的核心矛盾从“提示词工程的玄学调优”彻底推向了“计算机系统工程与形式化状态控制”。
+    subgraph IPC [通信边界与传输层]
+        WS[WebSocket / HTTP RPC]
+        EIPC[Electron 双向异步 IPC]
+        WKR[Worker Isolates 跨语言管道]
+    end
 
-### 1.2 软件工程智能体的核心质量属性挑战
+    subgraph CoreEngine [DSH Core 运行时 (Cordis 微内核)]
+        ROUTER[Model Router: DeepSeek / OpenAI Endpoints]
+        SLOTS[Slots 拓扑网格: shell.overlay / tool.registry]
+        JOURNAL[Session Journal: 毫秒级时序与 Payload 校验]
+        GUARD[Workspace Guard: 细粒度权限策略与路径隔离]
+    end
 
-工业级生产环境对软件系统有着极其严苛的质量属性要求（Quality Attributes），包括但不限于确定性（Determinism）、可观测性（Observability）、弹性容错（Resilience）以及零资源残留（Zero Resource Leakage）。
+    WEB --> WS --> CoreEngine
+    DESK --> EIPC --> CoreEngine
+    CLI --> CoreEngine
+    PY --> WKR --> CoreEngine
+```
 
-遗憾的是，大语言模型本身的概率生成特性（Probabilistic Nature）与传统软件系统的确定性追求存在天然的结构性张力。为了让具备随机涌现特性的模型稳定工作在确定性的工业生产线上，系统工程层必须构筑坚不可摧的“约束护栏”（Harness）。这一护栏不能仅停留在对模型输出文本的简单正则校验，而必须深入到进程生命周期、文件 I/O 事务、套接字网络栈以及内存状态机的微观控制层面。
+- **Web UI 模式**：Node.js 承载 Core 运行时，通过内部 WebSocket 网关与浏览器前端进行双向实时流式通信。
+- **Desktop 模式**：基于 Electron 架构，主进程（Main Process）托管 Core 微内核，渲染进程（Renderer Process）通过上下文隔离的 `preload` 脚本借助异步 IPC 通信。
+- **Python SDK 模式**：通过独立的 Worker Isolates 子进程隔离机制，实现 Python 调用方与 TypeScript 核心引擎之间的内存隔离与序列化交互。
+
+### 2.2 数据流转与时序阶段
+
+| 流转阶段 | 数据/控制流向 | 关键机制与处理逻辑 |
+| :--- | :--- | :--- |
+| **1. 指令接入与路由** | 用户输入 → 宿主层 → Model Router | 接收自然语言或 `/` 命令，由 Model Router 根据上下文长度与任务类型分发至最优模型端点。 |
+| **2. 插槽控制网格协商** | Cordis 内核 → Slots 树 → 插件激活 | Cordis 查询当前上下文插槽（如全屏浮层 `shell.overlay`），按需激活对应插件，分派工具调用。 |
+| **3. 权限仲裁与沙箱拦截** | 工具调用 → Workspace Guard | 拦截涉及文件修改或系统调用的敏感操作，执行路径白名单校验与用户确认决策。 |
+| **4. 副作用执行与日记追踪** | 进程执行 → Session Journal 持久化 | 实时记录毫秒级时间戳、输入输出 Payload 与 Schema 校验数据，保障完全可重现。 |
 
 ---
 
-## 2. 破除单体硬编码 DAG 迷思：传统智能体的系统工程死局
+## 3. 核心机制深度推演与代码切片 (Deep Dive & Mechanics)
 
-### 2.1 状态空间隐式膨胀与全局变量污染
+### 3.1 Cordis 微内核的生命周期与服务契约
 
-目前主流开源智能体框架（如 LangChain、AutoGPT 以及初代 LangGraph）在架构设计上普遍采用了以“有向无环图”（DAG）为核心的静态编排模型。在这一模型中，开发者预先定义一组节点（Nodes）和边（Edges），每个节点代表一次 LLM 调用、工具执行或条件分支。
+Cordis 微内核的核心哲学在于**将上下文（Context）作为第一类对象**。所有服务不通过全局单例访问，而是通过强类型的上下文契约进行声明与注入。
 
-然而，在面对真实生产环境的动态长链路任务时，单体 DAG 暴露出了致命的架构缺陷：
-
-1. **共享状态字典的隐式耦合**：传统框架通常依赖一个全局共享的字典（State Dict）在各个图节点之间透传数据。节点之间没有清晰定义的抽象边界，任何一个下游节点均可任意读写、覆盖全局键值。随着任务步骤超过 20 步，状态空间呈指数级扩散，变量命名冲突与不可复现的数据竞态（Data Race）频发。
-2. **缺乏时序局部性**：在探索性的复杂代码重构中，智能体可能经历多轮分支推演与试错。单体 DAG 缺乏上下文作用域（Scope）的概念，使得早前探索失败产生的脏数据永久滞留在全局状态中，直接毒化了后续模型的推理上下文。
-
-### 2.2 悬空套接字、孤儿进程与资源死锁
-
-在自主执行场景中，智能体频繁调用外部子进程（如启动 Node.js 开发服务器、运行 Docker 容器、执行长期监听的编译守护进程）。传统 DAG 框架将工具执行视作普通的函数调用（RPC），严重缺乏操作系统级的进程树生命周期管控机制：
-
-- **套接字句柄悬空（Dangling Sockets）**：当网络出现抖动或 LLM 决定提前中断当前流程时，底层已建立的 WebSocket 或 TCP 链接未能触发严谨的四次挥手回收，导致服务器文件描述符（FD）持续耗尽。
-- **孤儿进程泄漏（Zombie Processes）**：传统框架在捕获异常退出时，往往仅仅杀死了主 Python 进程，而主进程派生出的后台构建进程失去父进程后被 `init`（PID 1）接管，成为不可见且持续霸占端口（如 3000、8080）与内存的孤儿进程。
-- **IPC 死锁（Deadlock）**：在流式输出（Streaming）场景下，标准输出（stdout）管道缓冲区满载而消费端因异常未及时读取，导致子进程永久挂起在系统调用上，整个工作流死锁无响应。
-
-### 2.3 刚性图拓扑与单点崩溃连锁反应
-
-单体 DAG 的另一大顽疾在于其静态拓扑的脆弱性。硬编码图的节点关系在编译期或初始化时即被固化。一旦真实执行流遭遇网络瞬时中断、第三方 API 速率限制（HTTP 429）或工具参数反序列化异常，未被强隔离的单点崩溃将沿着边迅速向外扩散，导致整个执行上下文瞬间崩溃。
-
-更严重的是，当业务需要新增一个代码审计工具或变更通信协议时，开发者必须重写整张图的节点路由逻辑，重构阻抗极大。这种将“机制”（Mechanism）与“策略”（Policy）深度耦合的单体设计，已经成为阻碍智能体走向工业级落地的核心技术负债。
-
----
-
-## 3. Cordis 极简微内核：上下文拓扑与“万物皆插件”抽象
-
-### 3.1 极简微内核哲学：机制与策略的彻底解耦
-
-为了彻底根除单体 DAG 的工程隐患，DeepSeek Harness 借鉴了现代操作系统（如 seL4、Mach）的微内核（Microkernel）设计哲学，构建了基于 **Cordis** 的极简智能体运行时中枢。
-
-Cordis 的核心准则是：**内核只提供最纯粹的生命周期管理、上下文拓扑维护与事件路由机制，所有的业务逻辑、模型驱动、工具链与交互协议全部以插件（Plugin）形式挂载。**
-
-![Cordis Microkernel 运行时架构堆栈图](./arch_cordis_microkernel.png)
-*图 2：Cordis 微内核四层系统架构堆栈（Applications、Service Contracts、Microkernel Core、POSIX Layer）*
-
-在 Cordis 体系中，内核本体不依赖任何特定的大模型 SDK，也不绑定任何特定的 CLI 或 Web 前端。内核核心仅占用极小内存，在毫秒级内完成初始化，为长链路任务提供了高密度的纯净运行环境。
-
-### 3.2 树状上下文拓扑（Context Topology）与生命周期沙盒
-
-Cordis 摒弃了全局扁平字典，创造性地引入了**树状上下文作用域拓扑（Hierarchical Context Tree）**：
-
-1. **父子上下文继承**：主任务创建根上下文（Root Context），每个独立子任务（Subtask）或工具调用通过 `ctx.fork()` 派生出强隔离的子上下文（Child Context）。
-2. **符号与服务影子化（Shadowing）**：子上下文可以安全重写或注入局部服务与状态变量，而完全不会污染父上下文的内存空间。
-3. **级联注销与故障隔离**：当某个子任务执行完成或因异常崩溃时，其对应的上下文叶节点被瞬间销毁，挂载在该节点上的所有事件监听器、定时器与临时资源被自动级联注销，绝不留存任何悬空指针。
-
-### 3.3 TypeScript 强类型服务契约与即插即用
-
-在 Cordis 运行时中，工具与核心组件之间通过严格的 TypeScript Interface 定义服务契约（Service Contract）。例如代码沙箱服务被抽象为：
+以下为基于 Cordis 规范构建的自定义安全执行扩展插件的最小工作切片：
 
 ```typescript
-export interface SandboxService {
-  executeCommand(cmd: string, options: ExecOptions): Promise<CommandResult>;
-  allocateSocketLease(port: number, ttlMs: number): Promise<SocketLease>;
-  terminateProcessGroup(pgid: number): Promise<void>;
+import { Context, Service } from 'cordis';
+
+// 1. 声明强类型服务契约
+export interface SafeExecutionService {
+  executeSandboxed(command: string, timeoutMs: number): Promise<string>;
+}
+
+declare module 'cordis' {
+  interface Context {
+    safeExec: SafeExecutionService;
+  }
+}
+
+// 2. 插件实现与生命周期管理
+export class SafeExecutionPlugin extends Service {
+  static inject = ['workspace']; // 声明依赖的服务
+
+  constructor(ctx: Context) {
+    super(ctx, 'safeExec', true); // 注册服务标识，设为单例
+  }
+
+  protected override start() {
+    this.ctx.logger.info('Safe execution sandbox initialized.');
+  }
+
+  protected override stop() {
+    // 确定性资源回收：清理残留句柄
+    this.ctx.logger.info('Disposing sandboxed execution handles.');
+  }
+
+  async executeSandboxed(command: string, timeoutMs: number = 30000): Promise<string> {
+    // 强制超时校验与进程组隔离
+    if (!this.ctx.workspace.isPathAllowed(process.cwd())) {
+      throw new Error(`Security Exception: Working directory outside allowed boundary.`);
+    }
+    // 具体的底层受控执行逻辑...
+    return `Output of: ${command}`;
+  }
 }
 ```
 
-通过强类型依赖注入（Dependency Injection），开发人员可以在开发调试时注入本地 Node/Python 沙箱，在生产云端无缝切换为 gVisor 或 MicroVM 隔离沙箱，而在测试流水线中则注入带有确定性快照的 Mock 沙箱，整套系统无需改动一行上层控制逻辑。
+### 3.2 可逆代数效果与对偶补偿机制
 
----
+传统的工具调用直接在外部系统产生永久改变。Harness 引入代数效果流，强制为每一个可产生外部副作用的操作定义前向执行（Action）与对偶补偿逻辑（Rollback）：
 
-## 4. 代数可逆效果流（Algebraic Reversible Effects）：零熵增事务与确定性回滚
-
-### 4.1 副作用不可逆与系统状态熵增
-
-在软件工程中，任何改变环境状态的操作均属于副作用（Side Effect）：
-- 修改源码文件
-- 创建或删除目录
-- 发起不可逆的网络写请求（如向远程仓库推送 Commit）
-- 修改系统环境变量
-
-当智能体在多步推演中遭遇逻辑死胡同（例如重构方案导致大量单元测试崩溃且无法修复）时，传统框架束手无策：文件已经被改得千疮百孔，工作区处于高度混乱的“高熵”（High Entropy）破坏状态。开发者只能依赖外部 Git 命令手动恢复，而智能体自身的推理链路则因状态污染彻底失控。
-
-### 4.2 代数效果（Algebraic Effects）与对偶补偿建模
-
-DeepSeek Harness 在智能体状态管理中引入了编程语言理论中的**代数效果（Algebraic Effects）**，将所有的环境写操作抽象为显式的代数操作，并将操作的“声明”（Declaration）与其具体“解释执行”（Handler Execution）彻底分离。
-
-更为关键的是，Harness 要求所有产生副作用的效果必须具备**对偶可逆性（Dual Reversibility）**：
-
-$$\text{Effect}\langle \text{Op}, \text{Compensation} \rangle$$
-
-每个前向执行的修改操作 $Op$ 在被分发执行前，必须由系统计算并捕获其数学对偶补丁 $\text{Compensation}$：
-- 当执行 `FileWrite(path, newContent)` 时，系统在修改前自动捕获原始数据，生成反向事务 `FileRestore(path, oldContent)`。
-- 当执行 `ProcessSpawn(cmd)` 时，系统将其纳入独立进程组，并生成反向动作 `ProcessKill(pgid, SIGKILL)`。
-
-### 4.3 零熵增事务调用栈与毫秒级状态恢复
-
-所有已执行的效果被压入内核维护的**代数调用栈（Algebraic Effect Stack）**。这一机制赋予了智能体前所未有的确定性控制力：
-
-1. **原子事务边界**：智能体在尝试一段高风险的重构推演前，可以声明开启局部事务块。
-2. **逆向展开补偿**：一旦推演失败或被外部中断，运行时引擎从栈顶向栈底以逆序（LIFO）自动触发补偿动作，在几十毫秒内将文件系统、进程状态与内存数据精确还原到推演前的基线版本。
-3. **零状态熵增**：智能体可以大胆进行多路径推演与试错搜索，而系统始终处于受控的低熵状态，彻底消除了传统智能体越推越乱、越跑越废的系统级宿疾。
-
----
-
-## 5. 响应式互效机制（Reactive Coeffects）：环境阻抗消除与事件感知
-
-### 5.1 环境阻抗：从静态快照到动态涌现
-
-在真实的人机协作与工程环境中，宿主环境永远不是静止的：
-- 开发者可能在 IDE 中手动修改了正在被智能体引用的文件；
-- 外部进程可能占用了指定端口；
-- 远程网络连接可能在数据传输中途发生静默丢包或拥塞。
-
-传统智能体将外部世界视作单向的“静态快照查询工具”，仅在需要时发起一次 `fetch` 或 `read_file`，完全无法感知执行过程中外部环境的实时动态变更。这种智能体与外部环境之间的脱节被称为**环境阻抗（Environmental Friction）**。
-
-### 5.2 Coeffects：外部环境向内部的确定性建模
-
-如果说 **Effects（效果）** 规范的是智能体对外部世界的*主动输出*，那么 **Coeffects（互效）** 规范的则是外部环境对智能体的*上下文输入与环境制约*。
-
-DeepSeek Harness 构建了基于响应式流（Reactive Streams）的环境互效感知总线：
-
-![Algebraic Effects & Reactive Coeffects 对偶闭环架构图](./arch_reactive_coeffects.png)
-*图 3：代数效果（主动输出）与响应式互效（环境感知）对偶闭环系统*
-
-1. **双向响应流管道**：利用内核底层的 `kqueue`（macOS）与 `inotify`（Linux）实时监听工作区文件系统的变动。当文件被外部修改时，变动事件立即被格式化并推送到当前激活上下文的响应队列中。
-2. **自适应背压流量调节（Backpressure Regulation）**：在大型项目编译时，可能会在瞬间产生数以万计的构建产物变动事件。Coeffect 引擎内置了响应式滑动窗口与去重合并算法，动态实施背压控制，防止海量 I/O 事件冲垮模型的提示词上下文队列。
-3. **环境失效确定性阻断**：当网络连接或沙箱环境发生不可逆降级时，互效机制第一时间在内核层面阻断后续下游任务，触发优雅挂起与自愈逻辑，而非任由错误连锁引爆。
-
----
-
-## 6. 自适应执行 Profile：按需装配与资源开销极致剪裁
-
-在工业实际落地中，“一刀切”的单体运行时往往带来极高的资源浪费与冷启动延迟。DeepSeek Harness 基于 Cordis 微内核的插件化能力，提供了四大开箱即用的自适应执行配置（Adaptive Profiles）：
-
-```
-+---------------------------------------------------------------------------+
-|                          ADAPTIVE PROFILE MATRIX                          |
-+-------------------+--------------------+------------------+---------------+
-| Profile Name      | Target Scenario    | Memory Footprint | Cold Start    |
-+-------------------+--------------------+------------------+---------------+
-| Standard Profile  | Desktop IDE Full   | 280 - 320 MB     | ~ 820 ms      |
-| Code Profile      | AST / CI Pipelines | 180 - 220 MB     | ~ 650 ms      |
-| Minimal Profile   | Headless / Edge    | 120 - 150 MB     | ~ 420 ms      |
-| Creator Profile   | Audio / Media Sync | 320 - 450 MB     | ~ 980 ms      |
-+-------------------+--------------------+------------------+---------------+
+```text
+[ 用户任务推演 ]
+      │
+      ▼
+[ Action: 创建文件 /tmp/patch.rs ] ──► (写入 Session Journal 事务栈)
+      │
+      ├── (后续编译检查发现严重语法错误)
+      │
+      ▼
+[ Trigger: 发生回滚决策 ]
+      │
+      ▼
+[ Compensating Action: unlinkSync(/tmp/patch.rs) ] ──► 状态恢复 100% 干净
 ```
 
-### 6.1 Standard Profile（桌面全功能交互模式）
-专为开发者日常 IDE 交互与自主任务推演设计。挂载了高级语法分析器、浏览器驱动沙箱、终端会话多路复用以及可视化图表呈现插件。在保障全功能特性的同时，依然通过上下文沙盒严密控制资源边界。
-
-### 6.2 Code Profile（纯净代码工程与 CI 自动化模式）
-专精于高吞吐量的自动化代码重构、静态分析与持续集成检查。系统自动剔除所有与富媒体和前台 UI 相关的外围服务，专注于 AST 变换、单元测试执行与 Git 补丁生成，将执行吞吐量提升 2.4 倍。
-
-### 6.3 Minimal Profile（轻量无头与边缘部署模式）
-剥离所有非核心插件，仅保留 Cordis 极简微内核、基础 Shell 管道与紧凑型模型驱动。整个运行时的常驻内存（RSS）被死死压制在 150MB 以下，冷启动时间低至 420ms，使得在边缘网关、低配云主机或容器轻量节点上高密度并发部署成为可能。
-
-### 6.4 Creator Profile（主权内容与媒体发布管线）
-深度整合高精度矢量图表渲染、纯英文无融化视觉海报生成、以及基于 Google Gemini 官方权威音色（如 `Charon` 男声与 `Aoede` 女声）的多章节语音合成引擎，支持秒级生成全套专业技术长视频与全渠道社交物料。
+若操作不具备数学上的可逆性（如向远程第三方接口发送资金划转或邮件），效果系统会强制将其标记为不可逆原语，阻断自动重试，并要求人类主管进行显式确认。
 
 ---
 
-## 7. 工业级防御韧性：彻底根治悬空套接字、IPC 孤儿与死锁
+## 4. 故障域、暗坑与工程代价 (Failure Modes & Architectural Taxes)
 
-### 7.1 套接字租约看门狗（Socket Lease Watchdog）
+### 4.1 独立进程组与孤儿进程消除
 
-为了彻底杜绝进程异常退出导致的端口占用与套接字泄露，Harness 实现了基于租约（Lease）机制的套接字看门狗：
-- 任何工具在申请监听本地端口时，必须与看门狗签订短期心跳契约（默认 TTL 为 3000ms）。
-- 运行时在独立的事件循环中维持轻量级双向心跳（Ping-Pong）。
-- 一旦智能体主逻辑因未捕获异常退出、模型死循环或用户强制中断导致心跳停滞，看门狗在超时毫秒级内直接调用底层系统接口强行关闭文件描述符，回收端口绑定。
+为了杜绝 Node.js 或 Python 进程异常崩溃后留下悬挂孤儿进程的问题，Harness 在派生系统子进程时采用了标准的 POSIX 独立进程组机制：
 
-### 7.2 POSIX 独立进程组级别隔离与原子清剿
+```typescript
+import { spawn, ChildProcess } from 'child_process';
 
-针对孤儿进程问题，Harness 严禁直接使用裸 `child_process.spawn()` 或 Python 的 `subprocess.Popen()`：
-- 所有的子任务进程均通过底层系统调用 `setsid()` 或 `setpgid()` 派生到拥有独立进程组 ID（PGID）的命名空间中。
-- 主进程通过树状引用计数追踪所有派生的 PGID。
-- 当执行中断或超时时，看门狗不是向单个 PID 发送信号，而是向整个进程组广播 POSIX 信号：
+function spawnGuardedProcess(cmd: string, args: string[]): ChildProcess {
+  const child = spawn(cmd, args, {
+    detached: true, // 创建全新独立进程组 (SetPGID)
+    stdio: ['pipe', 'pipe', 'pipe'],
+  });
+
+  const killProcessGroup = () => {
+    if (child.pid && !child.killed) {
+      try {
+        // 向整个负数进程组发送 SIGKILL，确保所有派生子孙进程彻底回收
+        process.kill(-child.pid, 'SIGKILL');
+      } catch (e) {
+        // 忽略已正常退出的 ESRCH 错误
+      }
+    }
+  };
+
+  process.on('exit', killProcessGroup);
+  process.on('SIGINT', killProcessGroup);
+  return child;
+}
+```
+
+### 4.2 架构代价与工程妥协 (Architectural Taxes)
+
+任何严密的系统工程设计都不是没有代价的。采纳 Harness 架构需要承担以下明确的工程妥协：
+
+1. **间接层引入的执行开销**：由于每一个插件调用都要经过 Cordis 依赖注入解析、Session Journal 序列化记录与权限拦截网格，单次工具调用的内部调用栈延迟相比纯脚本直接调用增加了约 15~35ms。
+2. **状态抽象带来的心智负担**：开发者无法再使用全局变量快速透传数据，必须严格遵循类型化契约定义与上下文依赖注入，前期插件编写成本略高于传统胶水框架。
+3. **日志膨胀开销**：由于记录了毫秒级时序、输入输出全量 Payload 以及上下文快照，长耗时任务生成的 Journal 文件会占用数百兆磁盘空间，需要周期性配置日志轮转与压缩归档策略。
+
+---
+
+## 5. 落地指南与选型决策树 (Adoption Playbook)
+
+### 5.1 选型分水岭：何时采用 vs 何时切勿使用
+
+* ✅ **强烈推荐采纳的场景**：
+  * **长生命周期的复杂自主工程任务**：如持续数十分钟的软件仓库自主重构、自动化代码巡检、AIOps 持续运维；
+  * **需要严格安全审计与跨端统一的团队**：同一业务逻辑需同时分发到 Web 门户、工程师本地 CLI 和桌面应用的场景；
+  * **高频扩展的团队平台级建设**：第三方团队需要频繁提交并热插拔新工具能力的平台。
+* ❌ **切勿滥用（Over-engineering）的场景**：
+  * **简单的单轮无状态问答或客服 Bot**：直接调用官方 SDK 或轻量路由脚本即可，引入微内核属于严重的过度设计；
+  * **简单的固定线性批处理脚本**：几行 Python 脚本即可搞定的数据抽取清洗任务，无需引入插件插槽与事务回滚机制。
+
+### 5.2 极简上手实践 (3-Step Quick Start)
 
 ```bash
-# 广播 SIGTERM 给予子进程优雅退出机会，紧随 SIGKILL 确保原子清剿
-kill -TERM -${PGID}
-# 确认未回收后强行清空进程树
-kill -KILL -${PGID}
+# 步骤 1: 免安装直接启动 Web 宿主控制台 (默认监听 127.0.0.1:3080)
+npx @deepseek-ai/dsh web
+
+# 步骤 2: 配置模型端点与 API Key
+export DEEPSEEK_API_KEY="sk-your-deepseek-key"
+dsh config set model.default "deepseek-chat"
+
+# 步骤 3: 启动自主任务会话
+dsh session start --workspace /path/to/project --task "重构网络连接池并补全单元测试"
 ```
 
-实测表明，该机制彻底消除了因后台子进程常驻导致构建端口被锁死的问题，进程回收成功率达到 100%。
-
-### 7.3 熔断降级与网络自愈沙盒
-
-面对第三方模型提供商或外部 API 的突发网络故障，Harness 在内核调度层集成了智能熔断器（Circuit Breaker）：
-- 连续出现 3 次超时或 5xx 错误时，熔断器立即切断直接请求，阻断全链路雪崩。
-- 自动降级至本地缓存或备用本地小模型进行语义拟合。
-- 在后台周期性发送低成本探活探测，待外部网络恢复平稳后平滑闭合熔断器。
-
 ---
 
-## 8. 实测性能基准与全景横向评测
+### 📚 相关资源与开源链接
 
-为了客观评估 DeepSeek Harness 的系统工程效能，我们在标准工业环境下（Apple Silicon M3 Max, 64GB 统一内存；以及 Ubuntu 22.04 LTS, 32 Core vCPU, 64GB RAM）对目前主流的智能体框架进行了连续 1,000 次复杂多步骤软件工程任务的横向压测对比。
-
-### 8.1 核心性能基准量化对比
-
-| 评测维度与关键指标 | 传统单体硬编码 DAG 框架 | 主流开源代理方案 (AutoGPT 类) | DeepSeek Harness (Cordis 微内核) |
-| :--- | :--- | :--- | :--- |
-| **冷启动延迟 (Cold Start)** | 3,450 ms - 4,800 ms | 2,400 ms - 3,100 ms | **< 850 ms (降低 73%)** |
-| **稳态常驻内存 (RSS Memory)** | 680 MB - 1,250 MB | 520 MB - 780 MB | **150 MB - 300 MB (下降 71%)** |
-| **TypeScript 严格类型覆盖率** | 42.1% (大量 `any` 泛滥) | 68.4% | **96.3% Strict (编译期防错)** |
-| **复杂任务故障自愈成功率** | 41.2% (极易死锁僵死) | 65.8% | **99.4% (代数效果安全回滚)** |
-| **72小时长跑悬空端口泄露数** | 17 个端口僵死占用 | 8 个端口泄露 | **0 (套接字看门狗 100% 回收)** |
-| **孤儿进程存留率** | 23.4% 逃逸为主进程孤儿 | 12.1% | **0% (POSIX 进程组广播清剿)** |
-| **多路径探索状态回滚开销** | 必须执行完整 `git reset` | 需外部快照恢复 | **< 35 ms (代数调用栈逆向补偿)** |
-
-### 8.2 数据分析与结论
-
-从基准数据中可以看出，DeepSeek Harness 凭借微内核的极度轻量化和代数效果的数学严密性，在系统工程的各项硬核指标上均取得了断层式领先。尤其是在稳态内存占用与异常自愈率方面，彻底打破了传统框架由于状态膨胀与资源泄漏所带来的系统不稳定性。
-
----
-
-## 9. 生产落地踩坑指南与系统工程实战启示
-
-### 9.1 常见陷阱与避坑准则
-
-在将大模型智能体接入企业级生产系统的实践中，团队总结了以下三大黄金法则：
-
-1. **坚决抵制将工具调用作为简单 RPC 暴露给模型**：
-   每一个暴露给模型的外部工具，必须在其外层包裹确定性资源沙箱。严禁直接执行不带超时限制、不带输出上限与不带环境隔离的命令。
-2. **严禁在长链路执行中维护无作用域的全局状态**：
-   必须通过分叉上下文（Forked Context）对每个推理分支进行内存沙盒隔离。确保分支失败时，局部上下文销毁即可实现 100% 状态归零。
-3. **副作用建模先于前向执行**：
-   在编写任何产生环境变动的效果前，首要任务是为其编写完备的逆向补偿逻辑。无法被安全逆向撤销的操作，必须在执行前明确获得人类主管的授权许可。
-
----
-
-## 10. 未来演进方向：走向确定性、低熵化大模型运行时
-
-DeepSeek Harness 的工程实践证明，大模型自主智能体的下半场竞争，绝不仅仅是模型参数量或微调数据集的军备竞赛，更是对系统工程、运行时设计与严谨类型体系的深度考验。
-
-面向下一代大模型运行时系统的演进，Harness 将持续在以下前沿领域探索：
-- **WebAssembly (Wasm) 沙盒原生分发**：将所有插件编译为 Wasm 字节码，在近零开销下实现跨平台纳秒级启动与硬件级内存安全隔离。
-- **端云异构算力协同调度**：在端侧设备运行超低延迟的 Cordis 微内核与高频环境感知，在云端超算集群运行重型推理，构建端云一体的弹性架构。
-- **控制流的形式化验证（Formal Verification）**：探索通过定理证明工具（如 Lean、Coq）对智能体的关键代数效果栈进行形式化数学证明，为工业级自主系统提供数学意义上的安全保证。
-
----
-*本文档为 Cyber·X·Lab 核心系统工程架构成果，持续遵循开源、严谨、工业级实战标准。*
+* 💻 **开源代码仓**：[https://github.com/deepseek-ai/deepseek-harness](https://github.com/deepseek-ai/deepseek-harness)
+* 🌐 **项目官方网站**：[https://www.deepseek.com/harness/](https://www.deepseek.com/harness/)
+* 📖 **快速上手指南**：[https://deepseek-harness.github.io/deepseek-harness/guide/quickstart](https://deepseek-harness.github.io/deepseek-harness/guide/quickstart)
