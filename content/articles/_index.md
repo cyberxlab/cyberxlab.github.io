@@ -1,15 +1,15 @@
 ---
 title: Articles
-description: "Articles and guides from the Cyber·X·Lab community."
+description: "Articles and guides from the Cyber·X·Labs community."
 toc: false
 ---
 
 <section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-6" style="min-height: 280px;">
-  <img src="/images/articles-hero.webp" alt="Cyber·X·Lab Articles" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
+  <img src="/images/articles-hero.webp" alt="Cyber·X·Labs Articles" class="hx:absolute hx:inset-0 hx:w-full hx:h-full hx:object-cover" loading="lazy" decoding="async" />
   <div class="hx:absolute hx:inset-0 hx:bg-gradient-to-r hx:from-black/85 hx:via-black/45 hx:to-transparent"></div>
   <div class="hx:relative hx:flex hx:flex-col hx:justify-end hx:items-start hx:px-8 hx:py-10 hx:text-left" style="min-height: 280px;">
     <h1 class="hx:text-3xl hx:font-bold hx:text-white hx:mb-2 hx:tracking-tight">Articles</h1>
-    <p class="hx:text-base hx:max-w-2xl" style="color: rgba(255, 255, 255, 0.85) !important;">Articles and guides from the Cyber·X·Lab community — deep dives, tutorials, and hands-on guides for technology enthusiasts.</p>
+    <p class="hx:text-base hx:max-w-2xl" style="color: rgba(255, 255, 255, 0.85) !important;">Articles and guides from the Cyber·X·Labs community — deep dives, tutorials, and hands-on guides for technology enthusiasts.</p>
   </div>
 </section>
 

@@ -4,7 +4,7 @@ date: 2026-07-20T00:07:00Z
 draft: false
 tags: ["Security", "OpenSSL", "DoS"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "An engineering decomposition of the HollowByte denial-of-service flaw in OpenSSL, where 11-byte TLS handshake headers trigger unvalidated pre-allocation and glibc-driven permanent heap bloat."
 summary: "An engineering decomposition of HollowByte, the OpenSSL DoS disclosed by Okta Red Team in July 2026: how a 4-byte TLS handshake header triggers an unvalidated pre-allocation up to 131 KB per connection, how glibc fragmentation turns attacks into permanent RSS bloat, how the fix moved to lazy incremental buffer growth, and how site-reliability engineers detect and harden against the class."
 toc: true

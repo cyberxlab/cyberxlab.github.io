@@ -1,10 +1,10 @@
-# AGENTS.md — Cyber·X·Lab Website
+# AGENTS.md — Cyber·X·Labs Website
 
 > Guidance for AI coding agents (Hermes, Claude Code, Codex, etc.) working on this repository.
 
 ## Project Overview
 
-Cyber·X·Lab (`Cyber·X·Lab`) is a multilingual (English + 简体中文) documentation and community website built with **Hugo Extended** and the **Hextra** theme. The site is deployed to GitHub Pages via GitHub Actions and served through Cloudflare at **https://cyberxlab.3344198.xyz/**.
+Cyber·X·Labs (`Cyber·X·Labs`) is a multilingual (English + 简体中文) documentation and community website built with **Hugo Extended** and the **Hextra** theme. The site is deployed to GitHub Pages via GitHub Actions and served through Cloudflare at **https://cyberxlab.3344198.xyz/**.
 
 - **Repo:** `github.com/cyberxlab/cyberxlab.github.io`
 - **Branch:** `main` (push triggers automatic deployment)
@@ -145,7 +145,7 @@ Deployment is fully automated via GitHub Actions:
 | Setting                     | Value                              | Reason                          |
 |-----------------------------|------------------------------------|---------------------------------|
 | `baseURL`                   | `https://cyberxlab.3344198.xyz/`   | Production domain              |
-| `title`                     | `Cyber·X·Lab`                      | Brand name (with middle dots)  |
+| `title`                     | `Cyber·X·Labs`                     | Brand name (with middle dots)  |
 | `defaultContentLanguage`    | `en`                               | English is primary language    |
 | `params.navbar.displayLogo` | `true`                             | Show logo in navbar            |
 | `params.navbar.displayTitle`| `true`                             | Show brand text next to logo   |

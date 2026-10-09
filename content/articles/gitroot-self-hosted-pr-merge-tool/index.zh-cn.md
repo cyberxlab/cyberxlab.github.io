@@ -108,7 +108,7 @@ plugins:
 # .gitroot/repositories.yml
 repositories:
   - name: CoreEngine
-    description: "Cyber·X·Lab 核心高性能计算引擎"
+    description: "Cyber·X·Labs 核心高性能计算引擎"
     public: false
     plugins:
       - grafter

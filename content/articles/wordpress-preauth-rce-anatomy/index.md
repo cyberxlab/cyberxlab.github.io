@@ -4,7 +4,7 @@ date: 2026-07-19T06:10:00Z
 draft: false
 tags: ["Security", "WordPress", "REST API"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "An engineering decomposition of CVE-2026-63030 (wp2shell): how a REST batch-route confusion and a WP_Query SQL injection chained into unauthenticated remote code execution in WordPress core."
 summary: "An engineering decomposition of the wp2shell pre-auth RCE in WordPress core: how a REST API batch-route confusion (CVE-2026-63030) and a WP_Query author__not_in SQL injection (CVE-2026-60137) chained into unauthenticated code execution, how to detect exposure, and how to harden sites beyond patching."
 toc: true

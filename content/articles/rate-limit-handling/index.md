@@ -4,7 +4,7 @@ date: 2026-07-19T05:34:00Z
 draft: false
 tags: ["HTTP", "Retry", "Reliability"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "A practical, layered strategy for handling HTTP 429 responses in real-world API clients — backoff, jitter, token buckets, and the proxy pattern."
 summary: "This article walks through a layered strategy for handling HTTP 429 rate-limit responses in production API clients, covering exponential backoff with jitter, the Retry-After header, client-side token buckets, and an internal proxy service for multi-callers scenarios."
 toc: true

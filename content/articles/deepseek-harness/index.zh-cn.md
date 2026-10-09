@@ -3,7 +3,7 @@ title: "DeepSeek Harness 深度拆解：核心机制、运行时内幕与工程�
 date: 2026-10-09
 description: "关于 Research 的深度技术拆解与架构全景解析"
 summary: "关于 Research 的深度技术拆解与架构全景解析"
-tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "AIOps", "API", "Action", "Adoption", "Agent", "Architectural", "Architecture", "Bot", "CLI", "ChildProcess", "Compensating", "Constraints", "Context", "Cordis", "Core"]
+tags: ["AI", "Cyber·X·Labs", "NotebookLM", "硬科技", "AIOps", "API", "Action", "Adoption", "Agent", "Architectural", "Architecture", "Bot", "CLI", "ChildProcess", "Compensating", "Constraints", "Context", "Cordis", "Core"]
 draft: false
 ---
 

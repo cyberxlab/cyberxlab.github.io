@@ -4,7 +4,7 @@ date: 2026-07-20T08:03:38Z
 draft: false
 tags: ["jpeg", "postmortem", "image-optimization", "web-performance"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "A postmortem-style walkthrough of a real progressive-to-baseline JPEG regression: how it slips past CI, how to detect it, and how to lock it down."
 summary: "A focused postmortem on a progressive-JPEG-to-baseline regression in a Hugo/static pipeline: detection with file signatures, root-cause in image-processing libraries, and a CI guard you can copy."
 toc: true

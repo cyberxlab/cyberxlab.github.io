@@ -4,7 +4,7 @@ date: 2026-07-20T05:10:16Z
 draft: false
 tags: ["Git", "Self-Hosting", "Grafter", "GitRoot"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "An in-depth engineering analysis of GitRoot, a lightweight self-hosted Git forge that stores PRs, issues, and permissions entirely within Git and utilizes the WebAssembly-based 'Grafter' plugin for merge management."
 summary: "Explore how GitRoot implements a highly resilient, database-free Git forge by storing all metadata (issues, grafts, and boards) as plain text files directly within the repository, using its Grafter plugin to automate PR reviews and merges directly from your IDE."
 toc: true
@@ -108,7 +108,7 @@ Configure the project repositories that GitRoot should serve. Edit `.gitroot/rep
 # .gitroot/repositories.yml
 repositories:
   - name: CoreEngine
-    description: "Cyber·X·Lab Core High-Performance Engine"
+    description: "Cyber·X·Labs Core High-Performance Engine"
     public: false
     plugins:
       - grafter

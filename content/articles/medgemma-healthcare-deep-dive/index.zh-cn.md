@@ -6,7 +6,7 @@ draft: false
 tags: ["MedGemma", "TxGemma", "医疗AI", "Gemma", "生物医疗", "深度调研"]
 ---
 
-![Cyber·X·Lab Research Infographic](infographic.png)
+![Cyber·X·Labs Research Infographic](infographic.png)
 
 ## 1. 执行摘要 (Executive Summary)
 

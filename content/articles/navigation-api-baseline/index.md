@@ -4,7 +4,7 @@ date: 2026-07-19T20:00:10Z
 draft: false
 tags: ["Navigation API", "SPA", "Browser", "Routing"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "Learn how to use the Navigation API to build robust SPA routers with centralized navigation control, built-in scroll restoration, and seamless view transitions—now Baseline Newly available across all major browsers."
 summary: "This article provides a production-ready guide to the Navigation API, covering intercept semantics, the two-phase commit model, manual scroll control, state management, and integration with View Transitions. Includes feature detection, graceful degradation strategies, and a verification checklist for cross-browser SPA routing."
 toc: true

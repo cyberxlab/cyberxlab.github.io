@@ -6,7 +6,7 @@ draft: false
 tags: ["MedGemma", "TxGemma", "Healthcare AI", "Gemma", "Biotech", "Research Report"]
 ---
 
-![Cyber·X·Lab Research Infographic](infographic.png)
+![Cyber·X·Labs Research Infographic](infographic.png)
 
 ## Executive Summary
 
@@ -39,4 +39,4 @@ TxGemma brings generative AI to molecular design and ADMET prediction. The **Age
 
 ---
 
-*Report by Cyber·X·Lab Research · September 2026*
+*Report by Cyber·X·Labs Research · September 2026*

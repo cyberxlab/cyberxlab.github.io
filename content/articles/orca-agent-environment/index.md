@@ -3,7 +3,7 @@ title: "Orca: The Agent Development Environment for Parallel AI Coding & Worktre
 date: 2026-09-30
 description: "A deep technical architecture dissection of Orca ADE. Exploring physical Git worktree isolation per agent, multi-process topology, WebGL-accelerated terminal splits, and Chromium design mode for autonomous AI coding agents."
 summary: "A deep technical architecture dissection of Orca ADE. Exploring physical Git worktree isolation per agent, multi-process topology, WebGL-accelerated terminal splits, and Chromium design mode for autonomous AI coding agents."
-tags: ["AI", "Developer Tools", "Agentic Systems", "Open Source", "Orca", "Git Worktree", "WebGL", "Cyber·X·Lab"]
+tags: ["AI", "Developer Tools", "Agentic Systems", "Open Source", "Orca", "Git Worktree", "WebGL", "Cyber·X·Labs"]
 draft: false
 ---
 
@@ -326,7 +326,7 @@ The long-term vision is a move toward **Autonomous Swarms**, where different age
 
 ## 11. References & Project Links
 
-*   **Publisher:** Cyber·X·Lab (cyberxlab.xyz)
+*   **Publisher:** Cyber·X·Labs (cyberxlab.xyz)
 *   **Project Home:** [onorca.dev](https://onorca.dev)
 *   **Source Code:** [github.com/stablyai/orca](https://github.com/stablyai/orca)
 *   **Corporate:** Stably AI (YC Backed, San Francisco)

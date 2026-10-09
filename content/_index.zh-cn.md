@@ -1,10 +1,10 @@
 ---
-title: Cyber·X·Lab
+title: Cyber·X·Labs
 layout: hextra-home
 ---
 
 <section class="not-prose hx:relative hx:overflow-hidden hx:rounded-2xl hx:mb-12 hx:mt-6 hx:w-full" style="height: 480px; display: block;">
-  <img src="/images/home-hero.webp" alt="Cyber·X·Lab" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; display:block;" loading="lazy" decoding="async" />
+  <img src="/images/home-hero.webp" alt="Cyber·X·Labs" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position:center; display:block;" loading="lazy" decoding="async" />
   <!-- 暗色渐变：WALL-E 与主图在左侧，所以从右向左加深，右侧留空以融入 dark 主题 -->
   <div style="position:absolute; inset:0; width:100%; height:100%; background:linear-gradient(to left, rgba(0,0,0,0.8), rgba(0,0,0,0.4), transparent);"></div>
 </section>

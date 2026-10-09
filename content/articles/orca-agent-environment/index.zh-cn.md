@@ -3,7 +3,7 @@ title: "Orca 深度拆解：面向 AI 编码智能体的并发开发环境与 Wo
 date: 2026-09-30
 description: "面向 AI 编码智能体的并发开发环境，通过 Git Worktree 物理隔离、Ghostty 级 WebGL 终端渲染与 Chromium 设计模式，破解多 Agent 并发单光标瓶颈。"
 summary: "面向 AI 编码智能体的并发开发环境，通过 Git Worktree 物理隔离、Ghostty 级 WebGL 终端渲染与 Chromium 设计模式，破解多 Agent 并发单光标瓶颈。"
-tags: ["AI", "Cyber·X·Lab", "硬科技", "Orca", "ADE", "Agent", "Git Worktree", "WebGL", "Ghostty", "OpenSource"]
+tags: ["AI", "Cyber·X·Labs", "硬科技", "Orca", "ADE", "Agent", "Git Worktree", "WebGL", "Ghostty", "OpenSource"]
 draft: false
 ---
 
@@ -336,7 +336,7 @@ Orca 下一阶段核心攻坚目标是将 **Language Server Protocol (LSP)** 直
 
 ## 11. 相关资源与项目链接 (References & Links)
 
-* 🏢 **出品方**：Cyber·X·Lab（数字生命与智能体系统实验室，[cyberxlab.xyz](https://cyberxlab.xyz)）
+* 🏢 **出品方**：Cyber·X·Labs（数字生命与智能体系统实验室，[cyberxlab.xyz](https://cyberxlab.xyz)）
 * 🌐 **项目主页**：[onorca.dev](https://onorca.dev)
 * 💻 **开源代码仓**：[github.com/stablyai/orca](https://github.com/stablyai/orca)
 * 🏢 **商业背景**：Stably AI (YC Backed, San Francisco)

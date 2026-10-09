@@ -4,7 +4,7 @@ date: 2026-07-20T00:15:00Z
 draft: false
 tags: ["Linux", "Kernel", "Performance", "eBPF"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "A comprehensive guide to measuring and evaluating CPU scheduler runqueue latency on Linux using modern eBPF tools and low-overhead proc filesystem metrics."
 summary: "Learn how to diagnose CPU starvation and evaluate scheduler latency on Linux. This guide covers eBPF-based tracing with runqlat and low-overhead stats from the proc filesystem."
 toc: true

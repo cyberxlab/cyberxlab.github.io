@@ -4,7 +4,7 @@ date: 2026-07-20T04:06:50Z
 draft: false
 tags: ["C++", "enum-class", "bit-flags", "type-safety"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "A field-tested pattern for combining the type safety of enum class with the ergonomics of bitwise flag manipulation."
 summary: "From scoped enum foundation to a generic BitFlags template, this guide shows how to keep type safety while making C++ bit-flag enums ergonomic and easy to audit."
 toc: true

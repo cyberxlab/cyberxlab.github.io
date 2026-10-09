@@ -4,7 +4,7 @@ date: 2026-07-19T11:02:00Z
 draft: false
 tags: ["PowerShell", "SSH", "Security"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "A complete guide to PowerShell 7+ SSH remoting across Windows and Linux, covering setup, key authentication, hardening, and troubleshooting."
 summary: "This article walks through the end-to-end setup of PowerShell SSH remoting in 2026, from OpenSSH installation and subsystem configuration to key-based auth, cipher hardening, and operational troubleshooting for Linux-to-Windows and Windows-to-Linux scenarios."
 toc: true

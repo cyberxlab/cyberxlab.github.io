@@ -3,7 +3,7 @@ title: "Herdr 深度拆解：AI 智能体专属终端运行时与多 Agent 协�
 date: 2026-09-28
 description: "关于 Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation 的深度研究与实践指南"
 summary: "关于 Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation 的深度研究与实践指南"
-tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation", "ANSI", "API", "ARP", "Agency", "Agent", "Agent-driven-Agent", "Agent-native", "Agent-to-Agent", "Alacritty", "Analyze", "Autonomous", "Banner", "Blocked", "Bridge", "Buffer"]
+tags: ["AI", "Cyber·X·Labs", "NotebookLM", "硬科技", "Herdr open-source agent runtime, terminal multiplexing for AI coding agents, claude code, state engine, socket automation", "ANSI", "API", "ARP", "Agency", "Agent", "Agent-driven-Agent", "Agent-native", "Agent-to-Agent", "Alacritty", "Analyze", "Autonomous", "Banner", "Blocked", "Bridge", "Buffer"]
 draft: false
 ---
 

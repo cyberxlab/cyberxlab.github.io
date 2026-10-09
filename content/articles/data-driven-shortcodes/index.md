@@ -4,7 +4,7 @@ date: 2026-07-19T01:20:00+08:00
 draft: false
 tags: ["Hugo", "Shortcode", "Data-Driven"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "Explore how to use data files (JSON/YAML) in Hugo to drive reusable shortcodes, decoupling content from presentation."
 summary: "This article introduces the concept and implementation of data-driven shortcodes in Hugo. We cover data structure design, shortcode templating, styling, and usage examples to help you decouple content from presentation and improve maintainability."
 toc: true

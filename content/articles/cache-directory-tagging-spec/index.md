@@ -4,7 +4,7 @@ date: 2026-07-19T20:25:08Z
 draft: false
 tags: ["Backup", "CACHEDIR.TAG", "Interoperability"]
 categories: ["Technical Practices"]
-author: "Cyber·X·Lab"
+author: "Cyber·X·Labs"
 description: "A practical engineering walkthrough of the Cache Directory Tagging Specification (CACHEDIR.TAG): the 43-byte signature, application semantics, adopter behavior in tar/Borg/restic, and the pitfalls of blind exclusion."
 summary: "How a 43-byte magic header — Signature: 8a477f597d28d172789f06886806bc55 — lets apps mark cache trees so tar, Borg and restic skip them by default; the spec's exact semantics, adopter quirks, and the security tradeoff that makes blind exclusion dangerous."
 toc: true
