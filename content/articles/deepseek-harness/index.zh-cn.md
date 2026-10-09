@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek Harness 深度拆解：核心机制、运行时内幕与工程实战"
-date: 2026-10-08
+date: 2026-10-09
 description: "关于 Research 的深度技术拆解与架构全景解析"
 summary: "关于 Research 的深度技术拆解与架构全景解析"
 tags: ["AI", "Cyber·X·Lab", "NotebookLM", "硬科技", "AIOps", "API", "Action", "Adoption", "Agent", "Architectural", "Architecture", "Bot", "CLI", "ChildProcess", "Compensating", "Constraints", "Context", "Cordis", "Core"]
@@ -46,30 +46,33 @@ draft: false
 
 ```mermaid
 flowchart TD
-    subgraph HostLayer [Host 宿主层]
-        WEB[Web UI: 默认监听 127.0.0.1:3080]
-        DESK[Desktop 客户端: Electron 渲染进程]
-        CLI[CLI 命令行工具]
-        PY[Python SDK]
+    subgraph HostLayer ["Host 宿主层"]
+        WEB["Web UI (127.0.0.1:3080)"]
+        DESK["Desktop 客户端 (Electron)"]
+        CLI["CLI 命令行工具"]
+        PY["Python SDK"]
     end
 
-    subgraph IPC [通信边界与传输层]
-        WS[WebSocket / HTTP RPC]
-        EIPC[Electron 双向异步 IPC]
-        WKR[Worker Isolates 跨语言管道]
+    subgraph IPC ["通信边界与传输层"]
+        WS["WebSocket / HTTP RPC"]
+        EIPC["Electron 双向异步 IPC"]
+        WKR["Worker Isolates 跨语言管道"]
     end
 
-    subgraph CoreEngine [DSH Core 运行时 (Cordis 微内核)]
-        ROUTER[Model Router: DeepSeek / OpenAI Endpoints]
-        SLOTS[Slots 拓扑网格: shell.overlay / tool.registry]
-        JOURNAL[Session Journal: 毫秒级时序与 Payload 校验]
-        GUARD[Workspace Guard: 细粒度权限策略与路径隔离]
+    subgraph CoreEngine ["DSH Core 运行时 (Cordis 微内核)"]
+        ROUTER["Model Router: DeepSeek / OpenAI"]
+        SLOTS["Slots 拓扑网格: shell.overlay / tool.registry"]
+        JOURNAL["Session Journal: 时序与 Payload 校验"]
+        GUARD["Workspace Guard: 权限策略与路径隔离"]
     end
 
-    WEB --> WS --> CoreEngine
-    DESK --> EIPC --> CoreEngine
-    CLI --> CoreEngine
-    PY --> WKR --> CoreEngine
+    WEB --> WS
+    DESK --> EIPC
+    CLI --> SLOTS
+    PY --> WKR
+    WS --> ROUTER
+    EIPC --> SLOTS
+    WKR --> ROUTER
 ```
 
 - **Web UI 模式**：Node.js 承载 Core 运行时，通过内部 WebSocket 网关与浏览器前端进行双向实时流式通信。

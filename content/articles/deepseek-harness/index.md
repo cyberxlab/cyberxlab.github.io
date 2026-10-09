@@ -1,6 +1,6 @@
 ---
 title: "DeepSeek Harness: The Open-Source Agent Runtime Powered by Cordis"
-date: 2026-10-08
+date: 2026-10-09
 description: "A deep technical breakdown and architectural exploration of Research."
 summary: "A deep technical breakdown and architectural exploration of Research."
 tags: ["AI", "Developer Tools", "Agentic Systems", "Open Source"]
@@ -46,30 +46,33 @@ The runtime is separated into the **Host Layer** and the **DSH Core Runtime**, p
 
 ```mermaid
 flowchart TD
-    subgraph HostLayer [Host Layer Surfaces]
-        WEB[Web UI: Listening on 127.0.0.1:3080]
-        DESK[Desktop Client: Electron Renderer]
-        CLI[CLI Shell Environment]
-        PY[Python SDK Client]
+    subgraph HostLayer ["Host Layer Surfaces"]
+        WEB["Web UI (127.0.0.1:3080)"]
+        DESK["Desktop Client (Electron)"]
+        CLI["CLI Shell Environment"]
+        PY["Python SDK Client"]
     end
 
-    subgraph IPC [Transport & IPC Layer]
-        WS[WebSocket / HTTP RPC Gateway]
-        EIPC[Electron Asynchronous IPC]
-        WKR[Worker Isolates Multi-Process Pipe]
+    subgraph IPC ["Transport & IPC Layer"]
+        WS["WebSocket / HTTP RPC Gateway"]
+        EIPC["Electron Asynchronous IPC"]
+        WKR["Worker Isolates Multi-Process Pipe"]
     end
 
-    subgraph CoreEngine [DSH Core Runtime (Cordis Microkernel)]
-        ROUTER[Model Router: DeepSeek / OpenAI Backends]
-        SLOTS[Slot Mesh: shell.overlay / tool.registry]
-        JOURNAL[Session Journal: Monotonic Clock & Schema Checks]
-        GUARD[Workspace Guard: Path Whitelist & Action Policy]
+    subgraph CoreEngine ["DSH Core Runtime (Cordis Microkernel)"]
+        ROUTER["Model Router: DeepSeek / OpenAI"]
+        SLOTS["Slot Mesh: shell.overlay / tool.registry"]
+        JOURNAL["Session Journal: Monotonic Clock & Schema Checks"]
+        GUARD["Workspace Guard: Path Whitelist & Action Policy"]
     end
 
-    WEB --> WS --> CoreEngine
-    DESK --> EIPC --> CoreEngine
-    CLI --> CoreEngine
-    PY --> WKR --> CoreEngine
+    WEB --> WS
+    DESK --> EIPC
+    CLI --> SLOTS
+    PY --> WKR
+    WS --> ROUTER
+    EIPC --> SLOTS
+    WKR --> ROUTER
 ```
 
 - **Web UI Surface**: Node.js hosts the Core runtime, communicating with the browser front-end via an internal WebSocket gateway.
