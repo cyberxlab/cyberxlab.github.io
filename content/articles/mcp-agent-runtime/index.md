@@ -1,8 +1,8 @@
 ---
-title: "Cyber·X·Labs: Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践"
+title: "Model Context Protocol (MCP) Architecture Deep Dive: Building Production-Grade Agent Runtimes"
 date: 2026-10-15
-description: "A deep technical breakdown and architectural exploration of Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践."
-summary: "A deep technical breakdown and architectural exploration of Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践."
+description: "A deep technical breakdown and architectural exploration of Model Context Protocol (MCP), tool-call flow control, and enterprise-grade sandbox execution runtimes."
+summary: "A deep technical breakdown and architectural exploration of Model Context Protocol (MCP), tool-call flow control, and enterprise-grade sandbox execution runtimes."
 tags: ["AI", "Developer Tools", "Agentic Systems", "Open Source"]
 draft: false
 ---
