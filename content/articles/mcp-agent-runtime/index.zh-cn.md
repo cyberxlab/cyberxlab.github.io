@@ -1,11 +1,19 @@
 ---
 title: "MCP 架构深度拆解：从协议规范到生产级 Agent 安全运行时"
-date: 2026-10-14
-description: "关于 Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践 的深度技术拆解与架构全景解析"
-summary: "关于 Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践 的深度技术拆解与架构全景解析"
-tags: ["AI", "Cyber·X·Labs", "NotebookLM", "硬科技", "Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践"]
+date: 2026-10-15
+description: "在自主智能体（Autonomous AI Agent）的工业级工程落地过程中，最棘手的系统性瓶颈往往不在于大模型本身的基座推理能力，而在于模型认知环境与底层主机运行环境之间的耦合熵增。
+
+在传统开发模式下，各大模型提供商、IDE 插件或自主工作流引擎通常针对文件系统、数据库查询、Shell 执行与网络请求编写定制化的胶水代码。这种模式催生了极其恶劣的 $M \times N$ 维护代价：$M$ 个不同的智能体客户端必须分别适配和维护 $N$ 种外部工具与数据源的私有 API。"
+summary: "在自主智能体（Autonomous AI Agent）的工业级工程落地过程中，最棘手的系统性瓶颈往往不在于大模型本身的基座推理能力，而在于模型认知环境与底层主机运行环境之间的耦合熵增。
+
+在传统开发模式下，各大模型提供商、IDE 插件或自主工作流引擎通常针对文件系统、数据库查询、Shell 执行与网络请求编写定制化的胶水代码。这种模式催生了极其恶劣的 $M \times N$ 维护代价：$M$ 个不同的智能体客户端必须分别适配和维护 $N$ 种外部工具与数据源的私有 API。"
+tags: ["AI", "Cyber·X·Labs", "NotebookLM", "硬科技", "Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践", "ALL", "API", "Agent", "Antigravity", "Apple", "Application", "Architectural", "Autonomous", "Boundary", "CLI", "CallToolRequestSchema", "Claude", "Client", "Client1", "Client2"]
 draft: false
 ---
+
+![Cover](cover.png)
+
+> 📥 **配套演示讲义下载**：🇨🇳 [中文版 4K 矢量讲义 (PDF)](/articles/mcp-agent-runtime/slides.cn.pdf) &nbsp;|&nbsp; 🇺🇸 [英文版 4K Slide Deck (PDF)](/articles/mcp-agent-runtime/slides.en.pdf)
 
 > **Cyber·X·Labs 系统架构与前沿工程深度解析系列**  
 > 作者：Cyber·X·Labs 工程团队  

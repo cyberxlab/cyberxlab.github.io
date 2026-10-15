@@ -1,11 +1,15 @@
 ---
 title: "Cyber·X·Labs: Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践"
-date: 2026-10-14
+date: 2026-10-15
 description: "A deep technical breakdown and architectural exploration of Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践."
 summary: "A deep technical breakdown and architectural exploration of Model Context Protocol 核心架构、工具调用流转机制与生产级智能体运行时安全沙箱实践."
 tags: ["AI", "Developer Tools", "Agentic Systems", "Open Source"]
 draft: false
 ---
+
+![Cover](cover.png)
+
+> 📥 **Presentation Slide Decks**: 🇨🇳 [Chinese 4K Slide Deck (PDF)](/articles/mcp-agent-runtime/slides.cn.pdf) &nbsp;|&nbsp; 🇺🇸 [English 4K Slide Deck (PDF)](/articles/mcp-agent-runtime/slides.en.pdf)
 
 > **Cyber·X·Labs Systems Architecture Series**  
 > Author: Cyber·X·Labs Engineering Team  
