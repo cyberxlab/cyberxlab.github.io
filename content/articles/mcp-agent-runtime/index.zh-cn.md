@@ -13,7 +13,7 @@ draft: false
 
 ![Cover](cover.png)
 
-> 📥 **配套演示讲义下载**：🇨🇳 [中文版 4K 矢量讲义 (PDF)](/articles/mcp-agent-runtime/slides.cn.pdf) &nbsp;|&nbsp; 🇺🇸 [英文版 4K Slide Deck (PDF)](/articles/mcp-agent-runtime/slides.en.pdf)
+> 💬 **配套讲义与资料**：欢迎加入我们的社区（官网首页及导航公布了 Discord / Telegram / 微信交流群入口）索取完整 4K 矢量 PDF 讲义与架构资料。
 
 > **Cyber·X·Labs 系统架构与前沿工程深度解析系列**  
 > 作者：Cyber·X·Labs 工程团队  

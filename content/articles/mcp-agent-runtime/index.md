@@ -9,7 +9,7 @@ draft: false
 
 ![Cover](cover.png)
 
-> 📥 **Presentation Slide Decks**: 🇨🇳 [Chinese 4K Slide Deck (PDF)](/articles/mcp-agent-runtime/slides.cn.pdf) &nbsp;|&nbsp; 🇺🇸 [English 4K Slide Deck (PDF)](/articles/mcp-agent-runtime/slides.en.pdf)
+> 💬 **Slide Decks & Materials**: Welcome to join our community (Discord / Telegram / WeChat links on homepage) to request the full 4K vector PDF slide decks.
 
 > **Cyber·X·Labs Systems Architecture Series**  
 > Author: Cyber·X·Labs Engineering Team  
