@@ -9,6 +9,8 @@ draft: false
 
 ![Cover](cover.png)
 
+> 💬 **Slide Decks & Materials**: Welcome to join our community ([Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlab_community) / [WeChat](/wechat/)) to request the full 4K vector PDF slide decks.
+
 ---
 
 ### 1. The Crime Scene: Why the Status Quo Fails
