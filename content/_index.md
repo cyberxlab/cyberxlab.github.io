@@ -1,5 +1,5 @@
 ---
-title: Cyber·X·Labs
+title: X·Labs
 layout: hextra-home
 ---
 
