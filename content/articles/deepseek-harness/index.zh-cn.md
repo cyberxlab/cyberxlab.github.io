@@ -9,7 +9,7 @@ draft: false
 
 ![Cover](cover.png)
 
-> 💬 **配套讲义与资料**：欢迎加入我们的社区（直达入口：[Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlab_community) / [微信交流群](/zh-cn/wechat/)）索取完整 4K 矢量 PDF 讲义与架构资料。
+> 💬 **配套讲义与资料**：欢迎加入我们的社区（直达入口：[Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlabs) / [微信交流群](/zh-cn/wechat/)）索取完整 4K 矢量 PDF 讲义与架构资料。
 
 > **导读**：当大语言模型从单次问答走向能够操作终端、读写文件并运行编译器的自主智能体（Agent）时，传统框架死板的图编排和全局共享状态正在暴露出严重的工程缺陷：状态无限膨胀、子进程泄漏失控、以及静态 DAG 难以应对动态试错。DeepSeek Harness（`dsh`）从操作系统微内核和类型系统中吸取灵感，用 **Cordis 微内核**、**可逆代数效果流** 与 **POSIX 进程树硬隔离**，构建了一套轻量、模块化、确定性的开源 Agent 运行时。本文将面向工程研发人员，深入剖析其系统拓扑、插槽通信、进程治理逻辑与真实的架构权衡。
 

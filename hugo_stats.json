@@ -397,7 +397,6 @@
       "hx:focus-visible:top-2",
       "hx:focus-visible:z-50",
       "hx:font-bold",
-      "hx:font-extrabold",
       "hx:font-medium",
       "hx:font-mono",
       "hx:font-normal",
@@ -660,6 +659,7 @@
       "hx:scroll-my-6",
       "hx:scroll-py-6",
       "hx:select-none",
+      "hx:shadow-2xl",
       "hx:shadow-[0_-12px_16px_#fff]",
       "hx:shadow-[0_-12px_16px_white]",
       "hx:shadow-[0_2px_4px_rgba(0,0,0,.02),0_1px_0_rgba(0,0,0,.06)]",
@@ -792,7 +792,9 @@
       "vlist-t",
       "vlist-t2",
       "x-arrow",
-      "x-arrow-pad"
+      "x-arrow-pad",
+      "xlabs-hero-box",
+      "xlabs-hero-img"
     ],
     "ids": [
       "-何时不建议使用-orca-ade",

@@ -16,7 +16,7 @@ draft: false
 > **Cyber·X·Labs 技术分享与工程实践系列**  
 > 核心课题：Reverse Engineer Anything (REA) 架构与本地逆向工程实践  
 > 面向领域：逆向工程工具链集成、证据留存与进程隔离  
-> 💬 **配套讲义与资料**：欢迎加入我们的社区（直达入口：[Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlab_community) / [微信交流群](/zh-cn/wechat/)）索取完整 4K 矢量 PDF 讲义与架构资料。
+> 💬 **配套讲义与资料**：欢迎加入我们的社区（直达入口：[Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlabs) / [微信交流群](/zh-cn/wechat/)）索取完整 4K 矢量 PDF 讲义与架构资料。
 
 ---
 

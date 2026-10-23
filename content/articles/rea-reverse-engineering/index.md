@@ -9,7 +9,7 @@ draft: false
 
 ![Cover](cover.png)
 
-> 💬 **Slide Decks & Materials**: Welcome to join our community ([Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlab_community) / [WeChat](/wechat/)) to request the full 4K vector PDF slide decks.
+> 💬 **Slide Decks & Materials**: Welcome to join our community ([Discord](https://discord.gg/gZd3QZrwRe) / [Telegram](https://t.me/cyberxlabs) / [WeChat](/wechat/)) to request the full 4K vector PDF slide decks.
 
 ---
 

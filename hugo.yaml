@@ -1,6 +1,6 @@
 # Configuration
 baseURL: "https://cyberxlab.xyz/"
-title: "X·Labs"
+title: "Labs"
 
 enableRobotsTXT: true
 # Parse Git commit
@@ -22,7 +22,7 @@ languages:
   en:
     label: English
     weight: 1
-    title: X·Labs
+    title: Labs
     menu:
       main:
         - identifier: showcase
@@ -37,7 +37,7 @@ languages:
           weight: 4
         - identifier: x-twitter
           name: X (Twitter)
-          url: https://x.com/CyberXLab
+          url: https://x.com/cyberxlabsxyz
           parent: community
           weight: 1
         - identifier: youtube
@@ -52,7 +52,7 @@ languages:
           weight: 3
         - identifier: telegram
           name: Telegram
-          url: https://t.me/cyberxlab_community
+          url: https://t.me/cyberxlabs
           parent: community
           weight: 4
         - identifier: wechat
@@ -97,7 +97,7 @@ languages:
     label: 简体中文
     locale: zh-CN
     weight: 2
-    title: X·Labs
+    title: Labs
     params:
       page:
         contextMenu:
@@ -119,7 +119,7 @@ languages:
           weight: 4
         - identifier: x-twitter
           name: X (Twitter)
-          url: https://x.com/CyberXLab
+          url: https://x.com/cyberxlabsxyz
           parent: community
           weight: 1
         - identifier: youtube
@@ -134,7 +134,7 @@ languages:
           weight: 3
         - identifier: telegram
           name: Telegram
-          url: https://t.me/cyberxlab_community
+          url: https://t.me/cyberxlabs
           parent: community
           weight: 4
         - identifier: wechat
@@ -208,12 +208,12 @@ params:
   externalLinkDecoration: true
 
   navbar:
-    displayTitle: true
+    displayTitle: false
     displayLogo: true
     logo:
       path: images/logo.png
       dark: images/logo-dark.png
-      width: 36
+      width: 75
       height: 36
       # link: /
     width: wide
