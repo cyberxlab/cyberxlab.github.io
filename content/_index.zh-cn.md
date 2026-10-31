@@ -37,21 +37,28 @@ layout: hextra-home
 
 ## 核心前沿研究
 
-{{< hextra/feature-grid >}}
+{{< hextra/feature-grid cols="2" >}}
   {{< hextra/feature-card
     title="AI 与具身智能"
     subtitle="大模型、自动化代码/科学研究 Agent，以及人工智能在多学科中的应用。"
     icon="chip"
+    link="/research"
     image="/images/cards/card-research-ai.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(99,102,241,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Web3 与去中心化系统"
+    subtitle="智能合约、零知识证明、去中心化 AI 与加密经济基础设施。"
+    icon="cube"
+    link="/research"
+    image="/images/cards/card-research-web3.jpg"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(139,92,246,0.18), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="生物科技与计算生物"
     subtitle="合成生物学、AI 药物设计与生物数字化研究。"
     icon="beaker"
     image="/images/cards/card-research-biotech.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -59,7 +66,6 @@ layout: hextra-home
     subtitle="卫星通信、太空数据处理与前沿航天工程探索。"
     icon="sparkles"
     image="/images/cards/card-research-space.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
@@ -71,8 +77,8 @@ layout: hextra-home
     title="开源工具与基础设施"
     subtitle="打造极客友好的开源项目与工具链，降低技术落地成本。"
     icon="code"
+    link="/build"
     image="/images/cards/card-build-opensource.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(168,85,247,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -80,7 +86,6 @@ layout: hextra-home
     subtitle="提供结构化的动手指南与实验文档，让理论落地为实践。"
     icon="beaker"
     image="/images/cards/card-build-experiments.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(236,72,153,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -88,7 +93,6 @@ layout: hextra-home
     subtitle="跨学科技术融合，探索计算物理、模拟仿真等硬核工程。"
     icon="terminal"
     image="/images/cards/card-build-frontier.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(14,165,233,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
@@ -101,7 +105,6 @@ layout: hextra-home
     subtitle="通俗且严谨的前沿科技解读，打破知识传播墙。"
     icon="document-text"
     image="/images/cards/card-share-articles.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(234,179,8,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -109,7 +112,6 @@ layout: hextra-home
     subtitle="连接 AI、生物、航天及软件领域的爱好者与专家。"
     icon="users"
     image="/images/cards/card-share-community.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -117,7 +119,6 @@ layout: hextra-home
     subtitle="鼓励提问、探讨与开源项目协作，孵化有趣的前沿尝试。"
     icon="light-bulb"
     image="/images/cards/card-share-incubation.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}

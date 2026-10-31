@@ -37,21 +37,28 @@ layout: hextra-home
 
 ## Research
 
-{{< hextra/feature-grid >}}
+{{< hextra/feature-grid cols="2" >}}
   {{< hextra/feature-card
     title="AI & Embodied Intelligence"
     subtitle="Large language models, automated code/research agents, and AI applied across disciplines."
     icon="chip"
+    link="/research"
     image="/images/cards/card-research-ai.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(99,102,241,0.15), hsla(0,0%,100%,0));"
+  >}}
+  {{< hextra/feature-card
+    title="Web3 & Decentralized Systems"
+    subtitle="Smart contracts, zero-knowledge proofs, decentralized AI, and cryptographic protocols."
+    icon="cube"
+    link="/research"
+    image="/images/cards/card-research-web3.jpg"
+    style="background: radial-gradient(ellipse at 50% 80%, rgba(139,92,246,0.18), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
     title="Biotech & Computational Biology"
     subtitle="Synthetic biology, AI-driven drug design, and digital biology research."
     icon="beaker"
     image="/images/cards/card-research-biotech.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -59,7 +66,6 @@ layout: hextra-home
     subtitle="Satellite communications, space data processing, and frontier aerospace engineering."
     icon="sparkles"
     image="/images/cards/card-research-space.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
@@ -71,8 +77,8 @@ layout: hextra-home
     title="Open-Source Tools & Infrastructure"
     subtitle="Building geek-friendly open-source projects and toolchains to lower the barrier to deployment."
     icon="code"
+    link="/build"
     image="/images/cards/card-build-opensource.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(168,85,247,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -80,7 +86,6 @@ layout: hextra-home
     subtitle="Structured hands-on guides and experiment documentation — turning theory into practice."
     icon="beaker"
     image="/images/cards/card-build-experiments.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(236,72,153,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -88,7 +93,6 @@ layout: hextra-home
     subtitle="Cross-disciplinary tech fusion: computational physics, simulation, and hardcore engineering."
     icon="terminal"
     image="/images/cards/card-build-frontier.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(14,165,233,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
@@ -101,7 +105,6 @@ layout: hextra-home
     subtitle="Accessible yet rigorous deep dives into frontier science — breaking down knowledge walls."
     icon="document-text"
     image="/images/cards/card-share-articles.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(234,179,8,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -109,7 +112,6 @@ layout: hextra-home
     subtitle="Connecting enthusiasts and experts across AI, biology, aerospace, and software engineering."
     icon="users"
     image="/images/cards/card-share-community.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(34,197,94,0.15), hsla(0,0%,100%,0));"
   >}}
   {{< hextra/feature-card
@@ -117,7 +119,6 @@ layout: hextra-home
     subtitle="Encouraging questions, discussion, and open-source collaboration — incubating frontier experiments."
     icon="light-bulb"
     image="/images/cards/card-share-incubation.jpg"
-        class="hx:aspect-auto hx:md:aspect-[1.1/1] hx:max-md:min-h-[340px]"
     style="background: radial-gradient(ellipse at 50% 80%, rgba(249,115,22,0.15), hsla(0,0%,100%,0));"
   >}}
 {{< /hextra/feature-grid >}}
