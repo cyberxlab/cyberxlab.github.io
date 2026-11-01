@@ -65,9 +65,9 @@
 }
 
 .brand-logo-img {
-  height: 38px !important;
+  height: 26px !important;
   width: auto !important;
-  max-width: 150px !important;
+  max-width: 120px !important;
   object-fit: contain;
   transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
 }
@@ -79,8 +79,8 @@
 
 @media (max-width: 640px) {
   .brand-logo-img {
-    height: 32px !important;
-    max-width: 125px !important;
+    height: 24px !important;
+    max-width: 100px !important;
   }
 }
 
