@@ -55,3 +55,32 @@
     margin-bottom: 2rem !important;
   }
 }
+
+/* 3. Brand Logo - Optimized sizing and crisp presentation matching web3 standards */
+.brand-wrap {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  flex-shrink: 0;
+}
+
+.brand-logo-img {
+  height: 38px !important;
+  width: auto !important;
+  max-width: 150px !important;
+  object-fit: contain;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.2s ease;
+}
+
+.brand-wrap:hover .brand-logo-img {
+  transform: scale(1.025);
+  opacity: 0.92;
+}
+
+@media (max-width: 640px) {
+  .brand-logo-img {
+    height: 32px !important;
+    max-width: 125px !important;
+  }
+}
+
