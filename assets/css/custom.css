@@ -84,3 +84,19 @@
   }
 }
 
+/* 4. Section List Page Titles & Hero Banners Spacing */
+#content > h1:first-of-type,
+.hextra-max-content-width > h1:first-of-type {
+  margin-top: 1.25rem !important;
+  margin-bottom: 2rem !important;
+}
+
+@media (min-width: 768px) {
+  #content > h1:first-of-type,
+  .hextra-max-content-width > h1:first-of-type {
+    margin-top: 1.75rem !important;
+    margin-bottom: 2.5rem !important;
+  }
+}
+
+

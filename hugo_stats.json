@@ -533,6 +533,8 @@
       "hx:md:inline-block",
       "hx:md:inline-flex",
       "hx:md:max-h-[min(calc(100vh-5rem-env(safe-area-inset-bottom)),400px)]",
+      "hx:md:mb-10",
+      "hx:md:mt-6",
       "hx:md:pt-12",
       "hx:md:px-12",
       "hx:md:py-14",
