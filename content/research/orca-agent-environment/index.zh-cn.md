@@ -235,7 +235,7 @@ rendering:
 # 远程算力节点扩展
 remote:
   enabled: true
-  host: "gpu-cluster-01.internal.cyberxlab.xyz"
+  host: "gpu-cluster-01.internal.cyberxlabs.xyz"
   port: 2222
   user: "devrel"
   identity_file: "~/.ssh/id_ed25519"
@@ -338,9 +338,9 @@ Orca 下一阶段核心攻坚目标是将 **Language Server Protocol (LSP)** 直
 
 ## 11. 相关资源与项目链接 (References & Links)
 
-* 🏢 **出品方**：Cyber·X·Labs（数字生命与智能体系统实验室，[cyberxlab.xyz](https://cyberxlab.xyz)）
+* 🏢 **出品方**：Cyber·X·Labs（数字生命与智能体系统实验室，[cyberxlabs.xyz](https://cyberxlabs.xyz)）
 * 🌐 **项目主页**：[onorca.dev](https://onorca.dev)
 * 💻 **开源代码仓**：[github.com/stablyai/orca](https://github.com/stablyai/orca)
 * 🏢 **商业背景**：Stably AI (YC Backed, San Francisco)
-* 📬 **官方联络**：技术支持 (support@cyberxlab.xyz) · 商务合作 (bd@cyberxlab.xyz)
+* 📬 **官方联络**：技术支持 (support@cyberxlabs.xyz) · 商务合作 (bd@cyberxlabs.xyz)
 * 📄 **开源协议**：MIT License (Stably AI © 2026)

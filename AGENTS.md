@@ -4,11 +4,11 @@
 
 ## Project Overview
 
-Cyber·X·Labs (`Cyber·X·Labs`) is a multilingual (English + 简体中文) documentation and community website built with **Hugo Extended** and the **Hextra** theme. The site is deployed to GitHub Pages via GitHub Actions and served through Cloudflare at **https://cyberxlab.3344198.xyz/**.
+Cyber·X·Labs (`Cyber·X·Labs`) is a multilingual (English + 简体中文) documentation and community website built with **Hugo Extended** and the **Hextra** theme. The site is deployed to GitHub Pages via GitHub Actions and served through Cloudflare at **https://cyberxlabs.xyz/**.
 
 - **Repo:** `github.com/cyberxlab/cyberxlab.github.io`
 - **Branch:** `main` (push triggers automatic deployment)
-- **Domain:** `cyberxlab.3344198.xyz` (configured via Cloudflare CNAME → GitHub Pages)
+- **Domain:** `cyberxlabs.xyz` (configured via Cloudflare CNAME → GitHub Pages; `cyberxlab.xyz` redirects to `cyberxlabs.xyz`)
 - **Theme:** `github.com/imfing/hextra` (v0.12.3+) via Hugo Modules
 - **Languages:** English (en, default) + 简体中文 (zh-cn)
 
@@ -54,7 +54,7 @@ Cyber·X·Labs (`Cyber·X·Labs`) is a multilingual (English + 简体中文) doc
 │   └── _shortcodes/            # Custom shortcodes
 ├── static/                     # Static assets served as-is
 │   ├── images/                 # Logos, screenshots, banners
-│   └── CNAME                   # Custom domain (cyberxlab.3344198.xyz)
+│   └── CNAME                   # Custom domain (cyberxlabs.xyz)
 ├── hugo.yaml                   # Main Hugo configuration
 ├── go.mod                       # Go module definition (Hextra dependency)
 ├── go.sum
@@ -134,7 +134,7 @@ Deployment is fully automated via GitHub Actions:
    - Configure GitHub Pages
    - Build with Hugo (`--gc --minify`)
    - Deploy to GitHub Pages artifact
-4. **Live URL:** `https://cyberxlab.3344198.xyz/` (via Cloudflare DNS → GitHub Pages)
+4. **Live URL:** `https://cyberxlabs.xyz/` (via Cloudflare DNS → GitHub Pages)
 
 **Manual deployment:** Go to Actions tab → "Deploy Hugo site to Pages" → "Run workflow"
 
@@ -144,7 +144,7 @@ Deployment is fully automated via GitHub Actions:
 
 | Setting                     | Value                              | Reason                          |
 |-----------------------------|------------------------------------|---------------------------------|
-| `baseURL`                   | `https://cyberxlab.3344198.xyz/`   | Production domain              |
+| `baseURL`                   | `https://cyberxlabs.xyz/`          | Production domain              |
 | `title`                     | `Cyber·X·Labs`                     | Brand name (with middle dots)  |
 | `defaultContentLanguage`    | `en`                               | English is primary language    |
 | `params.navbar.displayLogo` | `true`                             | Show logo in navbar            |
@@ -305,7 +305,7 @@ Before pushing to `main` (which auto-deploys), verify:
 - [ ] No broken logo references in `public/` (check `public/index.html` for correct `<img src=...>` paths)
 - [ ] Language switcher shows current language label (not empty) in generated HTML
 - [ ] All i18n menu labels resolve correctly (no missing/wrong text in navbar)
-- [ ] `static/CNAME` exists with content `cyberxlab.3344198.xyz`
+- [ ] `static/CNAME` exists with content `cyberxlabs.xyz`
 - [ ] No `hugo.work` file in repo root
 - [ ] No `replace` directive in `go.mod`
 - [ ] `npm test` passes (if Playwright tests exist)

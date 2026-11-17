@@ -328,9 +328,9 @@ The long-term vision is a move toward **Autonomous Swarms**, where different age
 
 ## 11. References & Project Links
 
-*   **Publisher:** Cyber·X·Labs (cyberxlab.xyz)
+*   **Publisher:** Cyber·X·Labs (cyberxlabs.xyz)
 *   **Project Home:** [onorca.dev](https://onorca.dev)
 *   **Source Code:** [github.com/stablyai/orca](https://github.com/stablyai/orca)
 *   **Corporate:** Stably AI (YC Backed, San Francisco)
-*   **Contact:** Support (support@cyberxlab.xyz), Partnerships (bd@cyberxlab.xyz)
+*   **Contact:** Support (support@cyberxlabs.xyz), Partnerships (bd@cyberxlabs.xyz)
 *   **License:** MIT (Stably AI © 2026)
